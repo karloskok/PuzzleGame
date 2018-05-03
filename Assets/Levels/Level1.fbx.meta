@@ -1,0 +1,284 @@
+fileFormatVersion: 2
+guid: 236468c3fc6ee554aac0ee8eb6cc3e4f
+timeCreated: 1525102424
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BaseLever
+    100002: Cube
+    100004: door
+    100006: //RootNode
+    100008: lever
+    100010: wall
+    100012: BaseLever_BoxCollider
+    100014: Cube_BoxCollider
+    100016: door_BoxCollider
+    100018: lever_MeshCollider
+    100020: wall_BoxCollider
+    100022: Box_BoxCollider_001
+    100024: Press_BoxCollider_002
+    100026: floor_BoxCollider
+    100028: snoe_shit
+    100030: bridge_BoxCollider_002
+    100032: floor_BoxCollider_001
+    100034: floor1_BoxCollider
+    100036: Ball_BoxCollider
+    100038: Cube_area
+    100040: Empty
+    100042: Cube_moveable
+    100044: boxDoor_moveable
+    100046: leverTrigger_area
+    100048: boxDoor_BoxCollider_moveable
+    100050: leverTrigger_BoxCollider_area_trigger
+    100052: Press_BoxCollider_trigger
+    400000: BaseLever
+    400002: Cube
+    400004: door
+    400006: //RootNode
+    400008: lever
+    400010: wall
+    400012: BaseLever_BoxCollider
+    400014: Cube_BoxCollider
+    400016: door_BoxCollider
+    400018: lever_MeshCollider
+    400020: wall_BoxCollider
+    400022: Box_BoxCollider_001
+    400024: Press_BoxCollider_002
+    400026: floor_BoxCollider
+    400028: snoe_shit
+    400030: bridge_BoxCollider_002
+    400032: floor_BoxCollider_001
+    400034: floor1_BoxCollider
+    400036: Ball_BoxCollider
+    400038: Cube_area
+    400040: Empty
+    400042: Cube_moveable
+    400044: boxDoor_moveable
+    400046: leverTrigger_area
+    400048: boxDoor_BoxCollider_moveable
+    400050: leverTrigger_BoxCollider_area_trigger
+    400052: Press_BoxCollider_trigger
+    2100000: No Name
+    2100002: unnamed
+    2100004: Material
+    2100006: Material__Color-Palette_png
+    2100008: Material_002
+    2300000: BaseLever
+    2300002: Cube
+    2300004: door
+    2300006: lever
+    2300008: wall
+    2300010: BaseLever_BoxCollider
+    2300012: Cube_BoxCollider
+    2300014: door_BoxCollider
+    2300016: lever_MeshCollider
+    2300018: wall_BoxCollider
+    2300020: Box_BoxCollider_001
+    2300022: Press_BoxCollider_002
+    2300024: floor_BoxCollider
+    2300026: snoe_shit
+    2300028: bridge_BoxCollider_002
+    2300030: floor_BoxCollider_001
+    2300032: floor1_BoxCollider
+    2300034: Ball_BoxCollider
+    2300036: Cube_area
+    2300038: Cube_moveable
+    2300040: boxDoor_moveable
+    2300042: leverTrigger_area
+    2300044: boxDoor_BoxCollider_moveable
+    2300046: leverTrigger_BoxCollider_area_trigger
+    2300048: Press_BoxCollider_trigger
+    3300000: BaseLever
+    3300002: Cube
+    3300004: door
+    3300006: lever
+    3300008: wall
+    3300010: BaseLever_BoxCollider
+    3300012: Cube_BoxCollider
+    3300014: door_BoxCollider
+    3300016: lever_MeshCollider
+    3300018: wall_BoxCollider
+    3300020: Box_BoxCollider_001
+    3300022: Press_BoxCollider_002
+    3300024: floor_BoxCollider
+    3300026: snoe_shit
+    3300028: bridge_BoxCollider_002
+    3300030: floor_BoxCollider_001
+    3300032: floor1_BoxCollider
+    3300034: Ball_BoxCollider
+    3300036: Cube_area
+    3300038: Cube_moveable
+    3300040: boxDoor_moveable
+    3300042: leverTrigger_area
+    3300044: boxDoor_BoxCollider_moveable
+    3300046: leverTrigger_BoxCollider_area_trigger
+    3300048: Press_BoxCollider_trigger
+    4300000: door
+    4300002: wall
+    4300004: lever
+    4300006: BaseLever
+    4300008: Cube
+    4300010: door_BoxCollider
+    4300012: wall_BoxCollider
+    4300014: lever_MeshCollider
+    4300016: BaseLever_BoxCollider
+    4300018: Cube_BoxCollider
+    4300020: Press_BoxCollider_002
+    4300022: Box_BoxCollider_001
+    4300024: snoe_shit
+    4300026: floor_BoxCollider
+    4300028: bridge_BoxCollider_002
+    4300030: floor_BoxCollider_001
+    4300032: floor1_BoxCollider
+    4300034: Cube_area
+    4300036: Ball_BoxCollider
+    4300038: Cube_moveable
+    4300040: leverTrigger_area
+    4300042: boxDoor_moveable
+    4300044: leverTrigger_BoxCollider_area_trigger
+    4300046: Press_BoxCollider_trigger
+    4300048: boxDoor_BoxCollider_moveable
+    7400000: door|doorAction
+    7400002: door|leverAction
+    7400004: wall|doorAction
+    7400006: wall|leverAction
+    7400008: lever|doorAction
+    7400010: lever|leverAction
+    7400012: BaseLever|doorAction
+    7400014: BaseLever|leverAction
+    7400016: Cube|doorAction
+    7400018: Cube|leverAction
+    7400020: Default Take
+    7400022: Default Take //// door
+    7400024: Default Take //// wall
+    7400026: Default Take //// lever
+    7400028: Default Take //// BaseLever
+    7400030: Default Take //// Cube
+    7400032: Default Take //// door_BoxCollider
+    7400034: Default Take //// wall_BoxCollider
+    7400036: Default Take //// lever_MeshCollider
+    7400038: Default Take //// BaseLever_BoxCollider
+    7400040: Default Take //// Cube_BoxCollider
+    7400042: Default Take //// Press_BoxCollider_002
+    7400044: Default Take //// Box_BoxCollider_001
+    7400046: Default Take //// snoe_shit
+    7400048: Default Take //// floor_BoxCollider
+    7400050: Default Take //// bridge_BoxCollider_002
+    7400052: Default Take //// floor_BoxCollider_001
+    7400054: Default Take //// floor1_BoxCollider
+    7400056: Default Take //// Cube_area
+    7400058: Default Take //// Empty
+    7400060: Default Take //// Cube_moveable
+    7400062: Default Take //// leverTrigger_area
+    7400064: Default Take //// boxDoor_moveable
+    7400066: Default Take //// leverTrigger_BoxCollider_area_trigger
+    7400068: Default Take //// Press_BoxCollider_trigger
+    7400070: Default Take //// boxDoor_BoxCollider_moveable
+    11100000: //RootNode
+    11100002: BaseLever
+    11100004: Cube
+    11100006: door
+    11100008: lever
+    11100010: wall
+    11100012: BaseLever_BoxCollider
+    11100014: Cube_BoxCollider
+    11100016: door_BoxCollider
+    11100018: lever_MeshCollider
+    11100020: wall_BoxCollider
+    11100022: Box_BoxCollider_001
+    11100024: Press_BoxCollider_002
+    11100026: floor_BoxCollider
+    11100028: snoe_shit
+    11100030: bridge_BoxCollider_002
+    11100032: floor_BoxCollider_001
+    11100034: floor1_BoxCollider
+    11100036: Ball_BoxCollider
+    11100038: Cube_area
+    11100040: Empty
+    11100042: Cube_moveable
+    11100044: boxDoor_moveable
+    11100046: leverTrigger_area
+    11100048: boxDoor_BoxCollider_moveable
+    11100050: leverTrigger_BoxCollider_area_trigger
+    11100052: Press_BoxCollider_trigger
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 1
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.5
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
