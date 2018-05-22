@@ -37,7 +37,7 @@ class HelloWorldPanel(bpy.types.Panel):
         row = layout.row()
         row = layout.row()
         row = layout.row()
-        #row.label(text="Active object is:   " + obj.name)
+        row.label(text="Active object is:   " + obj.name)
         
         col = layout.column(align=True)
         #row = layout.row()
@@ -248,9 +248,20 @@ class AddCapsuleCollider(bpy.types.Operator):
         return{'FINISHED'}    
     #testcall
     #bpy.ops.myops.addcapsulecollider()        
-  
+
+        
 #
 # exports each selected object into its own file
+
+###GENERATE C# CLASS FOR THIS LEVEL
+#print all objects in file
+#objects = bpy.context.scene.objects
+#for o in objects:
+#    o.name = o.name.replace(".", "0")
+#    print(o.name)
+
+
+
 
 def main(context):
     
@@ -265,9 +276,11 @@ def main(context):
 
     scene = bpy.context.scene
     
-    for o in scene.objects:
-        o.name = o.name.replace('.', '0')
-    
+    objects = bpy.context.scene.objects
+    for o in objects:
+        o.name = o.name.replace(".", "9")
+        o.name = o.name.replace("-", "8")
+
     obj_active = scene.objects.active
     selection = bpy.context.selected_objects
 

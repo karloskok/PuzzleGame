@@ -1,0 +1,1956 @@
+fileFormatVersion: 2
+guid: f30e1623a836c54419877728104b227a
+timeCreated: 1526906789
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bridge3_MeshCollider
+    100002: Bridge_MeshCollider
+    100004: BridgeLever_MeshCollider1
+    100006: camHint
+    100008: camPuzzle
+    100010: Circle2
+    100012: Cub
+    100014: Cub123
+    100016: Cube11112_MeshCollider
+    100018: Cube111131_MeshCollider
+    100020: Cube111132_MeshCollider
+    100022: Cube11113_MeshCollider
+    100024: Cube11114_MeshCollider
+    100026: Cube1111_BoxCollider
+    100028: Cube1113_MeshCollider
+    100030: Cube11_MeshCollider
+    100032: Cube13_BoxCollider
+    100034: Cube141122_MeshCollider
+    100036: Cube141123_MeshCollider
+    100038: Cube141124_MeshCollider
+    100040: Cube141125_MeshCollider
+    100042: Cube141126_MeshCollider
+    100044: Cube141127_MeshCollider
+    100046: Cube141128_MeshCollider
+    100048: Cube14112_MeshCollider9001
+    100050: Cube149112_MeshCollider
+    100052: Cube149_MeshCollider9001
+    100054: Cube14_MeshCollider
+    100056: Cube151
+    100058: Cube181_MeshCollider
+    100060: Cube1_MeshCollider
+    100062: Cube2
+    100064: Cube21
+    100066: Cube211
+    100068: Cube21112_MeshCollider
+    100070: Cube211131_MeshCollider
+    100072: Cube211132_MeshCollider
+    100074: Cube21113_MeshCollider
+    100076: Cube21114_MeshCollider
+    100078: Cube2121
+    100080: Cube21211
+    100082: Cube21212
+    100084: Cube21213
+    100086: Cube21214
+    100088: Cube21215
+    100090: Cube21216
+    100092: Cube21217
+    100094: Cube21218
+    100096: Cube2122
+    100098: Cube21221
+    100100: Cube21222
+    100102: Cube21223
+    100104: Cube21224
+    100106: Cube21225
+    100108: Cube21226
+    100110: Cube21227
+    100112: Cube21228
+    100114: Cube2123
+    100116: Cube21231
+    100118: Cube21232
+    100120: Cube21233
+    100122: Cube21234
+    100124: Cube21235
+    100126: Cube21236
+    100128: Cube21237
+    100130: Cube21238
+    100132: Cube21239001
+    100134: Cube21239002
+    100136: Cube2124
+    100138: Cube21241
+    100140: Cube21242
+    100142: Cube21243
+    100144: Cube21244
+    100146: Cube21245
+    100148: Cube21246
+    100150: Cube21247
+    100152: Cube21248
+    100154: Cube21249001
+    100156: Cube21249002
+    100158: Cube2125
+    100160: Cube21251
+    100162: Cube21252
+    100164: Cube21253
+    100166: Cube21254
+    100168: Cube21255
+    100170: Cube21256
+    100172: Cube21257
+    100174: Cube21258
+    100176: Cube21259001
+    100178: Cube21259002
+    100180: Cube2126
+    100182: Cube21261
+    100184: Cube21262
+    100186: Cube21263
+    100188: Cube21264
+    100190: Cube21265
+    100192: Cube21266
+    100194: Cube21267
+    100196: Cube21268
+    100198: Cube21269001
+    100200: Cube21269002
+    100202: Cube2127
+    100204: Cube21271
+    100206: Cube21272
+    100208: Cube21273
+    100210: Cube21274
+    100212: Cube21275
+    100214: Cube21276
+    100216: Cube21277
+    100218: Cube21278
+    100220: Cube21279001
+    100222: Cube21279002
+    100224: Cube2128
+    100226: Cube21281
+    100228: Cube21282
+    100230: Cube21283
+    100232: Cube21284
+    100234: Cube21289001
+    100236: Cube2129001
+    100238: Cube2129002
+    100240: Cube21299
+    100242: Cube212_MeshCollider
+    100244: Cube213
+    100246: Cube214
+    100248: Cube215
+    100250: Cube216
+    100252: Cube217
+    100254: Cube218
+    100256: Cube219001
+    100258: Cube219002
+    100260: Cube22
+    100262: Cube221
+    100264: Cube222
+    100266: Cube2229001
+    100268: Cube223
+    100270: Cube224
+    100272: Cube225
+    100274: Cube226
+    100276: Cube227
+    100278: Cube228
+    100280: Cube229001
+    100282: Cube229002
+    100284: Cube23
+    100286: Cube231
+    100288: Cube232
+    100290: Cube233
+    100292: Cube234
+    100294: Cube235
+    100296: Cube236
+    100298: Cube237
+    100300: Cube238
+    100302: Cube239001
+    100304: Cube239002
+    100306: Cube24
+    100308: Cube241
+    100310: Cube242
+    100312: Cube243
+    100314: Cube244
+    100316: Cube245
+    100318: Cube246
+    100320: Cube247
+    100322: Cube248
+    100324: Cube249001
+    100326: Cube249002
+    100328: Cube25
+    100330: Cube251
+    100332: Cube252
+    100334: Cube253
+    100336: Cube254
+    100338: Cube255
+    100340: Cube256
+    100342: Cube257
+    100344: Cube258
+    100346: Cube259001
+    100348: Cube259002
+    100350: Cube26
+    100352: Cube261
+    100354: Cube262
+    100356: Cube263
+    100358: Cube264
+    100360: Cube265
+    100362: Cube266
+    100364: Cube267
+    100366: Cube268
+    100368: Cube269001
+    100370: Cube269002
+    100372: Cube27
+    100374: Cube271
+    100376: Cube272
+    100378: Cube273
+    100380: Cube274
+    100382: Cube275
+    100384: Cube276
+    100386: Cube277
+    100388: Cube278
+    100390: Cube279001
+    100392: Cube279002
+    100394: Cube28
+    100396: Cube281
+    100398: Cube282
+    100400: Cube283
+    100402: Cube284
+    100404: Cube289001
+    100406: Cube29001
+    100408: Cube31_MeshCollider
+    100410: Cube41_MeshCollider
+    100412: Cube43
+    100414: Cube432
+    100416: Cube433
+    100418: Cube434
+    100420: Cube4341
+    100422: Cube4342
+    100424: Cube4343
+    100426: Cube435
+    100428: Cube436
+    100430: Cube437
+    100432: Cube438
+    100434: Cube4511_MeshCollider
+    100436: Cube5_MeshCollider
+    100438: Cube62_MeshCollider
+    100440: Cube63
+    100442: Cube631_MeshCollider
+    100444: Cube6411_MeshCollider
+    100446: Cube6412_MeshCollider
+    100448: Cube6413_MeshCollider
+    100450: Cube641_MeshCollider
+    100452: Cube64_MeshCollider
+    100454: Cube651_MeshCollider
+    100456: Cube652_MeshCollider
+    100458: Cube653_MeshCollider
+    100460: Cube65_MeshCollider
+    100462: Cube66_MeshCollider
+    100464: Cube67_MeshCollider
+    100466: Cube71_MeshCollider
+    100468: Cube81_MeshCollider
+    100470: Cube91_MeshCollider9001
+    100472: cubee
+    100474: cubeee
+    100476: Empty
+    100478: Empty1
+    100480: Empty2
+    100482: Empty3
+    100484: hhah2_MeshCollider
+    100486: hhah41_MeshCollider
+    100488: hhah42_MeshCollider
+    100490: hhah43_MeshCollider
+    100492: hhah44_MeshCollider
+    100494: hhah45_MeshCollider
+    100496: hhah46_MeshCollider
+    100498: hhah47_MeshCollider
+    100500: hhah48_MeshCollider
+    100502: hhah4_MeshCollider
+    100504: HintArea_BoxCollider_area_trigger
+    100506: kaj_MeshCollider
+    100508: L1
+    100510: L2
+    100512: L3
+    100514: L4
+    100516: L5
+    100518: //RootNode
+    100520: LeverArea_BoxCollider_area_trigger
+    100522: LeverBridge
+    100524: portal_MeshCollider_trigger
+    100526: PuzzleArea_BoxCollider_area_trigger
+    100528: L1_BoxCollider
+    100530: L2_BoxCollider
+    100532: L3_BoxCollider
+    100534: L4_BoxCollider
+    100536: L5_BoxCollider
+    400000: Bridge3_MeshCollider
+    400002: Bridge_MeshCollider
+    400004: BridgeLever_MeshCollider1
+    400006: camHint
+    400008: camPuzzle
+    400010: Circle2
+    400012: Cub
+    400014: Cub123
+    400016: Cube11112_MeshCollider
+    400018: Cube111131_MeshCollider
+    400020: Cube111132_MeshCollider
+    400022: Cube11113_MeshCollider
+    400024: Cube11114_MeshCollider
+    400026: Cube1111_BoxCollider
+    400028: Cube1113_MeshCollider
+    400030: Cube11_MeshCollider
+    400032: Cube13_BoxCollider
+    400034: Cube141122_MeshCollider
+    400036: Cube141123_MeshCollider
+    400038: Cube141124_MeshCollider
+    400040: Cube141125_MeshCollider
+    400042: Cube141126_MeshCollider
+    400044: Cube141127_MeshCollider
+    400046: Cube141128_MeshCollider
+    400048: Cube14112_MeshCollider9001
+    400050: Cube149112_MeshCollider
+    400052: Cube149_MeshCollider9001
+    400054: Cube14_MeshCollider
+    400056: Cube151
+    400058: Cube181_MeshCollider
+    400060: Cube1_MeshCollider
+    400062: Cube2
+    400064: Cube21
+    400066: Cube211
+    400068: Cube21112_MeshCollider
+    400070: Cube211131_MeshCollider
+    400072: Cube211132_MeshCollider
+    400074: Cube21113_MeshCollider
+    400076: Cube21114_MeshCollider
+    400078: Cube2121
+    400080: Cube21211
+    400082: Cube21212
+    400084: Cube21213
+    400086: Cube21214
+    400088: Cube21215
+    400090: Cube21216
+    400092: Cube21217
+    400094: Cube21218
+    400096: Cube2122
+    400098: Cube21221
+    400100: Cube21222
+    400102: Cube21223
+    400104: Cube21224
+    400106: Cube21225
+    400108: Cube21226
+    400110: Cube21227
+    400112: Cube21228
+    400114: Cube2123
+    400116: Cube21231
+    400118: Cube21232
+    400120: Cube21233
+    400122: Cube21234
+    400124: Cube21235
+    400126: Cube21236
+    400128: Cube21237
+    400130: Cube21238
+    400132: Cube21239001
+    400134: Cube21239002
+    400136: Cube2124
+    400138: Cube21241
+    400140: Cube21242
+    400142: Cube21243
+    400144: Cube21244
+    400146: Cube21245
+    400148: Cube21246
+    400150: Cube21247
+    400152: Cube21248
+    400154: Cube21249001
+    400156: Cube21249002
+    400158: Cube2125
+    400160: Cube21251
+    400162: Cube21252
+    400164: Cube21253
+    400166: Cube21254
+    400168: Cube21255
+    400170: Cube21256
+    400172: Cube21257
+    400174: Cube21258
+    400176: Cube21259001
+    400178: Cube21259002
+    400180: Cube2126
+    400182: Cube21261
+    400184: Cube21262
+    400186: Cube21263
+    400188: Cube21264
+    400190: Cube21265
+    400192: Cube21266
+    400194: Cube21267
+    400196: Cube21268
+    400198: Cube21269001
+    400200: Cube21269002
+    400202: Cube2127
+    400204: Cube21271
+    400206: Cube21272
+    400208: Cube21273
+    400210: Cube21274
+    400212: Cube21275
+    400214: Cube21276
+    400216: Cube21277
+    400218: Cube21278
+    400220: Cube21279001
+    400222: Cube21279002
+    400224: Cube2128
+    400226: Cube21281
+    400228: Cube21282
+    400230: Cube21283
+    400232: Cube21284
+    400234: Cube21289001
+    400236: Cube2129001
+    400238: Cube2129002
+    400240: Cube21299
+    400242: Cube212_MeshCollider
+    400244: Cube213
+    400246: Cube214
+    400248: Cube215
+    400250: Cube216
+    400252: Cube217
+    400254: Cube218
+    400256: Cube219001
+    400258: Cube219002
+    400260: Cube22
+    400262: Cube221
+    400264: Cube222
+    400266: Cube2229001
+    400268: Cube223
+    400270: Cube224
+    400272: Cube225
+    400274: Cube226
+    400276: Cube227
+    400278: Cube228
+    400280: Cube229001
+    400282: Cube229002
+    400284: Cube23
+    400286: Cube231
+    400288: Cube232
+    400290: Cube233
+    400292: Cube234
+    400294: Cube235
+    400296: Cube236
+    400298: Cube237
+    400300: Cube238
+    400302: Cube239001
+    400304: Cube239002
+    400306: Cube24
+    400308: Cube241
+    400310: Cube242
+    400312: Cube243
+    400314: Cube244
+    400316: Cube245
+    400318: Cube246
+    400320: Cube247
+    400322: Cube248
+    400324: Cube249001
+    400326: Cube249002
+    400328: Cube25
+    400330: Cube251
+    400332: Cube252
+    400334: Cube253
+    400336: Cube254
+    400338: Cube255
+    400340: Cube256
+    400342: Cube257
+    400344: Cube258
+    400346: Cube259001
+    400348: Cube259002
+    400350: Cube26
+    400352: Cube261
+    400354: Cube262
+    400356: Cube263
+    400358: Cube264
+    400360: Cube265
+    400362: Cube266
+    400364: Cube267
+    400366: Cube268
+    400368: Cube269001
+    400370: Cube269002
+    400372: Cube27
+    400374: Cube271
+    400376: Cube272
+    400378: Cube273
+    400380: Cube274
+    400382: Cube275
+    400384: Cube276
+    400386: Cube277
+    400388: Cube278
+    400390: Cube279001
+    400392: Cube279002
+    400394: Cube28
+    400396: Cube281
+    400398: Cube282
+    400400: Cube283
+    400402: Cube284
+    400404: Cube289001
+    400406: Cube29001
+    400408: Cube31_MeshCollider
+    400410: Cube41_MeshCollider
+    400412: Cube43
+    400414: Cube432
+    400416: Cube433
+    400418: Cube434
+    400420: Cube4341
+    400422: Cube4342
+    400424: Cube4343
+    400426: Cube435
+    400428: Cube436
+    400430: Cube437
+    400432: Cube438
+    400434: Cube4511_MeshCollider
+    400436: Cube5_MeshCollider
+    400438: Cube62_MeshCollider
+    400440: Cube63
+    400442: Cube631_MeshCollider
+    400444: Cube6411_MeshCollider
+    400446: Cube6412_MeshCollider
+    400448: Cube6413_MeshCollider
+    400450: Cube641_MeshCollider
+    400452: Cube64_MeshCollider
+    400454: Cube651_MeshCollider
+    400456: Cube652_MeshCollider
+    400458: Cube653_MeshCollider
+    400460: Cube65_MeshCollider
+    400462: Cube66_MeshCollider
+    400464: Cube67_MeshCollider
+    400466: Cube71_MeshCollider
+    400468: Cube81_MeshCollider
+    400470: Cube91_MeshCollider9001
+    400472: cubee
+    400474: cubeee
+    400476: Empty
+    400478: Empty1
+    400480: Empty2
+    400482: Empty3
+    400484: hhah2_MeshCollider
+    400486: hhah41_MeshCollider
+    400488: hhah42_MeshCollider
+    400490: hhah43_MeshCollider
+    400492: hhah44_MeshCollider
+    400494: hhah45_MeshCollider
+    400496: hhah46_MeshCollider
+    400498: hhah47_MeshCollider
+    400500: hhah48_MeshCollider
+    400502: hhah4_MeshCollider
+    400504: HintArea_BoxCollider_area_trigger
+    400506: kaj_MeshCollider
+    400508: L1
+    400510: L2
+    400512: L3
+    400514: L4
+    400516: L5
+    400518: //RootNode
+    400520: LeverArea_BoxCollider_area_trigger
+    400522: LeverBridge
+    400524: portal_MeshCollider_trigger
+    400526: PuzzleArea_BoxCollider_area_trigger
+    400528: L1_BoxCollider
+    400530: L2_BoxCollider
+    400532: L3_BoxCollider
+    400534: L4_BoxCollider
+    400536: L5_BoxCollider
+    2000000: camHint
+    2000002: camPuzzle
+    2100000: unnamed
+    2100002: Material_002__Color-Palette_png
+    2100004: None__Color-Palette_png
+    2100006: Color__Color-Palette_png
+    2300000: Bridge3_MeshCollider
+    2300002: Bridge_MeshCollider
+    2300004: BridgeLever_MeshCollider1
+    2300006: Circle2
+    2300008: Cub
+    2300010: Cub123
+    2300012: Cube11112_MeshCollider
+    2300014: Cube111131_MeshCollider
+    2300016: Cube111132_MeshCollider
+    2300018: Cube11113_MeshCollider
+    2300020: Cube11114_MeshCollider
+    2300022: Cube1111_BoxCollider
+    2300024: Cube1113_MeshCollider
+    2300026: Cube11_MeshCollider
+    2300028: Cube13_BoxCollider
+    2300030: Cube141122_MeshCollider
+    2300032: Cube141123_MeshCollider
+    2300034: Cube141124_MeshCollider
+    2300036: Cube141125_MeshCollider
+    2300038: Cube141126_MeshCollider
+    2300040: Cube141127_MeshCollider
+    2300042: Cube141128_MeshCollider
+    2300044: Cube14112_MeshCollider9001
+    2300046: Cube149112_MeshCollider
+    2300048: Cube149_MeshCollider9001
+    2300050: Cube14_MeshCollider
+    2300052: Cube151
+    2300054: Cube181_MeshCollider
+    2300056: Cube1_MeshCollider
+    2300058: Cube2
+    2300060: Cube21
+    2300062: Cube211
+    2300064: Cube21112_MeshCollider
+    2300066: Cube211131_MeshCollider
+    2300068: Cube211132_MeshCollider
+    2300070: Cube21113_MeshCollider
+    2300072: Cube21114_MeshCollider
+    2300074: Cube2121
+    2300076: Cube21211
+    2300078: Cube21212
+    2300080: Cube21213
+    2300082: Cube21214
+    2300084: Cube21215
+    2300086: Cube21216
+    2300088: Cube21217
+    2300090: Cube21218
+    2300092: Cube2122
+    2300094: Cube21221
+    2300096: Cube21222
+    2300098: Cube21223
+    2300100: Cube21224
+    2300102: Cube21225
+    2300104: Cube21226
+    2300106: Cube21227
+    2300108: Cube21228
+    2300110: Cube2123
+    2300112: Cube21231
+    2300114: Cube21232
+    2300116: Cube21233
+    2300118: Cube21234
+    2300120: Cube21235
+    2300122: Cube21236
+    2300124: Cube21237
+    2300126: Cube21238
+    2300128: Cube21239001
+    2300130: Cube21239002
+    2300132: Cube2124
+    2300134: Cube21241
+    2300136: Cube21242
+    2300138: Cube21243
+    2300140: Cube21244
+    2300142: Cube21245
+    2300144: Cube21246
+    2300146: Cube21247
+    2300148: Cube21248
+    2300150: Cube21249001
+    2300152: Cube21249002
+    2300154: Cube2125
+    2300156: Cube21251
+    2300158: Cube21252
+    2300160: Cube21253
+    2300162: Cube21254
+    2300164: Cube21255
+    2300166: Cube21256
+    2300168: Cube21257
+    2300170: Cube21258
+    2300172: Cube21259001
+    2300174: Cube21259002
+    2300176: Cube2126
+    2300178: Cube21261
+    2300180: Cube21262
+    2300182: Cube21263
+    2300184: Cube21264
+    2300186: Cube21265
+    2300188: Cube21266
+    2300190: Cube21267
+    2300192: Cube21268
+    2300194: Cube21269001
+    2300196: Cube21269002
+    2300198: Cube2127
+    2300200: Cube21271
+    2300202: Cube21272
+    2300204: Cube21273
+    2300206: Cube21274
+    2300208: Cube21275
+    2300210: Cube21276
+    2300212: Cube21277
+    2300214: Cube21278
+    2300216: Cube21279001
+    2300218: Cube21279002
+    2300220: Cube2128
+    2300222: Cube21281
+    2300224: Cube21282
+    2300226: Cube21283
+    2300228: Cube21284
+    2300230: Cube21289001
+    2300232: Cube2129001
+    2300234: Cube2129002
+    2300236: Cube21299
+    2300238: Cube212_MeshCollider
+    2300240: Cube213
+    2300242: Cube214
+    2300244: Cube215
+    2300246: Cube216
+    2300248: Cube217
+    2300250: Cube218
+    2300252: Cube219001
+    2300254: Cube219002
+    2300256: Cube22
+    2300258: Cube221
+    2300260: Cube222
+    2300262: Cube2229001
+    2300264: Cube223
+    2300266: Cube224
+    2300268: Cube225
+    2300270: Cube226
+    2300272: Cube227
+    2300274: Cube228
+    2300276: Cube229001
+    2300278: Cube229002
+    2300280: Cube23
+    2300282: Cube231
+    2300284: Cube232
+    2300286: Cube233
+    2300288: Cube234
+    2300290: Cube235
+    2300292: Cube236
+    2300294: Cube237
+    2300296: Cube238
+    2300298: Cube239001
+    2300300: Cube239002
+    2300302: Cube24
+    2300304: Cube241
+    2300306: Cube242
+    2300308: Cube243
+    2300310: Cube244
+    2300312: Cube245
+    2300314: Cube246
+    2300316: Cube247
+    2300318: Cube248
+    2300320: Cube249001
+    2300322: Cube249002
+    2300324: Cube25
+    2300326: Cube251
+    2300328: Cube252
+    2300330: Cube253
+    2300332: Cube254
+    2300334: Cube255
+    2300336: Cube256
+    2300338: Cube257
+    2300340: Cube258
+    2300342: Cube259001
+    2300344: Cube259002
+    2300346: Cube26
+    2300348: Cube261
+    2300350: Cube262
+    2300352: Cube263
+    2300354: Cube264
+    2300356: Cube265
+    2300358: Cube266
+    2300360: Cube267
+    2300362: Cube268
+    2300364: Cube269001
+    2300366: Cube269002
+    2300368: Cube27
+    2300370: Cube271
+    2300372: Cube272
+    2300374: Cube273
+    2300376: Cube274
+    2300378: Cube275
+    2300380: Cube276
+    2300382: Cube277
+    2300384: Cube278
+    2300386: Cube279001
+    2300388: Cube279002
+    2300390: Cube28
+    2300392: Cube281
+    2300394: Cube282
+    2300396: Cube283
+    2300398: Cube284
+    2300400: Cube289001
+    2300402: Cube29001
+    2300404: Cube31_MeshCollider
+    2300406: Cube41_MeshCollider
+    2300408: Cube43
+    2300410: Cube432
+    2300412: Cube433
+    2300414: Cube434
+    2300416: Cube4341
+    2300418: Cube4342
+    2300420: Cube4343
+    2300422: Cube435
+    2300424: Cube436
+    2300426: Cube437
+    2300428: Cube438
+    2300430: Cube4511_MeshCollider
+    2300432: Cube5_MeshCollider
+    2300434: Cube62_MeshCollider
+    2300436: Cube63
+    2300438: Cube631_MeshCollider
+    2300440: Cube6411_MeshCollider
+    2300442: Cube6412_MeshCollider
+    2300444: Cube6413_MeshCollider
+    2300446: Cube641_MeshCollider
+    2300448: Cube64_MeshCollider
+    2300450: Cube651_MeshCollider
+    2300452: Cube652_MeshCollider
+    2300454: Cube653_MeshCollider
+    2300456: Cube65_MeshCollider
+    2300458: Cube66_MeshCollider
+    2300460: Cube67_MeshCollider
+    2300462: Cube71_MeshCollider
+    2300464: Cube81_MeshCollider
+    2300466: Cube91_MeshCollider9001
+    2300468: cubee
+    2300470: cubeee
+    2300472: hhah2_MeshCollider
+    2300474: hhah41_MeshCollider
+    2300476: hhah42_MeshCollider
+    2300478: hhah43_MeshCollider
+    2300480: hhah44_MeshCollider
+    2300482: hhah45_MeshCollider
+    2300484: hhah46_MeshCollider
+    2300486: hhah47_MeshCollider
+    2300488: hhah48_MeshCollider
+    2300490: hhah4_MeshCollider
+    2300492: HintArea_BoxCollider_area_trigger
+    2300494: kaj_MeshCollider
+    2300496: L1
+    2300498: L2
+    2300500: L3
+    2300502: L4
+    2300504: L5
+    2300506: LeverArea_BoxCollider_area_trigger
+    2300508: LeverBridge
+    2300510: portal_MeshCollider_trigger
+    2300512: PuzzleArea_BoxCollider_area_trigger
+    2300514: L1_BoxCollider
+    2300516: L2_BoxCollider
+    2300518: L3_BoxCollider
+    2300520: L4_BoxCollider
+    2300522: L5_BoxCollider
+    3300000: Bridge3_MeshCollider
+    3300002: Bridge_MeshCollider
+    3300004: BridgeLever_MeshCollider1
+    3300006: Circle2
+    3300008: Cub
+    3300010: Cub123
+    3300012: Cube11112_MeshCollider
+    3300014: Cube111131_MeshCollider
+    3300016: Cube111132_MeshCollider
+    3300018: Cube11113_MeshCollider
+    3300020: Cube11114_MeshCollider
+    3300022: Cube1111_BoxCollider
+    3300024: Cube1113_MeshCollider
+    3300026: Cube11_MeshCollider
+    3300028: Cube13_BoxCollider
+    3300030: Cube141122_MeshCollider
+    3300032: Cube141123_MeshCollider
+    3300034: Cube141124_MeshCollider
+    3300036: Cube141125_MeshCollider
+    3300038: Cube141126_MeshCollider
+    3300040: Cube141127_MeshCollider
+    3300042: Cube141128_MeshCollider
+    3300044: Cube14112_MeshCollider9001
+    3300046: Cube149112_MeshCollider
+    3300048: Cube149_MeshCollider9001
+    3300050: Cube14_MeshCollider
+    3300052: Cube151
+    3300054: Cube181_MeshCollider
+    3300056: Cube1_MeshCollider
+    3300058: Cube2
+    3300060: Cube21
+    3300062: Cube211
+    3300064: Cube21112_MeshCollider
+    3300066: Cube211131_MeshCollider
+    3300068: Cube211132_MeshCollider
+    3300070: Cube21113_MeshCollider
+    3300072: Cube21114_MeshCollider
+    3300074: Cube2121
+    3300076: Cube21211
+    3300078: Cube21212
+    3300080: Cube21213
+    3300082: Cube21214
+    3300084: Cube21215
+    3300086: Cube21216
+    3300088: Cube21217
+    3300090: Cube21218
+    3300092: Cube2122
+    3300094: Cube21221
+    3300096: Cube21222
+    3300098: Cube21223
+    3300100: Cube21224
+    3300102: Cube21225
+    3300104: Cube21226
+    3300106: Cube21227
+    3300108: Cube21228
+    3300110: Cube2123
+    3300112: Cube21231
+    3300114: Cube21232
+    3300116: Cube21233
+    3300118: Cube21234
+    3300120: Cube21235
+    3300122: Cube21236
+    3300124: Cube21237
+    3300126: Cube21238
+    3300128: Cube21239001
+    3300130: Cube21239002
+    3300132: Cube2124
+    3300134: Cube21241
+    3300136: Cube21242
+    3300138: Cube21243
+    3300140: Cube21244
+    3300142: Cube21245
+    3300144: Cube21246
+    3300146: Cube21247
+    3300148: Cube21248
+    3300150: Cube21249001
+    3300152: Cube21249002
+    3300154: Cube2125
+    3300156: Cube21251
+    3300158: Cube21252
+    3300160: Cube21253
+    3300162: Cube21254
+    3300164: Cube21255
+    3300166: Cube21256
+    3300168: Cube21257
+    3300170: Cube21258
+    3300172: Cube21259001
+    3300174: Cube21259002
+    3300176: Cube2126
+    3300178: Cube21261
+    3300180: Cube21262
+    3300182: Cube21263
+    3300184: Cube21264
+    3300186: Cube21265
+    3300188: Cube21266
+    3300190: Cube21267
+    3300192: Cube21268
+    3300194: Cube21269001
+    3300196: Cube21269002
+    3300198: Cube2127
+    3300200: Cube21271
+    3300202: Cube21272
+    3300204: Cube21273
+    3300206: Cube21274
+    3300208: Cube21275
+    3300210: Cube21276
+    3300212: Cube21277
+    3300214: Cube21278
+    3300216: Cube21279001
+    3300218: Cube21279002
+    3300220: Cube2128
+    3300222: Cube21281
+    3300224: Cube21282
+    3300226: Cube21283
+    3300228: Cube21284
+    3300230: Cube21289001
+    3300232: Cube2129001
+    3300234: Cube2129002
+    3300236: Cube21299
+    3300238: Cube212_MeshCollider
+    3300240: Cube213
+    3300242: Cube214
+    3300244: Cube215
+    3300246: Cube216
+    3300248: Cube217
+    3300250: Cube218
+    3300252: Cube219001
+    3300254: Cube219002
+    3300256: Cube22
+    3300258: Cube221
+    3300260: Cube222
+    3300262: Cube2229001
+    3300264: Cube223
+    3300266: Cube224
+    3300268: Cube225
+    3300270: Cube226
+    3300272: Cube227
+    3300274: Cube228
+    3300276: Cube229001
+    3300278: Cube229002
+    3300280: Cube23
+    3300282: Cube231
+    3300284: Cube232
+    3300286: Cube233
+    3300288: Cube234
+    3300290: Cube235
+    3300292: Cube236
+    3300294: Cube237
+    3300296: Cube238
+    3300298: Cube239001
+    3300300: Cube239002
+    3300302: Cube24
+    3300304: Cube241
+    3300306: Cube242
+    3300308: Cube243
+    3300310: Cube244
+    3300312: Cube245
+    3300314: Cube246
+    3300316: Cube247
+    3300318: Cube248
+    3300320: Cube249001
+    3300322: Cube249002
+    3300324: Cube25
+    3300326: Cube251
+    3300328: Cube252
+    3300330: Cube253
+    3300332: Cube254
+    3300334: Cube255
+    3300336: Cube256
+    3300338: Cube257
+    3300340: Cube258
+    3300342: Cube259001
+    3300344: Cube259002
+    3300346: Cube26
+    3300348: Cube261
+    3300350: Cube262
+    3300352: Cube263
+    3300354: Cube264
+    3300356: Cube265
+    3300358: Cube266
+    3300360: Cube267
+    3300362: Cube268
+    3300364: Cube269001
+    3300366: Cube269002
+    3300368: Cube27
+    3300370: Cube271
+    3300372: Cube272
+    3300374: Cube273
+    3300376: Cube274
+    3300378: Cube275
+    3300380: Cube276
+    3300382: Cube277
+    3300384: Cube278
+    3300386: Cube279001
+    3300388: Cube279002
+    3300390: Cube28
+    3300392: Cube281
+    3300394: Cube282
+    3300396: Cube283
+    3300398: Cube284
+    3300400: Cube289001
+    3300402: Cube29001
+    3300404: Cube31_MeshCollider
+    3300406: Cube41_MeshCollider
+    3300408: Cube43
+    3300410: Cube432
+    3300412: Cube433
+    3300414: Cube434
+    3300416: Cube4341
+    3300418: Cube4342
+    3300420: Cube4343
+    3300422: Cube435
+    3300424: Cube436
+    3300426: Cube437
+    3300428: Cube438
+    3300430: Cube4511_MeshCollider
+    3300432: Cube5_MeshCollider
+    3300434: Cube62_MeshCollider
+    3300436: Cube63
+    3300438: Cube631_MeshCollider
+    3300440: Cube6411_MeshCollider
+    3300442: Cube6412_MeshCollider
+    3300444: Cube6413_MeshCollider
+    3300446: Cube641_MeshCollider
+    3300448: Cube64_MeshCollider
+    3300450: Cube651_MeshCollider
+    3300452: Cube652_MeshCollider
+    3300454: Cube653_MeshCollider
+    3300456: Cube65_MeshCollider
+    3300458: Cube66_MeshCollider
+    3300460: Cube67_MeshCollider
+    3300462: Cube71_MeshCollider
+    3300464: Cube81_MeshCollider
+    3300466: Cube91_MeshCollider9001
+    3300468: cubee
+    3300470: cubeee
+    3300472: hhah2_MeshCollider
+    3300474: hhah41_MeshCollider
+    3300476: hhah42_MeshCollider
+    3300478: hhah43_MeshCollider
+    3300480: hhah44_MeshCollider
+    3300482: hhah45_MeshCollider
+    3300484: hhah46_MeshCollider
+    3300486: hhah47_MeshCollider
+    3300488: hhah48_MeshCollider
+    3300490: hhah4_MeshCollider
+    3300492: HintArea_BoxCollider_area_trigger
+    3300494: kaj_MeshCollider
+    3300496: L1
+    3300498: L2
+    3300500: L3
+    3300502: L4
+    3300504: L5
+    3300506: LeverArea_BoxCollider_area_trigger
+    3300508: LeverBridge
+    3300510: portal_MeshCollider_trigger
+    3300512: PuzzleArea_BoxCollider_area_trigger
+    3300514: L1_BoxCollider
+    3300516: L2_BoxCollider
+    3300518: L3_BoxCollider
+    3300520: L4_BoxCollider
+    3300522: L5_BoxCollider
+    4300000: PuzzleArea_BoxCollider_area_trigger
+    4300002: HintArea_BoxCollider_area_trigger
+    4300004: LeverArea_BoxCollider_area_trigger
+    4300006: Cube6413_MeshCollider
+    4300008: Cube6412_MeshCollider
+    4300010: Cube6411_MeshCollider
+    4300012: hhah48_MeshCollider
+    4300014: hhah47_MeshCollider
+    4300016: hhah46_MeshCollider
+    4300018: hhah45_MeshCollider
+    4300020: hhah44_MeshCollider
+    4300022: hhah43_MeshCollider
+    4300024: hhah41_MeshCollider
+    4300026: hhah42_MeshCollider
+    4300028: Cube284
+    4300030: Cube21284
+    4300032: Cube21283
+    4300034: Cube283
+    4300036: Cube282
+    4300038: Cube21282
+    4300040: Cube21281
+    4300042: Cube281
+    4300044: Cube28
+    4300046: Cube2128
+    4300048: Cube2127
+    4300050: Cube27
+    4300052: Cube278
+    4300054: Cube21278
+    4300056: Cube21277
+    4300058: Cube277
+    4300060: Cube276
+    4300062: Cube21276
+    4300064: Cube21275
+    4300066: Cube275
+    4300068: Cube274
+    4300070: Cube21274
+    4300072: Cube21273
+    4300074: Cube273
+    4300076: Cube272
+    4300078: Cube21272
+    4300080: Cube21271
+    4300082: Cube271
+    4300084: Cube279001
+    4300086: Cube21279001
+    4300088: Cube2126
+    4300090: Cube26
+    4300092: Cube268
+    4300094: Cube21268
+    4300096: Cube21267
+    4300098: Cube267
+    4300100: Cube266
+    4300102: Cube21266
+    4300104: Cube21265
+    4300106: Cube265
+    4300108: Cube264
+    4300110: Cube21264
+    4300112: Cube21263
+    4300114: Cube263
+    4300116: Cube262
+    4300118: Cube21262
+    4300120: Cube21261
+    4300122: Cube261
+    4300124: Cube269001
+    4300126: Cube21269001
+    4300128: Cube2125
+    4300130: Cube25
+    4300132: Cube258
+    4300134: Cube21258
+    4300136: Cube21257
+    4300138: Cube257
+    4300140: Cube256
+    4300142: Cube21256
+    4300144: Cube21255
+    4300146: Cube255
+    4300148: Cube254
+    4300150: Cube21254
+    4300152: Cube21253
+    4300154: Cube253
+    4300156: Cube252
+    4300158: Cube21252
+    4300160: Cube21251
+    4300162: Cube251
+    4300164: Cube259001
+    4300166: Cube21259001
+    4300168: Cube2124
+    4300170: Cube24
+    4300172: Cube248
+    4300174: Cube21248
+    4300176: Cube21247
+    4300178: Cube247
+    4300180: Cube21246
+    4300182: Cube246
+    4300184: Cube245
+    4300186: Cube21245
+    4300188: Cube21244
+    4300190: Cube244
+    4300192: Cube243
+    4300194: Cube21243
+    4300196: Cube21242
+    4300198: Cube242
+    4300200: Cube241
+    4300202: Cube21241
+    4300204: Cube21249001
+    4300206: Cube249001
+    4300208: Cube23
+    4300210: Cube2123
+    4300212: Cube21238
+    4300214: Cube238
+    4300216: Cube237
+    4300218: Cube21237
+    4300220: Cube21236
+    4300222: Cube236
+    4300224: Cube21235
+    4300226: Cube235
+    4300228: Cube234
+    4300230: Cube21234
+    4300232: Cube21233
+    4300234: Cube233
+    4300236: Cube232
+    4300238: Cube21232
+    4300240: Cube21231
+    4300242: Cube231
+    4300244: Cube239001
+    4300246: Cube21239001
+    4300248: Cube2122
+    4300250: Cube22
+    4300252: Cube228
+    4300254: Cube21228
+    4300256: Cube21227
+    4300258: Cube227
+    4300260: Cube226
+    4300262: Cube21226
+    4300264: Cube21225
+    4300266: Cube225
+    4300268: Cube224
+    4300270: Cube21224
+    4300272: Cube21223
+    4300274: Cube223
+    4300276: Cube222
+    4300278: Cube21222
+    4300280: Cube21221
+    4300282: Cube221
+    4300284: Cube229001
+    4300286: Cube2229001
+    4300288: Cube2121
+    4300290: Cube21
+    4300292: Cube218
+    4300294: Cube21218
+    4300296: Cube21217
+    4300298: Cube217
+    4300300: Cube216
+    4300302: Cube21216
+    4300304: Cube21215
+    4300306: Cube215
+    4300308: Cube631_MeshCollider
+    4300310: Cube641_MeshCollider
+    4300312: Cube14_MeshCollider
+    4300314: Cube1_MeshCollider
+    4300316: Cube149112_MeshCollider
+    4300318: Cube4511_MeshCollider
+    4300320: cubee
+    4300322: portal_MeshCollider_trigger
+    4300324: Cube4343
+    4300326: Cube141128_MeshCollider
+    4300328: Cube141127_MeshCollider
+    4300330: Cube4342
+    4300332: Cube653_MeshCollider
+    4300334: Cube211132_MeshCollider
+    4300336: Cube111132_MeshCollider
+    4300338: Cube652_MeshCollider
+    4300340: Cube4341
+    4300342: Cube651_MeshCollider
+    4300344: Cube111131_MeshCollider
+    4300346: Cube211131_MeshCollider
+    4300348: hhah4_MeshCollider
+    4300350: Cube141126_MeshCollider
+    4300352: Cube141125_MeshCollider
+    4300354: Cube141124_MeshCollider
+    4300356: Cube141123_MeshCollider
+    4300358: hhah2_MeshCollider
+    4300360: Cube141122_MeshCollider
+    4300362: Cube149_MeshCollider9001
+    4300364: kaj_MeshCollider
+    4300366: Cube21214
+    4300368: Cube214
+    4300370: Cube213
+    4300372: Cube21213
+    4300374: Cube21212
+    4300376: Cube21299
+    4300378: Cube211
+    4300380: Cube21211
+    4300382: Cub
+    4300384: Cube219001
+    4300386: Cube2
+    4300388: Cube2129001
+    4300390: Cube21289001
+    4300392: Cube289001
+    4300394: Cube279002
+    4300396: Cube21279002
+    4300398: Cube21269002
+    4300400: Cube269002
+    4300402: Cube259002
+    4300404: Cube21259002
+    4300406: Cube21249002
+    4300408: Cube249002
+    4300410: Cube239002
+    4300412: Cube21239002
+    4300414: Cub123
+    4300416: Cube229002
+    4300418: Cube29001
+    4300420: cubeee
+    4300422: Cube43
+    4300424: Cube438
+    4300426: Cube151
+    4300428: Cube13_BoxCollider
+    4300430: Cube437
+    4300432: Cube436
+    4300434: Cube67_MeshCollider
+    4300436: Cube11114_MeshCollider
+    4300438: Cube21114_MeshCollider
+    4300440: Bridge3_MeshCollider
+    4300442: Cube66_MeshCollider
+    4300444: Cube435
+    4300446: Cube65_MeshCollider
+    4300448: Cube434
+    4300450: Cube64_MeshCollider
+    4300452: Cube63
+    4300454: Cube433
+    4300456: Cube21113_MeshCollider
+    4300458: Cube11113_MeshCollider
+    4300460: Cube1113_MeshCollider
+    4300462: Cube11_MeshCollider
+    4300464: Cube91_MeshCollider9001
+    4300466: Cube81_MeshCollider
+    4300468: Cube71_MeshCollider
+    4300470: Cube62_MeshCollider
+    4300472: Cube5_MeshCollider
+    4300474: Cube41_MeshCollider
+    4300476: Cube31_MeshCollider
+    4300478: Cube14112_MeshCollider9001
+    4300480: Cube2129002
+    4300482: Cube219002
+    4300484: Cube432
+    4300486: Circle2
+    4300488: Cube212_MeshCollider
+    4300490: Cube11112_MeshCollider
+    4300492: Cube21112_MeshCollider
+    4300494: L5
+    4300496: L4
+    4300498: L3
+    4300500: L2
+    4300502: L1
+    4300504: Cube181_MeshCollider
+    4300506: BridgeLever_MeshCollider1
+    4300508: LeverBridge
+    4300510: Cube1111_BoxCollider
+    4300512: Bridge_MeshCollider
+    4300514: L5_BoxCollider
+    4300516: L4_BoxCollider
+    4300518: L3_BoxCollider
+    4300520: L2_BoxCollider
+    4300522: L1_BoxCollider
+    7400000: Default Take
+    7400002: Default Take //// PuzzleArea_BoxCollider_area_trigger
+    7400004: Default Take //// HintArea_BoxCollider_area_trigger
+    7400006: Default Take //// LeverArea_BoxCollider_area_trigger
+    7400008: Default Take //// Cube6413_MeshCollider
+    7400010: Default Take //// Cube6412_MeshCollider
+    7400012: Default Take //// Cube6411_MeshCollider
+    7400014: Default Take //// hhah48_MeshCollider
+    7400016: Default Take //// hhah47_MeshCollider
+    7400018: Default Take //// hhah46_MeshCollider
+    7400020: Default Take //// hhah45_MeshCollider
+    7400022: Default Take //// hhah44_MeshCollider
+    7400024: Default Take //// hhah43_MeshCollider
+    7400026: Default Take //// hhah41_MeshCollider
+    7400028: Default Take //// hhah42_MeshCollider
+    7400030: Default Take //// Cube284
+    7400032: Default Take //// Cube21284
+    7400034: Default Take //// Cube21283
+    7400036: Default Take //// Cube283
+    7400038: Default Take //// Cube282
+    7400040: Default Take //// Cube21282
+    7400042: Default Take //// Cube21281
+    7400044: Default Take //// Cube281
+    7400046: Default Take //// Cube28
+    7400048: Default Take //// Cube2128
+    7400050: Default Take //// Cube2127
+    7400052: Default Take //// Cube27
+    7400054: Default Take //// Cube278
+    7400056: Default Take //// Cube21278
+    7400058: Default Take //// Cube21277
+    7400060: Default Take //// Cube277
+    7400062: Default Take //// Cube276
+    7400064: Default Take //// Cube21276
+    7400066: Default Take //// Cube21275
+    7400068: Default Take //// Cube275
+    7400070: Default Take //// Cube274
+    7400072: Default Take //// Cube21274
+    7400074: Default Take //// Cube21273
+    7400076: Default Take //// Cube273
+    7400078: Default Take //// Cube272
+    7400080: Default Take //// Cube21272
+    7400082: Default Take //// Cube21271
+    7400084: Default Take //// Cube271
+    7400086: Default Take //// Cube279001
+    7400088: Default Take //// Cube21279001
+    7400090: Default Take //// Cube2126
+    7400092: Default Take //// Cube26
+    7400094: Default Take //// Cube268
+    7400096: Default Take //// Cube21268
+    7400098: Default Take //// Cube21267
+    7400100: Default Take //// Cube267
+    7400102: Default Take //// Cube266
+    7400104: Default Take //// Cube21266
+    7400106: Default Take //// Cube21265
+    7400108: Default Take //// Cube265
+    7400110: Default Take //// Cube264
+    7400112: Default Take //// Cube21264
+    7400114: Default Take //// Cube21263
+    7400116: Default Take //// Cube263
+    7400118: Default Take //// Cube262
+    7400120: Default Take //// Cube21262
+    7400122: Default Take //// Cube21261
+    7400124: Default Take //// Cube261
+    7400126: Default Take //// Cube269001
+    7400128: Default Take //// Cube21269001
+    7400130: Default Take //// Cube2125
+    7400132: Default Take //// Cube25
+    7400134: Default Take //// Cube258
+    7400136: Default Take //// Cube21258
+    7400138: Default Take //// Cube21257
+    7400140: Default Take //// Cube257
+    7400142: Default Take //// Cube256
+    7400144: Default Take //// Cube21256
+    7400146: Default Take //// Cube21255
+    7400148: Default Take //// Cube255
+    7400150: Default Take //// Cube254
+    7400152: Default Take //// Cube21254
+    7400154: Default Take //// Cube21253
+    7400156: Default Take //// Cube253
+    7400158: Default Take //// Cube252
+    7400160: Default Take //// Cube21252
+    7400162: Default Take //// Cube21251
+    7400164: Default Take //// Cube251
+    7400166: Default Take //// Cube259001
+    7400168: Default Take //// Cube21259001
+    7400170: Default Take //// Cube2124
+    7400172: Default Take //// Cube24
+    7400174: Default Take //// Cube248
+    7400176: Default Take //// Cube21248
+    7400178: Default Take //// Cube21247
+    7400180: Default Take //// Cube247
+    7400182: Default Take //// Cube21246
+    7400184: Default Take //// Cube246
+    7400186: Default Take //// Cube245
+    7400188: Default Take //// Cube21245
+    7400190: Default Take //// Cube21244
+    7400192: Default Take //// Cube244
+    7400194: Default Take //// Cube243
+    7400196: Default Take //// Cube21243
+    7400198: Default Take //// Cube21242
+    7400200: Default Take //// Cube242
+    7400202: Default Take //// Cube241
+    7400204: Default Take //// Cube21241
+    7400206: Default Take //// Cube21249001
+    7400208: Default Take //// Cube249001
+    7400210: Default Take //// Cube23
+    7400212: Default Take //// Cube2123
+    7400214: Default Take //// Cube21238
+    7400216: Default Take //// Cube238
+    7400218: Default Take //// Cube237
+    7400220: Default Take //// Cube21237
+    7400222: Default Take //// Cube21236
+    7400224: Default Take //// Cube236
+    7400226: Default Take //// Cube21235
+    7400228: Default Take //// Cube235
+    7400230: Default Take //// Cube234
+    7400232: Default Take //// Cube21234
+    7400234: Default Take //// Cube21233
+    7400236: Default Take //// Cube233
+    7400238: Default Take //// Cube232
+    7400240: Default Take //// Cube21232
+    7400242: Default Take //// Cube21231
+    7400244: Default Take //// Cube231
+    7400246: Default Take //// Cube239001
+    7400248: Default Take //// Cube21239001
+    7400250: Default Take //// Cube2122
+    7400252: Default Take //// Cube22
+    7400254: Default Take //// Cube228
+    7400256: Default Take //// Cube21228
+    7400258: Default Take //// Cube21227
+    7400260: Default Take //// Cube227
+    7400262: Default Take //// Cube226
+    7400264: Default Take //// Cube21226
+    7400266: Default Take //// Cube21225
+    7400268: Default Take //// Cube225
+    7400270: Default Take //// Cube224
+    7400272: Default Take //// Cube21224
+    7400274: Default Take //// Cube21223
+    7400276: Default Take //// Cube223
+    7400278: Default Take //// Cube222
+    7400280: Default Take //// Cube21222
+    7400282: Default Take //// Cube21221
+    7400284: Default Take //// Cube221
+    7400286: Default Take //// Cube229001
+    7400288: Default Take //// Cube2229001
+    7400290: Default Take //// Cube2121
+    7400292: Default Take //// Cube21
+    7400294: Default Take //// Cube218
+    7400296: Default Take //// Cube21218
+    7400298: Default Take //// Cube21217
+    7400300: Default Take //// Cube217
+    7400302: Default Take //// Cube216
+    7400304: Default Take //// Cube21216
+    7400306: Default Take //// Cube21215
+    7400308: Default Take //// Cube215
+    7400310: Default Take //// Cube631_MeshCollider
+    7400312: Default Take //// Cube641_MeshCollider
+    7400314: Default Take //// Cube14_MeshCollider
+    7400316: Default Take //// Cube1_MeshCollider
+    7400318: Default Take //// Cube149112_MeshCollider
+    7400320: Default Take //// Cube4511_MeshCollider
+    7400322: Default Take //// cubee
+    7400324: Default Take //// portal_MeshCollider_trigger
+    7400326: Default Take //// Cube4343
+    7400328: Default Take //// Cube141128_MeshCollider
+    7400330: Default Take //// Cube141127_MeshCollider
+    7400332: Default Take //// Cube4342
+    7400334: Default Take //// Cube653_MeshCollider
+    7400336: Default Take //// Cube211132_MeshCollider
+    7400338: Default Take //// Cube111132_MeshCollider
+    7400340: Default Take //// Cube652_MeshCollider
+    7400342: Default Take //// Cube4341
+    7400344: Default Take //// Cube651_MeshCollider
+    7400346: Default Take //// Cube111131_MeshCollider
+    7400348: Default Take //// Cube211131_MeshCollider
+    7400350: Default Take //// hhah4_MeshCollider
+    7400352: Default Take //// Cube141126_MeshCollider
+    7400354: Default Take //// Cube141125_MeshCollider
+    7400356: Default Take //// Cube141124_MeshCollider
+    7400358: Default Take //// Cube141123_MeshCollider
+    7400360: Default Take //// hhah2_MeshCollider
+    7400362: Default Take //// Cube141122_MeshCollider
+    7400364: Default Take //// Cube149_MeshCollider9001
+    7400366: Default Take //// kaj_MeshCollider
+    7400368: Default Take //// Cube21214
+    7400370: Default Take //// Cube214
+    7400372: Default Take //// Cube213
+    7400374: Default Take //// Cube21213
+    7400376: Default Take //// Cube21212
+    7400378: Default Take //// Cube21299
+    7400380: Default Take //// Cube211
+    7400382: Default Take //// Cube21211
+    7400384: Default Take //// Cub
+    7400386: Default Take //// Cube219001
+    7400388: Default Take //// Cube2
+    7400390: Default Take //// Cube2129001
+    7400392: Default Take //// Cube21289001
+    7400394: Default Take //// Cube289001
+    7400396: Default Take //// Cube279002
+    7400398: Default Take //// Cube21279002
+    7400400: Default Take //// Cube21269002
+    7400402: Default Take //// Cube269002
+    7400404: Default Take //// Cube259002
+    7400406: Default Take //// Cube21259002
+    7400408: Default Take //// Cube21249002
+    7400410: Default Take //// Cube249002
+    7400412: Default Take //// Cube239002
+    7400414: Default Take //// Cube21239002
+    7400416: Default Take //// Cub123
+    7400418: Default Take //// Cube229002
+    7400420: Default Take //// Cube29001
+    7400422: Default Take //// cubeee
+    7400424: Default Take //// Cube43
+    7400426: Default Take //// Cube438
+    7400428: Default Take //// Cube151
+    7400430: Default Take //// Cube13_BoxCollider
+    7400432: Default Take //// Cube437
+    7400434: Default Take //// Cube436
+    7400436: Default Take //// Cube67_MeshCollider
+    7400438: Default Take //// Cube11114_MeshCollider
+    7400440: Default Take //// Cube21114_MeshCollider
+    7400442: Default Take //// Bridge3_MeshCollider
+    7400444: Default Take //// Cube66_MeshCollider
+    7400446: Default Take //// Cube435
+    7400448: Default Take //// Cube65_MeshCollider
+    7400450: Default Take //// Cube434
+    7400452: Default Take //// Cube64_MeshCollider
+    7400454: Default Take //// Cube63
+    7400456: Default Take //// Cube433
+    7400458: Default Take //// Cube21113_MeshCollider
+    7400460: Default Take //// Cube11113_MeshCollider
+    7400462: Default Take //// Cube1113_MeshCollider
+    7400464: Default Take //// Cube11_MeshCollider
+    7400466: Default Take //// Cube91_MeshCollider9001
+    7400468: Default Take //// Cube81_MeshCollider
+    7400470: Default Take //// Cube71_MeshCollider
+    7400472: Default Take //// Cube62_MeshCollider
+    7400474: Default Take //// Cube5_MeshCollider
+    7400476: Default Take //// Cube41_MeshCollider
+    7400478: Default Take //// Cube31_MeshCollider
+    7400480: Default Take //// Cube14112_MeshCollider9001
+    7400482: Default Take //// Cube2129002
+    7400484: Default Take //// Cube219002
+    7400486: Default Take //// Cube432
+    7400488: Default Take //// Circle2
+    7400490: Default Take //// Cube212_MeshCollider
+    7400492: Default Take //// Cube11112_MeshCollider
+    7400494: Default Take //// Cube21112_MeshCollider
+    7400496: Default Take //// camPuzzle
+    7400498: Default Take //// camHint
+    7400500: Default Take //// Empty3
+    7400502: Default Take //// L5
+    7400504: Default Take //// L4
+    7400506: Default Take //// L3
+    7400508: Default Take //// L2
+    7400510: Default Take //// L1
+    7400512: Default Take //// Cube181_MeshCollider
+    7400514: Default Take //// Empty2
+    7400516: Default Take //// BridgeLever_MeshCollider1
+    7400518: Default Take //// Empty1
+    7400520: Default Take //// LeverBridge
+    7400522: Default Take //// Cube1111_BoxCollider
+    7400524: Default Take //// Empty
+    7400526: Default Take //// Bridge_MeshCollider
+    7400528: Default Take //// L5_BoxCollider
+    7400530: Default Take //// L4_BoxCollider
+    7400532: Default Take //// L3_BoxCollider
+    7400534: Default Take //// L2_BoxCollider
+    7400536: Default Take //// L1_BoxCollider
+    9500000: //RootNode
+    11100000: Bridge3_MeshCollider
+    11100002: Bridge_MeshCollider
+    11100004: BridgeLever_MeshCollider1
+    11100006: camHint
+    11100008: camPuzzle
+    11100010: Circle2
+    11100012: Cub
+    11100014: Cub123
+    11100016: Cube11112_MeshCollider
+    11100018: Cube111131_MeshCollider
+    11100020: Cube111132_MeshCollider
+    11100022: Cube11113_MeshCollider
+    11100024: Cube11114_MeshCollider
+    11100026: Cube1111_BoxCollider
+    11100028: Cube1113_MeshCollider
+    11100030: Cube11_MeshCollider
+    11100032: Cube13_BoxCollider
+    11100034: Cube141122_MeshCollider
+    11100036: Cube141123_MeshCollider
+    11100038: Cube141124_MeshCollider
+    11100040: Cube141125_MeshCollider
+    11100042: Cube141126_MeshCollider
+    11100044: Cube141127_MeshCollider
+    11100046: Cube141128_MeshCollider
+    11100048: Cube14112_MeshCollider9001
+    11100050: Cube149112_MeshCollider
+    11100052: Cube149_MeshCollider9001
+    11100054: Cube14_MeshCollider
+    11100056: Cube151
+    11100058: Cube181_MeshCollider
+    11100060: Cube1_MeshCollider
+    11100062: Cube2
+    11100064: Cube21
+    11100066: Cube211
+    11100068: Cube21112_MeshCollider
+    11100070: Cube211131_MeshCollider
+    11100072: Cube211132_MeshCollider
+    11100074: Cube21113_MeshCollider
+    11100076: Cube21114_MeshCollider
+    11100078: Cube2121
+    11100080: Cube21211
+    11100082: Cube21212
+    11100084: Cube21213
+    11100086: Cube21214
+    11100088: Cube21215
+    11100090: Cube21216
+    11100092: Cube21217
+    11100094: Cube21218
+    11100096: Cube2122
+    11100098: Cube21221
+    11100100: Cube21222
+    11100102: Cube21223
+    11100104: Cube21224
+    11100106: Cube21225
+    11100108: Cube21226
+    11100110: Cube21227
+    11100112: Cube21228
+    11100114: Cube2123
+    11100116: Cube21231
+    11100118: Cube21232
+    11100120: Cube21233
+    11100122: Cube21234
+    11100124: Cube21235
+    11100126: Cube21236
+    11100128: Cube21237
+    11100130: Cube21238
+    11100132: Cube21239001
+    11100134: Cube21239002
+    11100136: Cube2124
+    11100138: Cube21241
+    11100140: Cube21242
+    11100142: Cube21243
+    11100144: Cube21244
+    11100146: Cube21245
+    11100148: Cube21246
+    11100150: Cube21247
+    11100152: Cube21248
+    11100154: Cube21249001
+    11100156: Cube21249002
+    11100158: Cube2125
+    11100160: Cube21251
+    11100162: Cube21252
+    11100164: Cube21253
+    11100166: Cube21254
+    11100168: Cube21255
+    11100170: Cube21256
+    11100172: Cube21257
+    11100174: Cube21258
+    11100176: Cube21259001
+    11100178: Cube21259002
+    11100180: Cube2126
+    11100182: Cube21261
+    11100184: Cube21262
+    11100186: Cube21263
+    11100188: Cube21264
+    11100190: Cube21265
+    11100192: Cube21266
+    11100194: Cube21267
+    11100196: Cube21268
+    11100198: Cube21269001
+    11100200: Cube21269002
+    11100202: Cube2127
+    11100204: Cube21271
+    11100206: Cube21272
+    11100208: Cube21273
+    11100210: Cube21274
+    11100212: Cube21275
+    11100214: Cube21276
+    11100216: Cube21277
+    11100218: Cube21278
+    11100220: Cube21279001
+    11100222: Cube21279002
+    11100224: Cube2128
+    11100226: Cube21281
+    11100228: Cube21282
+    11100230: Cube21283
+    11100232: Cube21284
+    11100234: Cube21289001
+    11100236: Cube2129001
+    11100238: Cube2129002
+    11100240: Cube21299
+    11100242: Cube212_MeshCollider
+    11100244: Cube213
+    11100246: Cube214
+    11100248: Cube215
+    11100250: Cube216
+    11100252: Cube217
+    11100254: Cube218
+    11100256: Cube219001
+    11100258: Cube219002
+    11100260: Cube22
+    11100262: Cube221
+    11100264: Cube222
+    11100266: Cube2229001
+    11100268: Cube223
+    11100270: Cube224
+    11100272: Cube225
+    11100274: Cube226
+    11100276: Cube227
+    11100278: Cube228
+    11100280: Cube229001
+    11100282: Cube229002
+    11100284: Cube23
+    11100286: Cube231
+    11100288: Cube232
+    11100290: Cube233
+    11100292: Cube234
+    11100294: Cube235
+    11100296: Cube236
+    11100298: Cube237
+    11100300: Cube238
+    11100302: Cube239001
+    11100304: Cube239002
+    11100306: Cube24
+    11100308: Cube241
+    11100310: Cube242
+    11100312: Cube243
+    11100314: Cube244
+    11100316: Cube245
+    11100318: Cube246
+    11100320: Cube247
+    11100322: Cube248
+    11100324: Cube249001
+    11100326: Cube249002
+    11100328: Cube25
+    11100330: Cube251
+    11100332: Cube252
+    11100334: Cube253
+    11100336: Cube254
+    11100338: Cube255
+    11100340: Cube256
+    11100342: Cube257
+    11100344: Cube258
+    11100346: Cube259001
+    11100348: Cube259002
+    11100350: Cube26
+    11100352: Cube261
+    11100354: Cube262
+    11100356: Cube263
+    11100358: Cube264
+    11100360: Cube265
+    11100362: Cube266
+    11100364: Cube267
+    11100366: Cube268
+    11100368: Cube269001
+    11100370: Cube269002
+    11100372: Cube27
+    11100374: Cube271
+    11100376: Cube272
+    11100378: Cube273
+    11100380: Cube274
+    11100382: Cube275
+    11100384: Cube276
+    11100386: Cube277
+    11100388: Cube278
+    11100390: Cube279001
+    11100392: Cube279002
+    11100394: Cube28
+    11100396: Cube281
+    11100398: Cube282
+    11100400: Cube283
+    11100402: Cube284
+    11100404: Cube289001
+    11100406: Cube29001
+    11100408: Cube31_MeshCollider
+    11100410: Cube41_MeshCollider
+    11100412: Cube43
+    11100414: Cube432
+    11100416: Cube433
+    11100418: Cube434
+    11100420: Cube4341
+    11100422: Cube4342
+    11100424: Cube4343
+    11100426: Cube435
+    11100428: Cube436
+    11100430: Cube437
+    11100432: Cube438
+    11100434: Cube4511_MeshCollider
+    11100436: Cube5_MeshCollider
+    11100438: Cube62_MeshCollider
+    11100440: Cube63
+    11100442: Cube631_MeshCollider
+    11100444: Cube6411_MeshCollider
+    11100446: Cube6412_MeshCollider
+    11100448: Cube6413_MeshCollider
+    11100450: Cube641_MeshCollider
+    11100452: Cube64_MeshCollider
+    11100454: Cube651_MeshCollider
+    11100456: Cube652_MeshCollider
+    11100458: Cube653_MeshCollider
+    11100460: Cube65_MeshCollider
+    11100462: Cube66_MeshCollider
+    11100464: Cube67_MeshCollider
+    11100466: Cube71_MeshCollider
+    11100468: Cube81_MeshCollider
+    11100470: Cube91_MeshCollider9001
+    11100472: cubee
+    11100474: cubeee
+    11100476: Empty
+    11100478: Empty1
+    11100480: Empty2
+    11100482: Empty3
+    11100484: hhah2_MeshCollider
+    11100486: hhah41_MeshCollider
+    11100488: hhah42_MeshCollider
+    11100490: hhah43_MeshCollider
+    11100492: hhah44_MeshCollider
+    11100494: hhah45_MeshCollider
+    11100496: hhah46_MeshCollider
+    11100498: hhah47_MeshCollider
+    11100500: hhah48_MeshCollider
+    11100502: hhah4_MeshCollider
+    11100504: HintArea_BoxCollider_area_trigger
+    11100506: kaj_MeshCollider
+    11100508: L1
+    11100510: L2
+    11100512: L3
+    11100514: L4
+    11100516: L5
+    11100518: //RootNode
+    11100520: LeverArea_BoxCollider_area_trigger
+    11100522: LeverBridge
+    11100524: portal_MeshCollider_trigger
+    11100526: PuzzleArea_BoxCollider_area_trigger
+    11100528: L1_BoxCollider
+    11100530: L2_BoxCollider
+    11100532: L3_BoxCollider
+    11100534: L4_BoxCollider
+    11100536: L5_BoxCollider
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 2
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
