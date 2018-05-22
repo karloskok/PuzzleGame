@@ -1,0 +1,30 @@
+********************************************************
+******************* DREAM WORLD 2.0 ********************
+********************************************************
+
+* need to do
++ done
+
+Game:
+* input for gamepad
+
+All levels:
+* player animations
+* player input
+* intro, tutorial
+* add lasers nad receivers
+* show text "Press E " for interact
+* change main menu and settings menu
+* storyline 
+* inventory and pick up items, place items
+* skybox
+* portal particles
+* add sound effects and background music
+* fill up levels with more models, better graphics
+* postprocessing 
+* optimization
+
+
+*add more levels
+
+...
