@@ -100,7 +100,7 @@ public class Level13 : Level13Base {
             Level.PushCamera(camHint1.transform, camMain.transform);
         }
 
-        if(FirstPuzzleLeverDown.interact == FirstPuzzleCube)
+        if (FirstPuzzleLeverDown.interact == FirstPuzzleCube || FirstPuzzleLeverDown == player.interact)
         {
             Level.Stamp(FirstBridge, .5f);
             Level.Stamp(FirstPuzzleLeverDown, 2f);

@@ -9,6 +9,7 @@ Game:
 * input for gamepad
 
 All levels:
+* restart level when fall from world
 * player animations
 * player input
 * intro, tutorial
