@@ -47,6 +47,11 @@ public class Level11 : Level11Base {
             Level.Stamp(Lever, 2);
         }
 
+        if (player.interact == Restart)
+        {
+            StartCoroutine(NextLevel(false));
+        }
+
         if (Lever.wasStamped)
         {
             Level.Stamp(Bridge);
@@ -59,11 +64,19 @@ public class Level11 : Level11Base {
         
     }
 
-    public IEnumerator NextLevel()
+    public IEnumerator NextLevel(bool next = true)
     {
         ImageFade fade = GameObject.FindObjectOfType<ImageFade>();
         fade.FadeImage(false);
-        yield return null;
-        SceneManager.LoadScene("Level2");
+        if (next)
+        { 
+            yield return null;
+            SceneManager.LoadScene("Level2");
+        }
+        else
+        {
+            yield return null;
+            SceneManager.LoadScene("Level1");
+        }
     }
 }

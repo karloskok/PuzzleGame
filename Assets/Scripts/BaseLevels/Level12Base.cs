@@ -253,6 +253,7 @@ public class Level12Base : MonoBehaviour
 	 protected Element Cube212;
 	 protected Element Cube11112;
 	 protected Element Cube21112;
+	 protected Element Restart;
 	 protected Element camPuzzle;
 	 protected Element camHint;
 	 protected Element Empty3;
@@ -535,6 +536,7 @@ public class Level12Base : MonoBehaviour
 		Cube212 = GameObject.Find("/Level12/Cube212").GetComponent<Element>();
 		Cube11112 = GameObject.Find("/Level12/Cube11112").GetComponent<Element>();
 		Cube21112 = GameObject.Find("/Level12/Cube21112").GetComponent<Element>();
+		Restart = GameObject.Find("/Level12/Restart").GetComponent<Element>();
 		camPuzzle = GameObject.Find("/Level12/camPuzzle").GetComponent<Element>();
 		camHint = GameObject.Find("/Level12/camHint").GetComponent<Element>();
 		Empty3 = GameObject.Find("/Level12/Empty3").GetComponent<Element>();

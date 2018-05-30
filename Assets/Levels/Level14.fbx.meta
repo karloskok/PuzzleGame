@@ -271,6 +271,7 @@ ModelImporter:
     100526: reci
     100528: reci9001
     100530: Cube901390019001
+    100532: Restart_BoxCollider_trigger
     400000: Bridge90029001
     400002: Bridge900290019001
     400004: Bridge900290019002
@@ -537,11 +538,13 @@ ModelImporter:
     400526: reci
     400528: reci9001
     400530: Cube901390019001
+    400532: Restart_BoxCollider_trigger
     2100000: Material_002__Color-Palette_png
     2100002: None__Color-Palette_png
     2100004: Color__Color-Palette_png
     2100006: None__Color-Palette_png_001
     2100008: None__Color-Palette_png_002
+    2100010: None__Color-Palette_png_003
     2300000: Bridge90029001
     2300002: Bridge900290019001
     2300004: Bridge900290019002
@@ -807,6 +810,7 @@ ModelImporter:
     2300524: reci
     2300526: reci9001
     2300528: Cube901390019001
+    2300530: Restart_BoxCollider_trigger
     3300000: Bridge90029001
     3300002: Bridge900290019001
     3300004: Bridge900290019002
@@ -1072,6 +1076,7 @@ ModelImporter:
     3300524: reci
     3300526: reci9001
     3300528: Cube901390019001
+    3300530: Restart_BoxCollider_trigger
     4300000: hhah900490019000
     4300002: Cube90029001900290069028
     4300004: Cube900290069028
@@ -1337,6 +1342,7 @@ ModelImporter:
     4300524: Cube9003
     4300526: Cube9004
     4300528: Cube901390019001
+    4300530: Restart_BoxCollider_trigger
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}

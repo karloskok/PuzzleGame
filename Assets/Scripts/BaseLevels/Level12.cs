@@ -52,6 +52,12 @@ public class Level12 : Level12Base {
         else
             player.GetComponent<Movement>().enabled = true;
 
+        if (player.interact == Restart)
+        {
+            StartCoroutine(NextLevel(false));
+        }
+
+
         if (player.interact == PuzzleArea && Input.GetKeyDown(KeyCode.E))
         {
             Level.PushCamera(camMain.transform, camPuzzle.transform);
@@ -101,7 +107,7 @@ public class Level12 : Level12Base {
             foreach (Element l in levers)
             {
                 if (l.isInteract)
-                    Level.MoveTowards(l, l.animValue - l.angleFromStart, 2);
+                    Level.MoveTowards(l, l.animValue - l.angleFromStart, 3);
             }
         }
 
@@ -122,11 +128,19 @@ public class Level12 : Level12Base {
         
     }
 
-    public IEnumerator NextLevel()
+    public IEnumerator NextLevel(bool next = true)
     {
         ImageFade fade = GameObject.FindObjectOfType<ImageFade>();
         fade.FadeImage(false);
-        yield return null;
-        SceneManager.LoadScene("Level3");
+        if (next)
+        {
+            yield return null;
+            SceneManager.LoadScene("Level3");
+        }
+        else
+        {
+            yield return null;
+            SceneManager.LoadScene("Level2");
+        }
     }
 }

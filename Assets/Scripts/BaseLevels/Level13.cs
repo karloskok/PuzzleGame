@@ -17,7 +17,7 @@ public class Level13 : Level13Base {
 
     Hotspots hotspot6;
 
-    Element[] buttons, firstRotators;
+    Element[] buttons, firstRotators, secondRotators;
     float[] correctButtons1, correctButtons2, correctButtons3;
     int[] correctRot1;
 
@@ -61,7 +61,7 @@ public class Level13 : Level13Base {
         }
 
         Hint2Area.isActive = false;
-
+        Hint3Area.isActive = false;
         //R11.wrapMode = WrapMode.Loop;
         //R11.elementMove = Element.ElementMove.x;
         //Level.SetWrapMode(R11, WrapMode.Loop);
@@ -77,6 +77,17 @@ public class Level13 : Level13Base {
             Level.SetToHotspot(r, hotspot6, rand);
         }
 
+        secondRotators = new Element[] { RRot1, RRot2, RRot3, RRot4, RRot5,RRot6, RRot7, RRot8, RRot9, RRot10, RRot11, RRot12, RRot13, RRot14, RRot15, RRot16, RRot17, RRot18, RRot19, RRot20, RRot21, RRot22, RRot23, RRot24, RRot25, RRot26, RRot27};
+        foreach (Element r in secondRotators)
+        {
+            Level.SetWrapMode(r, WrapMode.Loop);
+        }
+
+        foreach (Element r in secondRotators)
+        {
+            int rand = Random.Range(0, 6);
+            Level.SetToHotspot(r, hotspot6, rand);
+        }
     }
 
     // Update is called once per frame
@@ -90,6 +101,12 @@ public class Level13 : Level13Base {
         }
         else
             player.GetComponent<Movement>().enabled = true;
+
+        if (player.interact == Restart)
+        {
+            StartCoroutine(NextLevel(false));
+        }
+
 
         if (player.interact == Hint1Area && Input.GetKeyDown(KeyCode.E))
         {
@@ -175,9 +192,23 @@ public class Level13 : Level13Base {
             Level.PushCamera(camRot1.transform, camMain.transform);
         }
 
+        if (player.interact == RotPuzzle2Area && Input.GetKeyDown(KeyCode.E))
+        {
+            Level.PushCamera(camMain.transform, camRot2.transform);
+        }
+        if (camRot2.GetComponent<Camera>().enabled && Input.GetKeyDown(KeyCode.Escape))
+        {
+            Level.PushCamera(camRot2.transform, camMain.transform);
+        }
+
 
 
         foreach (Element r in firstRotators)
+        {
+            if (!r.isInteract)
+                Level.MoveToHotspot(r, hotspot6, Level.GetCurrentHotspot(r, hotspot6));
+        }
+        foreach (Element r in secondRotators)
         {
             if (!r.isInteract)
                 Level.MoveToHotspot(r, hotspot6, Level.GetCurrentHotspot(r, hotspot6));
@@ -189,6 +220,16 @@ public class Level13 : Level13Base {
         if (Input.GetMouseButtonDown(0))
         {
             foreach (Element r in firstRotators)
+            {
+                if (r.isInteract)
+                {
+                    int val = Level.GetCurrentHotspot(r, hotspot6);
+                    if (++val >= hotspot6.spots) val = 0;
+                    Level.SetToHotspot(r, hotspot6, val);
+                }
+            }
+
+            foreach (Element r in secondRotators)
             {
                 if (r.isInteract)
                 {
@@ -216,7 +257,6 @@ public class Level13 : Level13Base {
             }
         }
 
-       
         if (player.interact == Hint2Area && Input.GetKeyDown(KeyCode.E))
         {
             Level.PushCamera(camMain.transform, camHint2.transform);
@@ -224,6 +264,34 @@ public class Level13 : Level13Base {
         if (camHint2.GetComponent<Camera>().enabled && Input.GetKeyDown(KeyCode.Escape))
         {
             Level.PushCamera(camHint2.transform, camMain.transform);
+        }
+
+        //second
+        bool secondRotTrue = true;
+        foreach (Element r in secondRotators)
+        {
+            if (Level.GetCurrentHotspot(r, hotspot6) != 0)
+                secondRotTrue = false;
+        }
+
+        if (secondRotTrue)
+        {
+            Hint3Area.isActive = true;
+            Hint3Area.gameObject.SetActive(true);
+            if (Level.Stamp(Hint3, .5f))
+            {
+                Level.PushCamera(camRot2.transform, camMain.transform);
+            }
+        }
+
+
+        if (player.interact == Hint3Area && Input.GetKeyDown(KeyCode.E))
+        {
+            Level.PushCamera(camMain.transform, camHint3.transform);
+        }
+        if (camHint3.GetComponent<Camera>().enabled && Input.GetKeyDown(KeyCode.Escape))
+        {
+            Level.PushCamera(camHint3.transform, camMain.transform);
         }
 
         //
@@ -237,11 +305,19 @@ public class Level13 : Level13Base {
         
     }
 
-    public IEnumerator NextLevel()
+    public IEnumerator NextLevel(bool next = true)
     {
         ImageFade fade = GameObject.FindObjectOfType<ImageFade>();
         fade.FadeImage(false);
-        yield return null;
-        SceneManager.LoadScene("Level4");
+        if (next)
+        {
+            yield return null;
+            SceneManager.LoadScene("Level4");
+        }
+        else
+        {
+            yield return null;
+            SceneManager.LoadScene("Level3");
+        }
     }
 }

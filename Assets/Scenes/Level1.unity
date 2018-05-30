@@ -989,9 +989,73 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1242694951000264, guid: a76c8a2d76543fd4583df07c210b49c1, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a76c8a2d76543fd4583df07c210b49c1, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &248461298 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100222, guid: 83fa5766fcfb2f94bb6915d903a23e91, type: 3}
+  m_PrefabInternal: {fileID: 713341862}
+--- !u!65 &248461303
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 248461298}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.040000018, y: 0.040000007, z: 0.38735825}
+  m_Center: {x: -1.0774786e-25, y: 0.0000000011110345, z: -0.17367893}
+--- !u!114 &248461304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 248461298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810e7ba11060f7e4c9b3119bc83be31e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &248461305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 248461298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animValue: 0
+  targetValue: 0
+  wrapMode: 0
+  wasStamped: 0
+  stamp: 0
+  timer: 1
+  isVisible: 1
+  isActive: 1
+  canInteract: 1
+  anim: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  capsuleCollider: {fileID: 0}
+  sphereCollider: {fileID: 0}
+  _name: Restart
+  _index: 90
+  stampMaterial: 0
+  isInteract: 0
+  angleFromStart: 0
+  elementMove: 0
+  interact: {fileID: 0}
 --- !u!1 &260932558 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100144, guid: 83fa5766fcfb2f94bb6915d903a23e91, type: 3}

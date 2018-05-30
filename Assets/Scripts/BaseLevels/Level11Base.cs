@@ -90,6 +90,7 @@ public class Level11Base : MonoBehaviour
 	 protected Element Cube9001;
 	 protected Element portal;
 	 protected Element Cube9291;
+	 protected Element Restart;
 	 protected Element Empty9001;
 	 protected Element Lever;
 	 protected Element Cube900190019001;
@@ -198,6 +199,7 @@ public class Level11Base : MonoBehaviour
 		Cube9001 = GameObject.Find("/Level11/Cube9001").GetComponent<Element>();
 		portal = GameObject.Find("/Level11/portal").GetComponent<Element>();
 		Cube9291 = GameObject.Find("/Level11/Cube9291").GetComponent<Element>();
+		Restart = GameObject.Find("/Level11/Restart").GetComponent<Element>();
 		Empty9001 = GameObject.Find("/Level11/Empty9001").GetComponent<Element>();
 		Lever = GameObject.Find("/Level11/Empty9001/Lever").GetComponent<Element>();
 		Cube900190019001 = GameObject.Find("/Level11/Empty9001/Cube900190019001").GetComponent<Element>();

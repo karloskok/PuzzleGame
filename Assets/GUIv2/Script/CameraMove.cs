@@ -9,8 +9,8 @@ public class CameraMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.position = Vector3.Lerp(transform.position, currentMount.position, speedFactor);
-        transform.rotation = Quaternion.Slerp(transform.rotation, currentMount.rotation, speedFactor);
+        transform.position = Vector3.Lerp(transform.position, currentMount.position, speedFactor * Time.deltaTime);
+        transform.rotation = Quaternion.Slerp(transform.rotation, currentMount.rotation, speedFactor * Time.deltaTime);
 	}
 
     public void setPosition(Transform newMount)

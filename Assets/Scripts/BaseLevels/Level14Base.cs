@@ -269,6 +269,7 @@ public class Level14Base : MonoBehaviour
 	 protected Element Cube90139001;
 	 protected Element Cube9003;
 	 protected Element Cube9004;
+	 protected Element Restart;
  
 	void Awake () 
 	{
@@ -551,6 +552,7 @@ public class Level14Base : MonoBehaviour
 		Cube90139001 = GameObject.Find("/Level14/Cube90139001").GetComponent<Element>();
 		Cube9003 = GameObject.Find("/Level14/Cube9003").GetComponent<Element>();
 		Cube9004 = GameObject.Find("/Level14/Cube9004").GetComponent<Element>();
+		Restart = GameObject.Find("/Level14/Restart").GetComponent<Element>();
 		DestroyImmediate(GetComponent<Element>());
 		DestroyImmediate(GetComponent<Animation>());
  

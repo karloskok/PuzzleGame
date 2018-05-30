@@ -349,6 +349,43 @@ ModelImporter:
     100682: camRot2
     100684: Empty9001900190019001
     100686: FirstPuzzleLeverDown_MeshCollider_trigger
+    100688: Restart_BoxCollider_trigger
+    100690: camHint3
+    100692: Empty9001_001
+    100694: Hint3Area_BoxCollider_area_trigger
+    100696: RRot10_BoxCollider
+    100698: RRot11_BoxCollider
+    100700: RRot12_BoxCollider
+    100702: RRot13_BoxCollider
+    100704: RRot14_BoxCollider
+    100706: RRot15_BoxCollider
+    100708: RRot16_BoxCollider
+    100710: RRot17_BoxCollider
+    100712: RRot18_BoxCollider
+    100714: RRot19_BoxCollider
+    100716: RRot1_BoxCollider
+    100718: RRot20_BoxCollider
+    100720: RRot21_BoxCollider
+    100722: RRot22_BoxCollider
+    100724: RRot23_BoxCollider
+    100726: RRot24_BoxCollider
+    100728: RRot25_BoxCollider
+    100730: RRot26_BoxCollider
+    100732: RRot27_BoxCollider
+    100734: RRot2_BoxCollider
+    100736: RRot3_BoxCollider
+    100738: RRot4_BoxCollider
+    100740: RRot5_BoxCollider
+    100742: RRot6_BoxCollider
+    100744: RRot7_BoxCollider
+    100746: RRot8_BoxCollider
+    100748: RRot9_BoxCollider
+    100750: Empty9001900190019001_001
+    100752: Emp
+    100754: Empty90
+    100756: Empty909001
+    100758: RotPuzzle2Area_BoxCollider_area_trigger
+    100760: Hint3
     400000: Bridge90029002
     400002: Bridge90029003
     400004: Bridge90029004
@@ -693,15 +730,54 @@ ModelImporter:
     400682: camRot2
     400684: Empty9001900190019001
     400686: FirstPuzzleLeverDown_MeshCollider_trigger
+    400688: Restart_BoxCollider_trigger
+    400690: camHint3
+    400692: Empty9001_001
+    400694: Hint3Area_BoxCollider_area_trigger
+    400696: RRot10_BoxCollider
+    400698: RRot11_BoxCollider
+    400700: RRot12_BoxCollider
+    400702: RRot13_BoxCollider
+    400704: RRot14_BoxCollider
+    400706: RRot15_BoxCollider
+    400708: RRot16_BoxCollider
+    400710: RRot17_BoxCollider
+    400712: RRot18_BoxCollider
+    400714: RRot19_BoxCollider
+    400716: RRot1_BoxCollider
+    400718: RRot20_BoxCollider
+    400720: RRot21_BoxCollider
+    400722: RRot22_BoxCollider
+    400724: RRot23_BoxCollider
+    400726: RRot24_BoxCollider
+    400728: RRot25_BoxCollider
+    400730: RRot26_BoxCollider
+    400732: RRot27_BoxCollider
+    400734: RRot2_BoxCollider
+    400736: RRot3_BoxCollider
+    400738: RRot4_BoxCollider
+    400740: RRot5_BoxCollider
+    400742: RRot6_BoxCollider
+    400744: RRot7_BoxCollider
+    400746: RRot8_BoxCollider
+    400748: RRot9_BoxCollider
+    400750: Empty9001900190019001_001
+    400752: Emp
+    400754: Empty90
+    400756: Empty909001
+    400758: RotPuzzle2Area_BoxCollider_area_trigger
+    400760: Hint3
     2000000: camButtons
     2000002: camHint1
     2000004: camHint2
     2000006: camRot1
     2000008: camRot2
+    2000010: camHint3
     2100000: None__Color-Palette_png
     2100002: Material_002__Color-Palette_png
     2100004: unnamed
     2100006: Color__Color-Palette_png
+    2100008: None__Color-Palette_png_001
     2300000: Bridge90029002
     2300002: Bridge90029003
     2300004: Bridge90029004
@@ -1031,6 +1107,37 @@ ModelImporter:
     2300652: Hint2Lit_MeshCollider
     2300654: rupaaa_BoxCollider_area
     2300656: FirstPuzzleLeverDown_MeshCollider_trigger
+    2300658: Restart_BoxCollider_trigger
+    2300660: Hint3Area_BoxCollider_area_trigger
+    2300662: RRot10_BoxCollider
+    2300664: RRot11_BoxCollider
+    2300666: RRot12_BoxCollider
+    2300668: RRot13_BoxCollider
+    2300670: RRot14_BoxCollider
+    2300672: RRot15_BoxCollider
+    2300674: RRot16_BoxCollider
+    2300676: RRot17_BoxCollider
+    2300678: RRot18_BoxCollider
+    2300680: RRot19_BoxCollider
+    2300682: RRot1_BoxCollider
+    2300684: RRot20_BoxCollider
+    2300686: RRot21_BoxCollider
+    2300688: RRot22_BoxCollider
+    2300690: RRot23_BoxCollider
+    2300692: RRot24_BoxCollider
+    2300694: RRot25_BoxCollider
+    2300696: RRot26_BoxCollider
+    2300698: RRot27_BoxCollider
+    2300700: RRot2_BoxCollider
+    2300702: RRot3_BoxCollider
+    2300704: RRot4_BoxCollider
+    2300706: RRot5_BoxCollider
+    2300708: RRot6_BoxCollider
+    2300710: RRot7_BoxCollider
+    2300712: RRot8_BoxCollider
+    2300714: RRot9_BoxCollider
+    2300716: RotPuzzle2Area_BoxCollider_area_trigger
+    2300718: Hint3
     3300000: Bridge90029002
     3300002: Bridge90029003
     3300004: Bridge90029004
@@ -1360,6 +1467,37 @@ ModelImporter:
     3300652: Hint2Lit_MeshCollider
     3300654: rupaaa_BoxCollider_area
     3300656: FirstPuzzleLeverDown_MeshCollider_trigger
+    3300658: Restart_BoxCollider_trigger
+    3300660: Hint3Area_BoxCollider_area_trigger
+    3300662: RRot10_BoxCollider
+    3300664: RRot11_BoxCollider
+    3300666: RRot12_BoxCollider
+    3300668: RRot13_BoxCollider
+    3300670: RRot14_BoxCollider
+    3300672: RRot15_BoxCollider
+    3300674: RRot16_BoxCollider
+    3300676: RRot17_BoxCollider
+    3300678: RRot18_BoxCollider
+    3300680: RRot19_BoxCollider
+    3300682: RRot1_BoxCollider
+    3300684: RRot20_BoxCollider
+    3300686: RRot21_BoxCollider
+    3300688: RRot22_BoxCollider
+    3300690: RRot23_BoxCollider
+    3300692: RRot24_BoxCollider
+    3300694: RRot25_BoxCollider
+    3300696: RRot26_BoxCollider
+    3300698: RRot27_BoxCollider
+    3300700: RRot2_BoxCollider
+    3300702: RRot3_BoxCollider
+    3300704: RRot4_BoxCollider
+    3300706: RRot5_BoxCollider
+    3300708: RRot6_BoxCollider
+    3300710: RRot7_BoxCollider
+    3300712: RRot8_BoxCollider
+    3300714: RRot9_BoxCollider
+    3300716: RotPuzzle2Area_BoxCollider_area_trigger
+    3300718: Hint3
     4300000: Cube90149001900190029001
     4300002: hhah9002
     4300004: Cube904590019000
@@ -1689,6 +1827,37 @@ ModelImporter:
     4300652: Hint2Lit_MeshCollider
     4300654: rupaaa_BoxCollider_area
     4300656: FirstPuzzleLeverDown_MeshCollider_trigger
+    4300658: Restart_BoxCollider_trigger
+    4300660: Hint3Area_BoxCollider_area_trigger
+    4300662: RRot27_BoxCollider
+    4300664: RRot26_BoxCollider
+    4300666: RRot25_BoxCollider
+    4300668: RRot24_BoxCollider
+    4300670: RRot21_BoxCollider
+    4300672: RRot20_BoxCollider
+    4300674: RRot22_BoxCollider
+    4300676: RRot19_BoxCollider
+    4300678: RRot23_BoxCollider
+    4300680: RRot18_BoxCollider
+    4300682: RRot15_BoxCollider
+    4300684: RRot12_BoxCollider
+    4300686: RRot11_BoxCollider
+    4300688: RRot8_BoxCollider
+    4300690: RRot7_BoxCollider
+    4300692: RRot4_BoxCollider
+    4300694: RRot3_BoxCollider
+    4300696: RRot17_BoxCollider
+    4300698: RRot14_BoxCollider
+    4300700: RRot16_BoxCollider
+    4300702: RRot13_BoxCollider
+    4300704: RRot9_BoxCollider
+    4300706: RRot6_BoxCollider
+    4300708: RRot5_BoxCollider
+    4300710: RRot1_BoxCollider
+    4300712: RRot2_BoxCollider
+    4300714: RRot10_BoxCollider
+    4300716: RotPuzzle2Area_BoxCollider_area_trigger
+    4300718: Hint3
     7400000: Default Take
     7400002: Default Take //// ButtonsArea_BoxCollider_area_trigger
     7400004: Default Take //// Hint1Area_BoxCollider_area_trigger
@@ -1992,6 +2161,43 @@ ModelImporter:
     7400600: Default Take //// camRot2
     7400602: Default Take //// Empty9001900190019001
     7400604: Default Take //// FirstPuzzleLeverDown_MeshCollider_trigger
+    7400606: Default Take //// Restart_BoxCollider_trigger
+    7400608: Default Take //// Hint3Area_BoxCollider_area_trigger
+    7400610: Default Take //// camHint3
+    7400612: Default Take //// Empty9001_001
+    7400614: Default Take //// RRot27_BoxCollider
+    7400616: Default Take //// RRot26_BoxCollider
+    7400618: Default Take //// RRot25_BoxCollider
+    7400620: Default Take //// RRot24_BoxCollider
+    7400622: Default Take //// RRot21_BoxCollider
+    7400624: Default Take //// RRot20_BoxCollider
+    7400626: Default Take //// RRot22_BoxCollider
+    7400628: Default Take //// RRot19_BoxCollider
+    7400630: Default Take //// RRot23_BoxCollider
+    7400632: Default Take //// RRot18_BoxCollider
+    7400634: Default Take //// RRot15_BoxCollider
+    7400636: Default Take //// RRot12_BoxCollider
+    7400638: Default Take //// RRot11_BoxCollider
+    7400640: Default Take //// RRot8_BoxCollider
+    7400642: Default Take //// RRot7_BoxCollider
+    7400644: Default Take //// RRot4_BoxCollider
+    7400646: Default Take //// RRot3_BoxCollider
+    7400648: Default Take //// RRot17_BoxCollider
+    7400650: Default Take //// RRot14_BoxCollider
+    7400652: Default Take //// RRot16_BoxCollider
+    7400654: Default Take //// RRot13_BoxCollider
+    7400656: Default Take //// RRot9_BoxCollider
+    7400658: Default Take //// RRot6_BoxCollider
+    7400660: Default Take //// RRot5_BoxCollider
+    7400662: Default Take //// RRot1_BoxCollider
+    7400664: Default Take //// RRot2_BoxCollider
+    7400666: Default Take //// RRot10_BoxCollider
+    7400668: Default Take //// Empty9001900190019001_001
+    7400670: Default Take //// Emp
+    7400672: Default Take //// Empty909001
+    7400674: Default Take //// Empty90
+    7400676: Default Take //// RotPuzzle2Area_BoxCollider_area_trigger
+    7400678: Default Take //// Hint3
     9500000: //RootNode
     11100000: B10_BoxCollider
     11100002: B11_BoxCollider
@@ -2296,6 +2502,43 @@ ModelImporter:
     11100600: camRot2
     11100602: Empty9001900190019001
     11100604: FirstPuzzleLeverDown_MeshCollider_trigger
+    11100606: Restart_BoxCollider_trigger
+    11100608: camHint3
+    11100610: Empty9001_001
+    11100612: Hint3Area_BoxCollider_area_trigger
+    11100614: RRot10_BoxCollider
+    11100616: RRot11_BoxCollider
+    11100618: RRot12_BoxCollider
+    11100620: RRot13_BoxCollider
+    11100622: RRot14_BoxCollider
+    11100624: RRot15_BoxCollider
+    11100626: RRot16_BoxCollider
+    11100628: RRot17_BoxCollider
+    11100630: RRot18_BoxCollider
+    11100632: RRot19_BoxCollider
+    11100634: RRot1_BoxCollider
+    11100636: RRot20_BoxCollider
+    11100638: RRot21_BoxCollider
+    11100640: RRot22_BoxCollider
+    11100642: RRot23_BoxCollider
+    11100644: RRot24_BoxCollider
+    11100646: RRot25_BoxCollider
+    11100648: RRot26_BoxCollider
+    11100650: RRot27_BoxCollider
+    11100652: RRot2_BoxCollider
+    11100654: RRot3_BoxCollider
+    11100656: RRot4_BoxCollider
+    11100658: RRot5_BoxCollider
+    11100660: RRot6_BoxCollider
+    11100662: RRot7_BoxCollider
+    11100664: RRot8_BoxCollider
+    11100666: RRot9_BoxCollider
+    11100668: Empty9001900190019001_001
+    11100670: Emp
+    11100672: Empty90
+    11100674: Empty909001
+    11100676: RotPuzzle2Area_BoxCollider_area_trigger
+    11100678: Hint3
   externalObjects: {}
   materials:
     importMaterials: 1

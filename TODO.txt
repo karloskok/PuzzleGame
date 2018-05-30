@@ -8,20 +8,23 @@
 Game:
 * input for gamepad
 
+
 All levels:
-* restart level when fall from world
-* player animations
-* player input
-* intro, tutorial
-* add lasers nad receivers
-* show text "Press E " for interact
-* change main menu and settings menu
-* storyline 
-* inventory and pick up items, place items
-* skybox
-* portal particles
-* add sound effects and background music
-* fill up levels with more models, better graphics
+B * Save/Load (SavePoint) -> KT
+B + restart level when fall from world ->KS
+B * player animations(push, walk, idle) -> KT
+*? player input 
+B * intro -> AV/KT
+B * add lasers nad receivers ->KS
+B * show text "Press E " for interact ->AV
+B* change main menu and settings menu + in-game menu ->KT
+* OUTRO -> KT/AV
+B * inventory and pick up items, place items -> AV
+B * Shader animacija vode -> AV
+B * portal particles -> KT
+B * add sound effects and background music -> AV
+* fill up levels with more models, better graphics -> KS
+
 * postprocessing 
 * optimization
 

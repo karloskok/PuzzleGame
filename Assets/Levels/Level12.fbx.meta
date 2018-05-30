@@ -274,6 +274,7 @@ ModelImporter:
     100532: L3_BoxCollider
     100534: L4_BoxCollider
     100536: L5_BoxCollider
+    100538: Restart_BoxCollider_trigger
     400000: Bridge3_MeshCollider
     400002: Bridge_MeshCollider
     400004: BridgeLever_MeshCollider1
@@ -543,12 +544,14 @@ ModelImporter:
     400532: L3_BoxCollider
     400534: L4_BoxCollider
     400536: L5_BoxCollider
+    400538: Restart_BoxCollider_trigger
     2000000: camHint
     2000002: camPuzzle
     2100000: unnamed
     2100002: Material_002__Color-Palette_png
     2100004: None__Color-Palette_png
     2100006: Color__Color-Palette_png
+    2100008: None__Color-Palette_png_001
     2300000: Bridge3_MeshCollider
     2300002: Bridge_MeshCollider
     2300004: BridgeLever_MeshCollider1
@@ -811,6 +814,7 @@ ModelImporter:
     2300518: L3_BoxCollider
     2300520: L4_BoxCollider
     2300522: L5_BoxCollider
+    2300524: Restart_BoxCollider_trigger
     3300000: Bridge3_MeshCollider
     3300002: Bridge_MeshCollider
     3300004: BridgeLever_MeshCollider1
@@ -1073,6 +1077,7 @@ ModelImporter:
     3300518: L3_BoxCollider
     3300520: L4_BoxCollider
     3300522: L5_BoxCollider
+    3300524: Restart_BoxCollider_trigger
     4300000: PuzzleArea_BoxCollider_area_trigger
     4300002: HintArea_BoxCollider_area_trigger
     4300004: LeverArea_BoxCollider_area_trigger
@@ -1335,6 +1340,7 @@ ModelImporter:
     4300518: L3_BoxCollider
     4300520: L2_BoxCollider
     4300522: L1_BoxCollider
+    4300524: Restart_BoxCollider_trigger
     7400000: Default Take
     7400002: Default Take //// PuzzleArea_BoxCollider_area_trigger
     7400004: Default Take //// HintArea_BoxCollider_area_trigger
@@ -1604,6 +1610,7 @@ ModelImporter:
     7400532: Default Take //// L3_BoxCollider
     7400534: Default Take //// L2_BoxCollider
     7400536: Default Take //// L1_BoxCollider
+    7400538: Default Take //// Restart_BoxCollider_trigger
     9500000: //RootNode
     11100000: Bridge3_MeshCollider
     11100002: Bridge_MeshCollider
@@ -1874,6 +1881,7 @@ ModelImporter:
     11100532: L3_BoxCollider
     11100534: L4_BoxCollider
     11100536: L5_BoxCollider
+    11100538: Restart_BoxCollider_trigger
   externalObjects: {}
   materials:
     importMaterials: 1

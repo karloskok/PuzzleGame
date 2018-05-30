@@ -116,6 +116,7 @@ ModelImporter:
     100216: Cube9045_MeshCollider
     100218: Cube9291_MeshCollider
     100220: portal_MeshCollider_trigger
+    100222: Restart_BoxCollider_trigger
     400000: aa
     400002: aa9001
     400004: Bridge
@@ -227,10 +228,14 @@ ModelImporter:
     400216: Cube9045_MeshCollider
     400218: Cube9291_MeshCollider
     400220: portal_MeshCollider_trigger
+    400222: Restart_BoxCollider_trigger
     2100000: None__Color-Palette_png
     2100002: Material_002__Color-Palette_png
     2100004: Color__Color-Palette_png
     2100006: unnamed
+    2100008: Material__Color-Palette_png_001
+    2100010: Material_002__Color-Palette_png_001
+    2100012: None__Color-Palette_png_001
     2300000: aa
     2300002: aa9001
     2300004: Bridge
@@ -339,6 +344,7 @@ ModelImporter:
     2300210: Cube9045_MeshCollider
     2300212: Cube9291_MeshCollider
     2300214: portal_MeshCollider_trigger
+    2300216: Restart_BoxCollider_trigger
     3300000: aa
     3300002: aa9001
     3300004: Bridge
@@ -447,6 +453,7 @@ ModelImporter:
     3300210: Cube9045_MeshCollider
     3300212: Cube9291_MeshCollider
     3300214: portal_MeshCollider_trigger
+    3300216: Restart_BoxCollider_trigger
     4300000: Cube900590019007
     4300002: Cube900690019007
     4300004: Cube900690019006
@@ -555,6 +562,7 @@ ModelImporter:
     4300210: Cube9291_MeshCollider
     4300212: Cube900190019001_BoxCollider
     4300214: Bridge_MeshCollider
+    4300216: Restart_BoxCollider_trigger
     7400000: Default Take
     7400002: Default Take //// LeverArea_BoxCollider_area_trigger
     7400004: Default Take //// Cube900590019007
@@ -645,6 +653,7 @@ ModelImporter:
     7400174: Default Take //// Cube900190019001_BoxCollider
     7400176: Default Take //// Empty
     7400178: Default Take //// Bridge_MeshCollider
+    7400180: Default Take //// Restart_BoxCollider_trigger
     9500000: //RootNode
     11100000: aa9001_MeshCollider
     11100002: aa_MeshCollider
@@ -736,6 +745,7 @@ ModelImporter:
     11100174: Lever
     11100176: LeverArea_BoxCollider_area_trigger
     11100178: portal_MeshCollider_trigger
+    11100180: Restart_BoxCollider_trigger
   externalObjects: {}
   materials:
     importMaterials: 1

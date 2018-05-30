@@ -10,10 +10,10 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2018
 		Month: 05
-		Day: 21
+		Day: 23
 		Hour: 14
-		Minute: 09
-		Second: 17
+		Minute: 22
+		Second: 02
 		Millisecond: 0
 	}
 	Creator: "FBX SDK/FBX Plugins build 20070228"
@@ -21,7 +21,7 @@ FBXHeaderExtension:  {
 		FlagPLE: 0
 	}
 }
-CreationTime: "2018-05-21 14:09:17:000"
+CreationTime: "2018-05-23 14:22:02:000"
 Creator: "Blender version 2.73 (sub 0)"
 
 ; Object definitions
@@ -29,21 +29,21 @@ Creator: "Blender version 2.73 (sub 0)"
 
 Definitions:  {
 	Version: 100
-	Count: 104
+	Count: 110
 	ObjectType: "Model" {
-		Count: 97
+		Count: 98
 	}
 	ObjectType: "Geometry" {
-		Count: 87
+		Count: 88
 	}
 	ObjectType: "Material" {
-		Count: 4
+		Count: 7
 	}
 	ObjectType: "Texture" {
-		Count: 1
+		Count: 2
 	}
 	ObjectType: "Video" {
-		Count: 1
+		Count: 2
 	}
 	ObjectType: "Pose" {
 		Count: 1
@@ -13488,6 +13488,145 @@ Objects:  {
 			}
 		}
 	}
+	Model: "Model::Restart_BoxCollider_trigger", "Mesh" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Visibility", "Visibility", "A+",1
+			Property: "Lcl Translation", "Lcl Translation", "A+",-3404.821777343750000,-1017.337585449218750,0.000000000000000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",90.000009334538021,-0.000000000000000,180.000005008697713
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",5601.120605468750000,5601.120605468750000,150.284881591796875
+			Property: "RotationOffset", "Vector3D", "",0,0,0
+			Property: "RotationPivot", "Vector3D", "",0,0,0
+			Property: "ScalingOffset", "Vector3D", "",0,0,0
+			Property: "ScalingPivot", "Vector3D", "",0,0,0
+			Property: "TranslationActive", "bool", "",0
+			Property: "TranslationMin", "Vector3D", "",0,0,0
+			Property: "TranslationMax", "Vector3D", "",0,0,0
+			Property: "TranslationMinX", "bool", "",0
+			Property: "TranslationMinY", "bool", "",0
+			Property: "TranslationMinZ", "bool", "",0
+			Property: "TranslationMaxX", "bool", "",0
+			Property: "TranslationMaxY", "bool", "",0
+			Property: "TranslationMaxZ", "bool", "",0
+			Property: "RotationOrder", "enum", "",0
+			Property: "RotationSpaceForLimitOnly", "bool", "",0
+			Property: "AxisLen", "double", "",10
+			Property: "PreRotation", "Vector3D", "",0,0,0
+			Property: "PostRotation", "Vector3D", "",0,0,0
+			Property: "RotationActive", "bool", "",0
+			Property: "RotationMin", "Vector3D", "",0,0,0
+			Property: "RotationMax", "Vector3D", "",0,0,0
+			Property: "RotationMinX", "bool", "",0
+			Property: "RotationMinY", "bool", "",0
+			Property: "RotationMinZ", "bool", "",0
+			Property: "RotationMaxX", "bool", "",0
+			Property: "RotationMaxY", "bool", "",0
+			Property: "RotationMaxZ", "bool", "",0
+			Property: "RotationStiffnessX", "double", "",0
+			Property: "RotationStiffnessY", "double", "",0
+			Property: "RotationStiffnessZ", "double", "",0
+			Property: "MinDampRangeX", "double", "",0
+			Property: "MinDampRangeY", "double", "",0
+			Property: "MinDampRangeZ", "double", "",0
+			Property: "MaxDampRangeX", "double", "",0
+			Property: "MaxDampRangeY", "double", "",0
+			Property: "MaxDampRangeZ", "double", "",0
+			Property: "MinDampStrengthX", "double", "",0
+			Property: "MinDampStrengthY", "double", "",0
+			Property: "MinDampStrengthZ", "double", "",0
+			Property: "MaxDampStrengthX", "double", "",0
+			Property: "MaxDampStrengthY", "double", "",0
+			Property: "MaxDampStrengthZ", "double", "",0
+			Property: "PreferedAngleX", "double", "",0
+			Property: "PreferedAngleY", "double", "",0
+			Property: "PreferedAngleZ", "double", "",0
+			Property: "InheritType", "enum", "",0
+			Property: "ScalingActive", "bool", "",0
+			Property: "ScalingMin", "Vector3D", "",1,1,1
+			Property: "ScalingMax", "Vector3D", "",1,1,1
+			Property: "ScalingMinX", "bool", "",0
+			Property: "ScalingMinY", "bool", "",0
+			Property: "ScalingMinZ", "bool", "",0
+			Property: "ScalingMaxX", "bool", "",0
+			Property: "ScalingMaxY", "bool", "",0
+			Property: "ScalingMaxZ", "bool", "",0
+			Property: "GeometricTranslation", "Vector3D", "",0,0,0
+			Property: "GeometricRotation", "Vector3D", "",0,0,0
+			Property: "GeometricScaling", "Vector3D", "",1,1,1
+			Property: "LookAtProperty", "object", ""
+			Property: "UpVectorProperty", "object", ""
+			Property: "Show", "bool", "",1
+			Property: "NegativePercentShapeSupport", "bool", "",1
+			Property: "DefaultAttributeIndex", "int", "",0
+			Property: "Color", "Color", "A",0.8,0.8,0.8
+			Property: "Size", "double", "",100
+			Property: "Look", "enum", "",1
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		Vertices: -2.000000,-2.000000,-36.735779,-2.000000,2.000000,-36.735779,2.000000,2.000000,-36.735779,2.000000,-2.000000,-36.735779,
+		          -2.000000,-2.000000,2.000000,-2.000000,2.000000,2.000000,2.000000,2.000000,2.000000,2.000000,-2.000000,2.000000
+		PolygonVertexIndex: 4,5,1,-1,5,6,2,-2,6,7,3,-3,7,4,0,-4,0,1,2,-4,7,6,5,-5
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: -1.000000,0.000000,0.000000,-1.000000,0.000000,0.000000,-1.000000,0.000000,0.000000,-1.000000,0.000000,0.000000,
+			         0.000000,1.000000,0.000000,0.000000,1.000000,0.000000,0.000000,1.000000,0.000000,0.000000,1.000000,0.000000,
+			         1.000000,0.000000,0.000000,1.000000,0.000000,0.000000,1.000000,0.000000,0.000000,1.000000,0.000000,0.000000,
+			         0.000000,-1.000000,0.000000,0.000000,-1.000000,0.000000,0.000000,-1.000000,0.000000,0.000000,-1.000000,0.000000,
+			         0.000000,0.000000,-1.000000,0.000000,0.000000,-1.000000,0.000000,0.000000,-1.000000,0.000000,0.000000,-1.000000,
+			         0.000000,0.000000,1.000000,0.000000,0.000000,1.000000,0.000000,0.000000,1.000000,0.000000,0.000000,1.000000
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVMap"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: 0.921768,0.446001
+			UVIndex: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		}
+		LayerElementTexture: 0 {
+			Version: 101
+			Name: "UVMap"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			BlendMode: "Translucent"
+			TextureAlpha: 1
+			TextureId: 0
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: 0
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTexture"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+		}
+	}
 	Model: "Model::Producer Perspective", "Camera" {
 		Version: 232
 		Properties60:  {
@@ -14626,7 +14765,97 @@ Objects:  {
 			Property: "Reflectivity", "double", "",0
 		}
 	}
+	Material: "Material::Material_002__Color-Palette_png_001", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties60:  {
+			Property: "ShadingModel", "KString", "", "Lambert"
+			Property: "MultiLayer", "bool", "",0
+			Property: "EmissiveColor", "ColorRGB", "",0.8000,0.8000,0.8000
+			Property: "EmissiveFactor", "double", "",0.0000
+			Property: "AmbientColor", "ColorRGB", "",1.0000,1.0000,1.0000
+			Property: "AmbientFactor", "double", "",1.0000
+			Property: "DiffuseColor", "ColorRGB", "",0.8000,0.8000,0.8000
+			Property: "DiffuseFactor", "double", "",0.8000
+			Property: "Bump", "Vector3D", "",0,0,0
+			Property: "TransparentColor", "ColorRGB", "",1,1,1
+			Property: "TransparencyFactor", "double", "",0.0000
+			Property: "SpecularColor", "ColorRGB", "",1.0000,1.0000,1.0000
+			Property: "SpecularFactor", "double", "",0.5000
+			Property: "ShininessExponent", "double", "",12.3
+			Property: "ReflectionColor", "ColorRGB", "",0,0,0
+			Property: "ReflectionFactor", "double", "",1
+			Property: "Emissive", "ColorRGB", "",0,0,0
+			Property: "Ambient", "ColorRGB", "",1.0,1.0,1.0
+			Property: "Diffuse", "ColorRGB", "",0.8,0.8,0.8
+			Property: "Specular", "ColorRGB", "",1.0,1.0,1.0
+			Property: "Shininess", "double", "",12.3
+			Property: "Opacity", "double", "",1.0
+			Property: "Reflectivity", "double", "",0
+		}
+	}
+	Material: "Material::Material__Color-Palette_png_001", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties60:  {
+			Property: "ShadingModel", "KString", "", "Lambert"
+			Property: "MultiLayer", "bool", "",0
+			Property: "EmissiveColor", "ColorRGB", "",0.8000,0.8000,0.8000
+			Property: "EmissiveFactor", "double", "",0.0000
+			Property: "AmbientColor", "ColorRGB", "",1.0000,1.0000,1.0000
+			Property: "AmbientFactor", "double", "",1.0000
+			Property: "DiffuseColor", "ColorRGB", "",0.8000,0.8000,0.8000
+			Property: "DiffuseFactor", "double", "",0.8000
+			Property: "Bump", "Vector3D", "",0,0,0
+			Property: "TransparentColor", "ColorRGB", "",1,1,1
+			Property: "TransparencyFactor", "double", "",0.0000
+			Property: "SpecularColor", "ColorRGB", "",1.0000,1.0000,1.0000
+			Property: "SpecularFactor", "double", "",0.5000
+			Property: "ShininessExponent", "double", "",12.3
+			Property: "ReflectionColor", "ColorRGB", "",0,0,0
+			Property: "ReflectionFactor", "double", "",1
+			Property: "Emissive", "ColorRGB", "",0,0,0
+			Property: "Ambient", "ColorRGB", "",1.0,1.0,1.0
+			Property: "Diffuse", "ColorRGB", "",0.8,0.8,0.8
+			Property: "Specular", "ColorRGB", "",1.0,1.0,1.0
+			Property: "Shininess", "double", "",12.3
+			Property: "Opacity", "double", "",1.0
+			Property: "Reflectivity", "double", "",0
+		}
+	}
 	Material: "Material::None__Color-Palette_png", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties60:  {
+			Property: "ShadingModel", "KString", "", "Phong"
+			Property: "MultiLayer", "bool", "",0
+			Property: "EmissiveColor", "ColorRGB", "",0.8000,0.8000,0.8000
+			Property: "EmissiveFactor", "double", "",0.0000
+			Property: "AmbientColor", "ColorRGB", "",1.0000,1.0000,1.0000
+			Property: "AmbientFactor", "double", "",1.0000
+			Property: "DiffuseColor", "ColorRGB", "",0.8000,0.8000,0.8000
+			Property: "DiffuseFactor", "double", "",0.8000
+			Property: "Bump", "Vector3D", "",0,0,0
+			Property: "TransparentColor", "ColorRGB", "",1,1,1
+			Property: "TransparencyFactor", "double", "",0.0000
+			Property: "SpecularColor", "ColorRGB", "",1.0000,1.0000,1.0000
+			Property: "SpecularFactor", "double", "",0.5000
+			Property: "ShininessExponent", "double", "",12.3
+			Property: "ReflectionColor", "ColorRGB", "",0,0,0
+			Property: "ReflectionFactor", "double", "",1
+			Property: "Emissive", "ColorRGB", "",0,0,0
+			Property: "Ambient", "ColorRGB", "",1.0,1.0,1.0
+			Property: "Diffuse", "ColorRGB", "",0.8,0.8,0.8
+			Property: "Specular", "ColorRGB", "",1.0,1.0,1.0
+			Property: "Shininess", "double", "",12.3
+			Property: "Opacity", "double", "",1.0
+			Property: "Reflectivity", "double", "",0
+		}
+	}
+	Material: "Material::None__Color-Palette_png_001", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -14705,6 +14934,27 @@ Objects:  {
 		}
 		UseMipMap: 0
 		Filename: "Color-Palette.png"
+		RelativeFilename: "C:\Users\MS Studio\Documents\Unity Projects\DIPRI\GitHub\DreamWorldTestProject\Assets\Art\Color-Palette.png"
+	}
+	Video: "Video::Color-Palette_png_001", "Clip" {
+		Type: "Clip"
+		Properties60:  {
+			Property: "FrameRate", "double", "",0
+			Property: "LastFrame", "int", "",0
+			Property: "Width", "int", "",0
+			Property: "Height", "int", "",0
+			Property: "Path", "charptr", "", "Color-Palette.png"
+			Property: "StartFrame", "int", "",0
+			Property: "StopFrame", "int", "",0
+			Property: "PlaySpeed", "double", "",1
+			Property: "Offset", "KTime", "",0
+			Property: "InterlaceMode", "enum", "",0
+			Property: "FreeRunning", "bool", "",0
+			Property: "Loop", "bool", "",0
+			Property: "AccessMode", "enum", "",0
+		}
+		UseMipMap: 0
+		Filename: "Color-Palette.png"
 		RelativeFilename: "C:\Users\MS Studio\Documents\Unity Projects\DIPRI\DreamWorldTestProject\Assets\Art\Color-Palette.png"
 	}
 	Texture: "Texture::Color-Palette_png", "TextureVideoClip" {
@@ -14730,6 +14980,35 @@ Objects:  {
 		}
 		Media: "Video::Color-Palette_png"
 		FileName: "Color-Palette.png"
+		RelativeFilename: "C:\Users\MS Studio\Documents\Unity Projects\DIPRI\GitHub\DreamWorldTestProject\Assets\Art\Color-Palette.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: "Texture::Color-Palette_png_001", "TextureVideoClip" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Color-Palette_png_001"
+		Properties60:  {
+			Property: "Translation", "Vector", "A+",0,0,0
+			Property: "Rotation", "Vector", "A+",0,0,0
+			Property: "Scaling", "Vector", "A+",1,1,1
+			Property: "Texture alpha", "Number", "A+",1
+			Property: "TextureTypeUse", "enum", "",0
+			Property: "CurrentTextureBlendMode", "enum", "",1
+			Property: "UseMaterial", "bool", "",0
+			Property: "UseMipMap", "bool", "",0
+			Property: "CurrentMappingType", "enum", "",0
+			Property: "UVSwap", "bool", "",0
+			Property: "WrapModeU", "enum", "",0
+			Property: "WrapModeV", "enum", "",0
+			Property: "TextureRotationPivot", "Vector3D", "",0,0,0
+			Property: "TextureScalingPivot", "Vector3D", "",0,0,0
+			Property: "VideoProperty", "object", ""
+		}
+		Media: "Video::Color-Palette_png_001"
+		FileName: "Color-Palette.png"
 		RelativeFilename: "C:\Users\MS Studio\Documents\Unity Projects\DIPRI\DreamWorldTestProject\Assets\Art\Color-Palette.png"
 		ModelUVTranslation: 0,0
 		ModelUVScaling: 1,1
@@ -14741,7 +15020,7 @@ Objects:  {
 		Version: 100
 		Properties60:  {
 		}
-		NbPoseNodes: 89
+		NbPoseNodes: 90
 		PoseNode:  {
 			Node: "Model::Empty9001"
 			Matrix: -100.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,100.000000000000000,0.000000000000000,0.000000000000000,100.000000000000000,0.000000000000000,0.000000000000000,-2116.945312500000000,572.858337402343750,45.392097473144531,1.000000000000000
@@ -15098,6 +15377,10 @@ Objects:  {
 			Node: "Model::Cube9291_MeshCollider"
 			Matrix: -0.000006194550679,0.000000000000000,82.049308776855469,0.000000000000000,82.049308776855469,0.000000000000000,0.000006194550679,0.000000000000000,0.000000000000000,82.049308776855469,0.000000000000000,0.000000000000000,-8266.155273437500000,640.897155761718750,2914.827636718750000,1.000000000000000
 		}
+		PoseNode:  {
+			Node: "Model::Restart_BoxCollider_trigger"
+			Matrix: -0.000422872864874,0.000000000000000,5601.120605468750000,0.000000000000000,5601.120605468750000,0.000000000000000,0.000422872864874,0.000000000000000,0.000000000000000,150.284881591796875,0.000000000000000,0.000000000000000,-3404.821777343750000,-1017.337585449218750,0.000000000000000,1.000000000000000
+		}
 	}
 	GlobalSettings:  {
 		Version: 1000
@@ -15295,6 +15578,8 @@ Relations:  {
 	}
 	Model: "Model::Cube9291_MeshCollider", "Mesh" {
 	}
+	Model: "Model::Restart_BoxCollider_trigger", "Mesh" {
+	}
 	Model: "Model::Producer Perspective", "Camera" {
 	}
 	Model: "Model::Producer Top", "Camera" {
@@ -15315,13 +15600,23 @@ Relations:  {
 	}
 	Material: "Material::Material_002__Color-Palette_png", "" {
 	}
+	Material: "Material::Material_002__Color-Palette_png_001", "" {
+	}
+	Material: "Material::Material__Color-Palette_png_001", "" {
+	}
 	Material: "Material::None__Color-Palette_png", "" {
+	}
+	Material: "Material::None__Color-Palette_png_001", "" {
 	}
 	Material: "Material::unnamed", "" {
 	}
 	Texture: "Texture::Color-Palette_png", "TextureVideoClip" {
 	}
+	Texture: "Texture::Color-Palette_png_001", "TextureVideoClip" {
+	}
 	Video: "Video::Color-Palette_png", "Clip" {
+	}
+	Video: "Video::Color-Palette_png_001", "Clip" {
 	}
 }
 
@@ -15416,6 +15711,7 @@ Connections:  {
 	Connect: "OO", "Model::Cube9001_MeshCollider", "Model::Scene"
 	Connect: "OO", "Model::portal_MeshCollider_trigger", "Model::Scene"
 	Connect: "OO", "Model::Cube9291_MeshCollider", "Model::Scene"
+	Connect: "OO", "Model::Restart_BoxCollider_trigger", "Model::Scene"
 	Connect: "OO", "Model::Empty9001", "Model::Scene"
 	Connect: "OO", "Model::Empty", "Model::Scene"
 	Connect: "OO", "Material::unnamed", "Model::LeverArea_BoxCollider_area_trigger"
@@ -15498,13 +15794,14 @@ Connections:  {
 	Connect: "OO", "Material::None__Color-Palette_png", "Model::Cube9045_MeshCollider"
 	Connect: "OO", "Material::Material_002__Color-Palette_png", "Model::Cube9043"
 	Connect: "OO", "Material::None__Color-Palette_png", "Model::Cube9014_MeshCollider"
-	Connect: "OO", "Material::None__Color-Palette_png", "Model::Cube9007_MeshCollider"
+	Connect: "OO", "Material::Material__Color-Palette_png_001", "Model::Cube9007_MeshCollider"
 	Connect: "OO", "Material::Material_002__Color-Palette_png", "Model::aa_MeshCollider"
 	Connect: "OO", "Material::Color__Color-Palette_png", "Model::Cube9002_MeshCollider"
 	Connect: "OO", "Material::Material_002__Color-Palette_png", "Model::Cube9006_MeshCollider"
-	Connect: "OO", "Material::Color__Color-Palette_png", "Model::Cube9001_MeshCollider"
-	Connect: "OO", "Material::None__Color-Palette_png", "Model::portal_MeshCollider_trigger"
+	Connect: "OO", "Material::Material_002__Color-Palette_png_001", "Model::Cube9001_MeshCollider"
+	Connect: "OO", "Material::Material_002__Color-Palette_png", "Model::portal_MeshCollider_trigger"
 	Connect: "OO", "Material::None__Color-Palette_png", "Model::Cube9291_MeshCollider"
+	Connect: "OO", "Material::None__Color-Palette_png_001", "Model::Restart_BoxCollider_trigger"
 	Connect: "OO", "Texture::Color-Palette_png", "Model::Lever"
 	Connect: "OO", "Texture::Color-Palette_png", "Model::Cube900190019001_BoxCollider"
 	Connect: "OO", "Texture::Color-Palette_png", "Model::Bridge_MeshCollider"
@@ -15584,14 +15881,16 @@ Connections:  {
 	Connect: "OO", "Texture::Color-Palette_png", "Model::Cube9045_MeshCollider"
 	Connect: "OO", "Texture::Color-Palette_png", "Model::Cube9043"
 	Connect: "OO", "Texture::Color-Palette_png", "Model::Cube9014_MeshCollider"
-	Connect: "OO", "Texture::Color-Palette_png", "Model::Cube9007_MeshCollider"
+	Connect: "OO", "Texture::Color-Palette_png_001", "Model::Cube9007_MeshCollider"
 	Connect: "OO", "Texture::Color-Palette_png", "Model::aa_MeshCollider"
 	Connect: "OO", "Texture::Color-Palette_png", "Model::Cube9002_MeshCollider"
 	Connect: "OO", "Texture::Color-Palette_png", "Model::Cube9006_MeshCollider"
-	Connect: "OO", "Texture::Color-Palette_png", "Model::Cube9001_MeshCollider"
+	Connect: "OO", "Texture::Color-Palette_png_001", "Model::Cube9001_MeshCollider"
 	Connect: "OO", "Texture::Color-Palette_png", "Model::portal_MeshCollider_trigger"
 	Connect: "OO", "Texture::Color-Palette_png", "Model::Cube9291_MeshCollider"
+	Connect: "OO", "Texture::Color-Palette_png_001", "Model::Restart_BoxCollider_trigger"
 	Connect: "OO", "Video::Color-Palette_png", "Texture::Color-Palette_png"
+	Connect: "OO", "Video::Color-Palette_png_001", "Texture::Color-Palette_png_001"
 }
 ;Takes and animation section
 ;----------------------------------------------------
@@ -23279,6 +23578,92 @@ Takes:  {
 						KeyCount: 1
 						Key: 
 							1924423250,82.049308776855469,L
+						Color: 0,0,1
+					}
+					LayerType: 3
+				}
+			}
+		}
+		Model: "Model::Restart_BoxCollider_trigger" {
+			Version: 1.1
+			Channel: "Transform" {
+				Channel: "T" {
+					Channel: "X" {
+						Default: -3404.821777343750000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							1924423250,-3404.821777343750000,L
+						Color: 1,0,0
+					}
+					Channel: "Y" {
+						Default: -1017.337585449218750
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							1924423250,-1017.337585449218750,L
+						Color: 0,1,0
+					}
+					Channel: "Z" {
+						Default: 0.000000000000000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							1924423250,0.000000000000000,L
+						Color: 0,0,1
+					}
+					LayerType: 1
+				}
+				Channel: "R" {
+					Channel: "X" {
+						Default: 90.000002504348856
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							1924423250,90.000002504348856,L
+						Color: 1,0,0
+					}
+					Channel: "Y" {
+						Default: -0.000000000000000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							1924423250,-0.000000000000000,L
+						Color: 0,1,0
+					}
+					Channel: "Z" {
+						Default: 180.000005008697713
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							1924423250,180.000005008697713,L
+						Color: 0,0,1
+					}
+					LayerType: 2
+				}
+				Channel: "S" {
+					Channel: "X" {
+						Default: 5601.120605468750000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							1924423250,5601.120605468750000,L
+						Color: 1,0,0
+					}
+					Channel: "Y" {
+						Default: 5601.120605468750000
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							1924423250,5601.120605468750000,L
+						Color: 0,1,0
+					}
+					Channel: "Z" {
+						Default: 150.284881591796875
+						KeyVer: 4005
+						KeyCount: 1
+						Key: 
+							1924423250,150.284881591796875,L
 						Color: 0,0,1
 					}
 					LayerType: 3
