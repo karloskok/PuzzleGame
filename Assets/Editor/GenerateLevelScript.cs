@@ -28,8 +28,11 @@ class GenerateLevelScript : AssetPostprocessor
 
     void OnPostprocessModel(GameObject g)
     {
-        //Debug.Log(g.name);
-        CreateClass.Create(g);
+        if (g.name.Contains("Level"))
+        {
+            Debug.Log("proslo");
+            CreateClass.Create(g);
+        }
         //string s = g.name + "Base";
        // Debug.Log(Assembly.Load(s));
         // Debug.Log(System.Type.GetType("UnityEngine." + s).Name);
