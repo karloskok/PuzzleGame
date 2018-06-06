@@ -29,6 +29,6 @@ B * add sound effects and background music -> AV
 * optimization
 
 
-*add more levels
+*add more levels + puzzles
 
 ...
