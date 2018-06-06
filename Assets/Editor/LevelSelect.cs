@@ -23,4 +23,13 @@ public class LevelSelect  {
         EditorSceneManager.OpenScene("Assets/Scenes/Level2.unity");
     }
 
+    [MenuItem("DreamWorld/Levels/Level3")]
+    static void LoadLevel3Scene()
+    {
+        EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
+        EditorSceneManager.OpenScene("Assets/Scenes/Level3.unity");
+    }
+
+
+
 }
