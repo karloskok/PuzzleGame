@@ -93,8 +93,12 @@ public class Level12 : Level12Base {
         {
             L1.canInteract = L2.canInteract = L3.canInteract = L4.canInteract = L5.canInteract = false;
 
-            if (Level.Stamp(Bridge, .5f))
+            if (Level.Stamp(Bridge, .5f)){
                 Level.PushCamera(camPuzzle.transform, camMain.transform);
+                if (!MusicPlayer.instance.efxSource.isPlaying)
+                    MusicPlayer.instance.PlaySingle("bridge");
+            }
+                
         }
         //else
         //{
@@ -117,8 +121,12 @@ public class Level12 : Level12Base {
         }
 
         if (LeverBridge.wasStamped)
-        {
-            Level.Stamp(BridgeLever, .5f);
+        {   
+            if (Level.Stamp(BridgeLever, .5f)) 
+            {
+                if (!MusicPlayer.instance.efxSource.isPlaying)
+                    MusicPlayer.instance.PlaySingle("bridge");
+            }
         }
 
         if (player.interact == portal)

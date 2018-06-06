@@ -54,7 +54,9 @@ public class Level11 : Level11Base {
 
         if (Lever.wasStamped)
         {
-            Level.Stamp(Bridge);
+            if(Level.Stamp(Bridge, .2f))
+                if(!MusicPlayer.instance.efxSource.isPlaying)
+                    MusicPlayer.instance.PlaySingle("bridge");
         }
 
         if(player.interact == portal)

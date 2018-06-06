@@ -5,7 +5,7 @@ using UnityEngine;
 public static class Level {
 
     public static bool Stamp(Element element, float target=1f)
-    {
+   {
         element.stamp = true;
         element.timer = target;
         // element.animValue = Mathf.MoveTowards(element.animValue, target, speed/2 * Time.deltaTime);

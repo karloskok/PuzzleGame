@@ -119,13 +119,26 @@ public class Level13 : Level13Base {
 
         if (FirstPuzzleLeverDown.interact == FirstPuzzleCube || FirstPuzzleLeverDown == player.interact)
         {
-            Level.Stamp(FirstBridge, .5f);
-            Level.Stamp(FirstPuzzleLeverDown, 2f);
+            if (Level.Stamp(FirstBridge, .5f)) {
+                if (Level.Stamp(FirstPuzzleLeverDown, 2f)) {
+                    if (!MusicPlayer.instance.efxSource.isPlaying)
+                        MusicPlayer.instance.PlaySingle("bridge");
+                }
+
+            }
+
+
         }
         else
-        {
-            Level.Stamp(FirstBridge, -.25f);
-            Level.Stamp(FirstPuzzleLeverDown, -2f);
+        {   
+            if (Level.Stamp(FirstBridge, -.25f)) {
+
+                if (Level.Stamp(FirstPuzzleLeverDown, -2f)) {
+                    //if (!MusicPlayer.instance.efxSource.isPlaying)
+                        //MusicPlayer.instance.PlaySingle("bridge");
+                }
+
+            }
         }
 
 
@@ -156,8 +169,11 @@ public class Level13 : Level13Base {
         }
         if (firstPuzzle)
         {
-            if (Level.Stamp(RightBridge))
+            if (Level.Stamp(RightBridge)){
                 Level.PushCamera(camButtons.transform, camMain.transform);
+                if (!MusicPlayer.instance.efxSource.isPlaying)
+                    MusicPlayer.instance.PlaySingle("bridge");
+            }
         }
 
         bool secondPuzzle = true;
@@ -167,8 +183,11 @@ public class Level13 : Level13Base {
         }
         if (secondPuzzle)
         {
-            if (Level.Stamp(LeftBridge))
+            if (Level.Stamp(LeftBridge)){
                 Level.PushCamera(camButtons.transform, camMain.transform);
+                if (!MusicPlayer.instance.efxSource.isPlaying)
+                    MusicPlayer.instance.PlaySingle("bridge");
+            }
         }
 
         bool thirdPuzzle = true;
@@ -178,8 +197,11 @@ public class Level13 : Level13Base {
         }
         if (thirdPuzzle)
         {
-            if (Level.Stamp(PortalBridge))
+            if (Level.Stamp(PortalBridge)){
                 Level.PushCamera(camButtons.transform, camMain.transform);
+                if (!MusicPlayer.instance.efxSource.isPlaying)
+                    MusicPlayer.instance.PlaySingle("bridge");
+            }
         }
 
 

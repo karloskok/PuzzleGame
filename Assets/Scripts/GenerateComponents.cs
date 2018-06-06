@@ -75,8 +75,8 @@ public class GenerateComponents : MonoBehaviour {
         }
        
 
-        if (gameObject.GetComponent<MeshRenderer>())
-            gameObject.GetComponent<MeshRenderer>().material = Resources.Load("Color-Palette") as Material;
+        //if (gameObject.GetComponent<MeshRenderer>())
+            //gameObject.GetComponent<MeshRenderer>().material = Resources.Load("Color-Palette") as Material;
 
         if (gameObject.GetComponent<Animation>() && gameObject.name.Contains("Empty"))
             gameObject.GetComponent<Animation>().enabled=false;

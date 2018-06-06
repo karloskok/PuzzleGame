@@ -119,9 +119,11 @@ public class Intro : MonoBehaviour {
         }
 
         if (other.gameObject.name == "Opener" && Input.GetKeyDown(KeyCode.E) && haveKey){
+            
             if (!haveWire && !haveKey) {
                 return;
             }
+
             other.gameObject.GetComponent<Animation>().Play();
             haveKey = false;
 
@@ -153,6 +155,10 @@ public class Intro : MonoBehaviour {
         if (other.gameObject.name == "Portal") {
 
             UnityEngine.SceneManagement.SceneManager.LoadScene("Level1");
+        }
+        if (other.gameObject.name.Contains("Restart")) {
+
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Intro");
         }
     }
 
