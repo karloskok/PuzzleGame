@@ -73,10 +73,15 @@ public class GenerateComponents : MonoBehaviour {
             if(gameObject.GetComponent<Animation>())
                 gameObject.GetComponent<Animation>().enabled = false;
         }
-       
 
-        //if (gameObject.GetComponent<MeshRenderer>())
-            //gameObject.GetComponent<MeshRenderer>().material = Resources.Load("Color-Palette") as Material;
+
+        if (gameObject.GetComponent<MeshRenderer>())
+        {
+            if(name.Contains("Laser"))
+                gameObject.GetComponent<MeshRenderer>().material = Resources.Load("Color-PaletteLaser") as Material;
+            else
+                gameObject.GetComponent<MeshRenderer>().material = Resources.Load("Color-Palette") as Material;
+        }
 
         if (gameObject.GetComponent<Animation>() && gameObject.name.Contains("Empty"))
             gameObject.GetComponent<Animation>().enabled=false;

@@ -1,0 +1,935 @@
+fileFormatVersion: 2
+guid: 42162b916d2f6a64cb1a98f27db09d68
+timeCreated: 1529091194
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cube9001
+    100002: Cube9002
+    100004: Cube9003
+    100006: Cube9004
+    100008: Cube9005
+    100010: Cube9006
+    100012: Cube9007
+    100014: Cube9008
+    100016: Cube9009
+    100018: Cube9010
+    100020: Cube9011
+    100022: Cube9012
+    100024: Cube9013
+    100026: Cube9014
+    100028: Cube9015
+    100030: Cube9016
+    100032: Cube9017
+    100034: Cube9018
+    100036: Cube9019
+    100038: Cube9020
+    100040: Cube9021
+    100042: Cube9022
+    100044: Cube9023
+    100046: Cube9024
+    100048: Cube_MeshCollider
+    100050: Cylinder
+    100052: Cylinder9002
+    100054: Cylinder9003
+    100056: Cylinder9004
+    100058: Cylinder9005
+    100060: Cylinder9011
+    100062: Cylinder9012
+    100064: Cylinder9013
+    100066: Cylinder9014
+    100068: Cylinder9015
+    100070: Cylinder9016
+    100072: Cylinder9017
+    100074: Cylinder9018
+    100076: Cylinder9019
+    100078: Cylinder9020
+    100080: Cylinder9021
+    100082: Cylinder9022
+    100084: Cylinder9023
+    100086: Cylinder9024
+    100088: Cylinder9025
+    100090: Cylinder9026
+    100092: Cylinder9027
+    100094: Cylinder9028
+    100096: Cylinder9029
+    100098: Cylinder9030
+    100100: Cylinder9031
+    100102: Cylinder9032
+    100104: //RootNode
+    100106: Plane
+    100108: Cube
+    100110: Cube9022_MeshCollider
+    100112: Cube9033_MeshCollider
+    100114: Empty
+    100116: Empty9001
+    100118: portal_MeshCollider_trigger
+    100120: Cube325_MeshCollider
+    100122: Cube902222
+    100124: Cube90039006
+    100126: Cube90109001
+    100128: Cube90109002
+    100130: Cube90109003
+    100132: Cube90109004
+    100134: Cube90249001
+    100136: Cube90249002_MeshCollider
+    100138: Empty90019001
+    100140: FirstArea_BoxCollider_area_trigger
+    100142: FirstCam
+    100144: FR1_BoxCollider
+    100146: FR2_BoxCollider
+    100148: FR3_BoxCollider
+    100150: FR4_BoxCollider
+    100152: Cylinder90219001
+    100154: Cube90249002_MeshCollider9001
+    100156: Empty900190019001
+    100158: SecondArea_BoxCollider_area_trigger9001
+    100160: SecondCam
+    100162: SR1_BoxCollider9001
+    100164: SR2_BoxCollider9001
+    100166: SR3_BoxCollider9001
+    100168: SR4_BoxCollider9001
+    100170: Cube1122112_MeshCollider9001
+    100172: Cube501
+    100174: Cube911102_MeshCollider
+    100176: Cube900390069001
+    100178: Cube900390069002
+    100180: Cylinder90129001
+    100182: Cube177892_MeshCollider90019001
+    100184: Empty9001900190019001
+    100186: ThirdArea_BoxCollider_area_trigger90019001
+    100188: ThirdCam
+    100190: TR1_BoxCollider90019001
+    100192: TR2_BoxCollider90019001
+    100194: TR3_BoxCollider90019001
+    100196: TR4_BoxCollider90019001
+    100198: Restart_MeshCollider_trigger
+    100200: Cylinder9000_MeshCollider
+    100202: Cylinder9001_MeshCollider
+    100204: Cylinder901290019001
+    100206: Cylinder90289001
+    100208: Empty90019001_001
+    100210: Final1_MeshCollider
+    100212: Final2_MeshCollider
+    100214: Final3_MeshCollider
+    100216: FinalArea_BoxCollider_area_trigger900190019001
+    100218: FinalCam
+    100220: Empty900190019001_001
+    100222: Empty123
+    100224: Empty5546
+    100226: Empty82875
+    100228: Empty9965
+    100230: Cube90019001
+    100232: Cube90029001
+    100234: Cube90029001_001
+    100236: Cubeaa11
+    100238: Empty9002
+    100240: SecondHover_BoxCollider
+    100242: ThirdHover_BoxCollider9001
+    100244: Cube3365
+    100246: Cube665984
+    100248: Cube903302
+    100250: Cylinder9001_MeshCollider9001
+    100252: FinalHover_MeshCollider
+    400000: Cube9001
+    400002: Cube9002
+    400004: Cube9003
+    400006: Cube9004
+    400008: Cube9005
+    400010: Cube9006
+    400012: Cube9007
+    400014: Cube9008
+    400016: Cube9009
+    400018: Cube9010
+    400020: Cube9011
+    400022: Cube9012
+    400024: Cube9013
+    400026: Cube9014
+    400028: Cube9015
+    400030: Cube9016
+    400032: Cube9017
+    400034: Cube9018
+    400036: Cube9019
+    400038: Cube9020
+    400040: Cube9021
+    400042: Cube9022
+    400044: Cube9023
+    400046: Cube9024
+    400048: Cube_MeshCollider
+    400050: Cylinder
+    400052: Cylinder9002
+    400054: Cylinder9003
+    400056: Cylinder9004
+    400058: Cylinder9005
+    400060: Cylinder9011
+    400062: Cylinder9012
+    400064: Cylinder9013
+    400066: Cylinder9014
+    400068: Cylinder9015
+    400070: Cylinder9016
+    400072: Cylinder9017
+    400074: Cylinder9018
+    400076: Cylinder9019
+    400078: Cylinder9020
+    400080: Cylinder9021
+    400082: Cylinder9022
+    400084: Cylinder9023
+    400086: Cylinder9024
+    400088: Cylinder9025
+    400090: Cylinder9026
+    400092: Cylinder9027
+    400094: Cylinder9028
+    400096: Cylinder9029
+    400098: Cylinder9030
+    400100: Cylinder9031
+    400102: Cylinder9032
+    400104: //RootNode
+    400106: Plane
+    400108: Cube
+    400110: Cube9022_MeshCollider
+    400112: Cube9033_MeshCollider
+    400114: Empty
+    400116: Empty9001
+    400118: portal_MeshCollider_trigger
+    400120: Cube325_MeshCollider
+    400122: Cube902222
+    400124: Cube90039006
+    400126: Cube90109001
+    400128: Cube90109002
+    400130: Cube90109003
+    400132: Cube90109004
+    400134: Cube90249001
+    400136: Cube90249002_MeshCollider
+    400138: Empty90019001
+    400140: FirstArea_BoxCollider_area_trigger
+    400142: FirstCam
+    400144: FR1_BoxCollider
+    400146: FR2_BoxCollider
+    400148: FR3_BoxCollider
+    400150: FR4_BoxCollider
+    400152: Cylinder90219001
+    400154: Cube90249002_MeshCollider9001
+    400156: Empty900190019001
+    400158: SecondArea_BoxCollider_area_trigger9001
+    400160: SecondCam
+    400162: SR1_BoxCollider9001
+    400164: SR2_BoxCollider9001
+    400166: SR3_BoxCollider9001
+    400168: SR4_BoxCollider9001
+    400170: Cube1122112_MeshCollider9001
+    400172: Cube501
+    400174: Cube911102_MeshCollider
+    400176: Cube900390069001
+    400178: Cube900390069002
+    400180: Cylinder90129001
+    400182: Cube177892_MeshCollider90019001
+    400184: Empty9001900190019001
+    400186: ThirdArea_BoxCollider_area_trigger90019001
+    400188: ThirdCam
+    400190: TR1_BoxCollider90019001
+    400192: TR2_BoxCollider90019001
+    400194: TR3_BoxCollider90019001
+    400196: TR4_BoxCollider90019001
+    400198: Restart_MeshCollider_trigger
+    400200: Cylinder9000_MeshCollider
+    400202: Cylinder9001_MeshCollider
+    400204: Cylinder901290019001
+    400206: Cylinder90289001
+    400208: Empty90019001_001
+    400210: Final1_MeshCollider
+    400212: Final2_MeshCollider
+    400214: Final3_MeshCollider
+    400216: FinalArea_BoxCollider_area_trigger900190019001
+    400218: FinalCam
+    400220: Empty900190019001_001
+    400222: Empty123
+    400224: Empty5546
+    400226: Empty82875
+    400228: Empty9965
+    400230: Cube90019001
+    400232: Cube90029001
+    400234: Cube90029001_001
+    400236: Cubeaa11
+    400238: Empty9002
+    400240: SecondHover_BoxCollider
+    400242: ThirdHover_BoxCollider9001
+    400244: Cube3365
+    400246: Cube665984
+    400248: Cube903302
+    400250: Cylinder9001_MeshCollider9001
+    400252: FinalHover_MeshCollider
+    2000000: FirstCam
+    2000002: SecondCam
+    2000004: ThirdCam
+    2000006: FinalCam
+    2100000: None__Color-Palette_png
+    2100002: Material
+    2100004: Material__Color-Palette_png
+    2100006: unnamed
+    2100008: None__Color-Palette_png_001
+    2300000: Cube9001
+    2300002: Cube9002
+    2300004: Cube9003
+    2300006: Cube9004
+    2300008: Cube9005
+    2300010: Cube9006
+    2300012: Cube9007
+    2300014: Cube9008
+    2300016: Cube9009
+    2300018: Cube9010
+    2300020: Cube9011
+    2300022: Cube9012
+    2300024: Cube9013
+    2300026: Cube9014
+    2300028: Cube9015
+    2300030: Cube9016
+    2300032: Cube9017
+    2300034: Cube9018
+    2300036: Cube9019
+    2300038: Cube9020
+    2300040: Cube9021
+    2300042: Cube9022
+    2300044: Cube9023
+    2300046: Cube9024
+    2300048: Cube_MeshCollider
+    2300050: Cylinder
+    2300052: Cylinder9002
+    2300054: Cylinder9003
+    2300056: Cylinder9004
+    2300058: Cylinder9005
+    2300060: Cylinder9011
+    2300062: Cylinder9012
+    2300064: Cylinder9013
+    2300066: Cylinder9014
+    2300068: Cylinder9015
+    2300070: Cylinder9016
+    2300072: Cylinder9017
+    2300074: Cylinder9018
+    2300076: Cylinder9019
+    2300078: Cylinder9020
+    2300080: Cylinder9021
+    2300082: Cylinder9022
+    2300084: Cylinder9023
+    2300086: Cylinder9024
+    2300088: Cylinder9025
+    2300090: Cylinder9026
+    2300092: Cylinder9027
+    2300094: Cylinder9028
+    2300096: Cylinder9029
+    2300098: Cylinder9030
+    2300100: Cylinder9031
+    2300102: Cylinder9032
+    2300104: Plane
+    2300106: Cube
+    2300108: Cube9022_MeshCollider
+    2300110: Cube9033_MeshCollider
+    2300112: portal_MeshCollider_trigger
+    2300114: Cube325_MeshCollider
+    2300116: Cube902222
+    2300118: Cube90039006
+    2300120: Cube90109001
+    2300122: Cube90109002
+    2300124: Cube90109003
+    2300126: Cube90109004
+    2300128: Cube90249001
+    2300130: Cube90249002_MeshCollider
+    2300132: FirstArea_BoxCollider_area_trigger
+    2300134: FR1_BoxCollider
+    2300136: FR2_BoxCollider
+    2300138: FR3_BoxCollider
+    2300140: FR4_BoxCollider
+    2300142: Cylinder90219001
+    2300144: Cube90249002_MeshCollider9001
+    2300146: SecondArea_BoxCollider_area_trigger9001
+    2300148: SR1_BoxCollider9001
+    2300150: SR2_BoxCollider9001
+    2300152: SR3_BoxCollider9001
+    2300154: SR4_BoxCollider9001
+    2300156: Cube1122112_MeshCollider9001
+    2300158: Cube501
+    2300160: Cube911102_MeshCollider
+    2300162: Cube900390069001
+    2300164: Cube900390069002
+    2300166: Cylinder90129001
+    2300168: Cube177892_MeshCollider90019001
+    2300170: ThirdArea_BoxCollider_area_trigger90019001
+    2300172: TR1_BoxCollider90019001
+    2300174: TR2_BoxCollider90019001
+    2300176: TR3_BoxCollider90019001
+    2300178: TR4_BoxCollider90019001
+    2300180: Restart_MeshCollider_trigger
+    2300182: Cylinder9000_MeshCollider
+    2300184: Cylinder9001_MeshCollider
+    2300186: Cylinder901290019001
+    2300188: Cylinder90289001
+    2300190: Final1_MeshCollider
+    2300192: Final2_MeshCollider
+    2300194: Final3_MeshCollider
+    2300196: FinalArea_BoxCollider_area_trigger900190019001
+    2300198: Cube90019001
+    2300200: Cube90029001
+    2300202: Cube90029001_001
+    2300204: Cubeaa11
+    2300206: SecondHover_BoxCollider
+    2300208: ThirdHover_BoxCollider9001
+    2300210: Cube3365
+    2300212: Cube665984
+    2300214: Cube903302
+    2300216: Cylinder9001_MeshCollider9001
+    2300218: FinalHover_MeshCollider
+    3300000: Cube9001
+    3300002: Cube9002
+    3300004: Cube9003
+    3300006: Cube9004
+    3300008: Cube9005
+    3300010: Cube9006
+    3300012: Cube9007
+    3300014: Cube9008
+    3300016: Cube9009
+    3300018: Cube9010
+    3300020: Cube9011
+    3300022: Cube9012
+    3300024: Cube9013
+    3300026: Cube9014
+    3300028: Cube9015
+    3300030: Cube9016
+    3300032: Cube9017
+    3300034: Cube9018
+    3300036: Cube9019
+    3300038: Cube9020
+    3300040: Cube9021
+    3300042: Cube9022
+    3300044: Cube9023
+    3300046: Cube9024
+    3300048: Cube_MeshCollider
+    3300050: Cylinder
+    3300052: Cylinder9002
+    3300054: Cylinder9003
+    3300056: Cylinder9004
+    3300058: Cylinder9005
+    3300060: Cylinder9011
+    3300062: Cylinder9012
+    3300064: Cylinder9013
+    3300066: Cylinder9014
+    3300068: Cylinder9015
+    3300070: Cylinder9016
+    3300072: Cylinder9017
+    3300074: Cylinder9018
+    3300076: Cylinder9019
+    3300078: Cylinder9020
+    3300080: Cylinder9021
+    3300082: Cylinder9022
+    3300084: Cylinder9023
+    3300086: Cylinder9024
+    3300088: Cylinder9025
+    3300090: Cylinder9026
+    3300092: Cylinder9027
+    3300094: Cylinder9028
+    3300096: Cylinder9029
+    3300098: Cylinder9030
+    3300100: Cylinder9031
+    3300102: Cylinder9032
+    3300104: Plane
+    3300106: Cube
+    3300108: Cube9022_MeshCollider
+    3300110: Cube9033_MeshCollider
+    3300112: portal_MeshCollider_trigger
+    3300114: Cube325_MeshCollider
+    3300116: Cube902222
+    3300118: Cube90039006
+    3300120: Cube90109001
+    3300122: Cube90109002
+    3300124: Cube90109003
+    3300126: Cube90109004
+    3300128: Cube90249001
+    3300130: Cube90249002_MeshCollider
+    3300132: FirstArea_BoxCollider_area_trigger
+    3300134: FR1_BoxCollider
+    3300136: FR2_BoxCollider
+    3300138: FR3_BoxCollider
+    3300140: FR4_BoxCollider
+    3300142: Cylinder90219001
+    3300144: Cube90249002_MeshCollider9001
+    3300146: SecondArea_BoxCollider_area_trigger9001
+    3300148: SR1_BoxCollider9001
+    3300150: SR2_BoxCollider9001
+    3300152: SR3_BoxCollider9001
+    3300154: SR4_BoxCollider9001
+    3300156: Cube1122112_MeshCollider9001
+    3300158: Cube501
+    3300160: Cube911102_MeshCollider
+    3300162: Cube900390069001
+    3300164: Cube900390069002
+    3300166: Cylinder90129001
+    3300168: Cube177892_MeshCollider90019001
+    3300170: ThirdArea_BoxCollider_area_trigger90019001
+    3300172: TR1_BoxCollider90019001
+    3300174: TR2_BoxCollider90019001
+    3300176: TR3_BoxCollider90019001
+    3300178: TR4_BoxCollider90019001
+    3300180: Restart_MeshCollider_trigger
+    3300182: Cylinder9000_MeshCollider
+    3300184: Cylinder9001_MeshCollider
+    3300186: Cylinder901290019001
+    3300188: Cylinder90289001
+    3300190: Final1_MeshCollider
+    3300192: Final2_MeshCollider
+    3300194: Final3_MeshCollider
+    3300196: FinalArea_BoxCollider_area_trigger900190019001
+    3300198: Cube90019001
+    3300200: Cube90029001
+    3300202: Cube90029001_001
+    3300204: Cubeaa11
+    3300206: SecondHover_BoxCollider
+    3300208: ThirdHover_BoxCollider9001
+    3300210: Cube3365
+    3300212: Cube665984
+    3300214: Cube903302
+    3300216: Cylinder9001_MeshCollider9001
+    3300218: FinalHover_MeshCollider
+    4300000: Cube9024
+    4300002: Cube9010
+    4300004: Cube9022
+    4300006: Cube9005
+    4300008: Cube9023
+    4300010: Cube9003
+    4300012: Cube9008
+    4300014: Cube9006
+    4300016: Cube9004
+    4300018: Cylinder9032
+    4300020: Cylinder9031
+    4300022: Cylinder9030
+    4300024: Cylinder9029
+    4300026: Cylinder9028
+    4300028: Cylinder9027
+    4300030: Cylinder9026
+    4300032: Cylinder9025
+    4300034: Cylinder9024
+    4300036: Cylinder9023
+    4300038: Cylinder9022
+    4300040: Cylinder9021
+    4300042: Cylinder9020
+    4300044: Cylinder9019
+    4300046: Cylinder9018
+    4300048: Cylinder9016
+    4300050: Cylinder9015
+    4300052: Cylinder9014
+    4300054: Cylinder9013
+    4300056: Cylinder9012
+    4300058: Cylinder9011
+    4300060: Cylinder9005
+    4300062: Cylinder9004
+    4300064: Cylinder9003
+    4300066: Cylinder9002
+    4300068: Cylinder
+    4300070: Cube9007
+    4300072: Cube9002
+    4300074: Cube9001
+    4300076: Cube_MeshCollider
+    4300078: Cube9017
+    4300080: Cube9015
+    4300082: Cube9021
+    4300084: Cube9020
+    4300086: Cube9019
+    4300088: Cube9018
+    4300090: Cube9016
+    4300092: Plane
+    4300094: Cube9014
+    4300096: Cube9013
+    4300098: Cube9012
+    4300100: Cube9011
+    4300102: Cube9009
+    4300104: Cylinder9017
+    4300106: Cube9022_MeshCollider
+    4300108: Cube9033_MeshCollider
+    4300110: portal_MeshCollider_trigger
+    4300112: Cube
+    4300114: Cube902222
+    4300116: Cube325_MeshCollider
+    4300118: FirstArea_BoxCollider_area_trigger
+    4300120: Cube90039006
+    4300122: Cube90249002_MeshCollider
+    4300124: FR4_BoxCollider
+    4300126: FR1_BoxCollider
+    4300128: FR2_BoxCollider
+    4300130: FR3_BoxCollider
+    4300132: Cube90109004
+    4300134: Cube90109003
+    4300136: Cube90109002
+    4300138: Cube90109001
+    4300140: Cube90249001
+    4300142: Cylinder90219001
+    4300144: SecondArea_BoxCollider_area_trigger9001
+    4300146: SR3_BoxCollider9001
+    4300148: SR2_BoxCollider9001
+    4300150: SR1_BoxCollider9001
+    4300152: SR4_BoxCollider9001
+    4300154: Cube90249002_MeshCollider9001
+    4300156: Cube1122112_MeshCollider9001
+    4300158: Cube911102_MeshCollider
+    4300160: Cube501
+    4300162: Cylinder90129001
+    4300164: Cube900390069002
+    4300166: Cube900390069001
+    4300168: ThirdArea_BoxCollider_area_trigger90019001
+    4300170: Cube177892_MeshCollider90019001
+    4300172: TR4_BoxCollider90019001
+    4300174: TR1_BoxCollider90019001
+    4300176: TR2_BoxCollider90019001
+    4300178: TR3_BoxCollider90019001
+    4300180: Restart_MeshCollider_trigger
+    4300182: FinalArea_BoxCollider_area_trigger900190019001
+    4300184: Cylinder90289001
+    4300186: Cylinder901290019001
+    4300188: Cylinder9000_MeshCollider
+    4300190: Final2_MeshCollider
+    4300192: Final3_MeshCollider
+    4300194: Cylinder9001_MeshCollider
+    4300196: Final1_MeshCollider
+    4300198: Cube90029001
+    4300200: Cube90019001
+    4300202: ThirdHover_BoxCollider9001
+    4300204: Cubeaa11
+    4300206: Cube90029001_001
+    4300208: SecondHover_BoxCollider
+    4300210: Cube3365
+    4300212: Cube903302
+    4300214: Cube665984
+    4300216: FinalHover_MeshCollider
+    4300218: Cylinder9001_MeshCollider9001
+    7400000: Default Take
+    7400002: Default Take //// Cube9024
+    7400004: Default Take //// Cube9010
+    7400006: Default Take //// Cube9022
+    7400008: Default Take //// Cube9005
+    7400010: Default Take //// Cube9023
+    7400012: Default Take //// Cube9003
+    7400014: Default Take //// Cube9008
+    7400016: Default Take //// Cube9006
+    7400018: Default Take //// Cube9004
+    7400020: Default Take //// Cylinder9032
+    7400022: Default Take //// Cylinder9031
+    7400024: Default Take //// Cylinder9030
+    7400026: Default Take //// Cylinder9029
+    7400028: Default Take //// Cylinder9028
+    7400030: Default Take //// Cylinder9027
+    7400032: Default Take //// Cylinder9026
+    7400034: Default Take //// Cylinder9025
+    7400036: Default Take //// Cylinder9024
+    7400038: Default Take //// Cylinder9023
+    7400040: Default Take //// Cylinder9022
+    7400042: Default Take //// Cylinder9021
+    7400044: Default Take //// Cylinder9020
+    7400046: Default Take //// Cylinder9019
+    7400048: Default Take //// Cylinder9018
+    7400050: Default Take //// Cylinder9016
+    7400052: Default Take //// Cylinder9015
+    7400054: Default Take //// Cylinder9014
+    7400056: Default Take //// Cylinder9013
+    7400058: Default Take //// Cylinder9012
+    7400060: Default Take //// Cylinder9011
+    7400062: Default Take //// Cylinder9005
+    7400064: Default Take //// Cylinder9004
+    7400066: Default Take //// Cylinder9003
+    7400068: Default Take //// Cylinder9002
+    7400070: Default Take //// Cylinder
+    7400072: Default Take //// Cube9007
+    7400074: Default Take //// Cube9002
+    7400076: Default Take //// Cube9001
+    7400078: Default Take //// Cube_MeshCollider
+    7400080: Default Take //// Cube9017
+    7400082: Default Take //// Cube9015
+    7400084: Default Take //// Cube9021
+    7400086: Default Take //// Cube9020
+    7400088: Default Take //// Cube9019
+    7400090: Default Take //// Cube9018
+    7400092: Default Take //// Cube9016
+    7400094: Default Take //// Plane
+    7400096: Default Take //// Cube9014
+    7400098: Default Take //// Cube9013
+    7400100: Default Take //// Cube9012
+    7400102: Default Take //// Cube9011
+    7400104: Default Take //// Cube9009
+    7400106: Default Take //// Cylinder9017
+    7400108: Default Take //// Empty9001
+    7400110: Default Take //// Cube9022_MeshCollider
+    7400112: Default Take //// Cube9033_MeshCollider
+    7400114: Default Take //// portal_MeshCollider_trigger
+    7400116: Default Take //// Empty
+    7400118: Default Take //// Cube
+    7400120: Default Take //// Cube902222
+    7400122: Default Take //// Cube325_MeshCollider
+    7400124: Default Take //// FirstArea_BoxCollider_area_trigger
+    7400126: Default Take //// Cube90039006
+    7400128: Default Take //// FirstCam
+    7400130: Default Take //// Empty90019001
+    7400132: Default Take //// Cube90249002_MeshCollider
+    7400134: Default Take //// FR4_BoxCollider
+    7400136: Default Take //// FR1_BoxCollider
+    7400138: Default Take //// FR2_BoxCollider
+    7400140: Default Take //// FR3_BoxCollider
+    7400142: Default Take //// Cube90109004
+    7400144: Default Take //// Cube90109003
+    7400146: Default Take //// Cube90109002
+    7400148: Default Take //// Cube90109001
+    7400150: Default Take //// Cube90249001
+    7400152: Default Take //// Cylinder90219001
+    7400154: Default Take //// SecondArea_BoxCollider_area_trigger9001
+    7400156: Default Take //// SecondCam
+    7400158: Default Take //// Empty900190019001
+    7400160: Default Take //// SR3_BoxCollider9001
+    7400162: Default Take //// SR2_BoxCollider9001
+    7400164: Default Take //// SR1_BoxCollider9001
+    7400166: Default Take //// SR4_BoxCollider9001
+    7400168: Default Take //// Cube90249002_MeshCollider9001
+    7400170: Default Take //// Cube1122112_MeshCollider9001
+    7400172: Default Take //// Cube911102_MeshCollider
+    7400174: Default Take //// Cube501
+    7400176: Default Take //// Cylinder90129001
+    7400178: Default Take //// Cube900390069002
+    7400180: Default Take //// Cube900390069001
+    7400182: Default Take //// ThirdArea_BoxCollider_area_trigger90019001
+    7400184: Default Take //// ThirdCam
+    7400186: Default Take //// Empty9001900190019001
+    7400188: Default Take //// Cube177892_MeshCollider90019001
+    7400190: Default Take //// TR4_BoxCollider90019001
+    7400192: Default Take //// TR1_BoxCollider90019001
+    7400194: Default Take //// TR2_BoxCollider90019001
+    7400196: Default Take //// TR3_BoxCollider90019001
+    7400198: Default Take //// Restart_MeshCollider_trigger
+    7400200: Default Take //// FinalArea_BoxCollider_area_trigger900190019001
+    7400202: Default Take //// Cylinder90289001
+    7400204: Default Take //// Cylinder901290019001
+    7400206: Default Take //// Cylinder9000_MeshCollider
+    7400208: Default Take //// FinalCam
+    7400210: Default Take //// Empty90019001_001
+    7400212: Default Take //// Final2_MeshCollider
+    7400214: Default Take //// Final3_MeshCollider
+    7400216: Default Take //// Cylinder9001_MeshCollider
+    7400218: Default Take //// Final1_MeshCollider
+    7400220: Default Take //// Empty900190019001_001
+    7400222: Default Take //// Empty5546
+    7400224: Default Take //// Empty82875
+    7400226: Default Take //// Empty123
+    7400228: Default Take //// Empty9965
+    7400230: Default Take //// Cube90029001
+    7400232: Default Take //// Cube90019001
+    7400234: Default Take //// Empty9002
+    7400236: Default Take //// ThirdHover_BoxCollider9001
+    7400238: Default Take //// Cubeaa11
+    7400240: Default Take //// Cube90029001_001
+    7400242: Default Take //// SecondHover_BoxCollider
+    7400244: Default Take //// Cube3365
+    7400246: Default Take //// Cube903302
+    7400248: Default Take //// Cube665984
+    7400250: Default Take //// FinalHover_MeshCollider
+    7400252: Default Take //// Cylinder9001_MeshCollider9001
+    9500000: //RootNode
+    11100000: Cube9001
+    11100002: Cube9002
+    11100004: Cube9003
+    11100006: Cube9004
+    11100008: Cube9005
+    11100010: Cube9006
+    11100012: Cube9007
+    11100014: Cube9008
+    11100016: Cube9009
+    11100018: Cube9010
+    11100020: Cube9011
+    11100022: Cube9012
+    11100024: Cube9013
+    11100026: Cube9014
+    11100028: Cube9015
+    11100030: Cube9016
+    11100032: Cube9017
+    11100034: Cube9018
+    11100036: Cube9019
+    11100038: Cube9020
+    11100040: Cube9021
+    11100042: Cube9022
+    11100044: Cube9023
+    11100046: Cube9024
+    11100048: Cube_MeshCollider
+    11100050: Cylinder
+    11100052: Cylinder9002
+    11100054: Cylinder9003
+    11100056: Cylinder9004
+    11100058: Cylinder9005
+    11100060: Cylinder9011
+    11100062: Cylinder9012
+    11100064: Cylinder9013
+    11100066: Cylinder9014
+    11100068: Cylinder9015
+    11100070: Cylinder9016
+    11100072: Cylinder9017
+    11100074: Cylinder9018
+    11100076: Cylinder9019
+    11100078: Cylinder9020
+    11100080: Cylinder9021
+    11100082: Cylinder9022
+    11100084: Cylinder9023
+    11100086: Cylinder9024
+    11100088: Cylinder9025
+    11100090: Cylinder9026
+    11100092: Cylinder9027
+    11100094: Cylinder9028
+    11100096: Cylinder9029
+    11100098: Cylinder9030
+    11100100: Cylinder9031
+    11100102: Cylinder9032
+    11100104: //RootNode
+    11100106: Plane
+    11100108: Cube
+    11100110: Cube9022_MeshCollider
+    11100112: Cube9033_MeshCollider
+    11100114: Empty
+    11100116: Empty9001
+    11100118: portal_MeshCollider_trigger
+    11100120: Cube325_MeshCollider
+    11100122: Cube902222
+    11100124: Cube90039006
+    11100126: Cube90109001
+    11100128: Cube90109002
+    11100130: Cube90109003
+    11100132: Cube90109004
+    11100134: Cube90249001
+    11100136: Cube90249002_MeshCollider
+    11100138: Empty90019001
+    11100140: FirstArea_BoxCollider_area_trigger
+    11100142: FirstCam
+    11100144: FR1_BoxCollider
+    11100146: FR2_BoxCollider
+    11100148: FR3_BoxCollider
+    11100150: FR4_BoxCollider
+    11100152: Cylinder90219001
+    11100154: Cube90249002_MeshCollider9001
+    11100156: Empty900190019001
+    11100158: SecondArea_BoxCollider_area_trigger9001
+    11100160: SecondCam
+    11100162: SR1_BoxCollider9001
+    11100164: SR2_BoxCollider9001
+    11100166: SR3_BoxCollider9001
+    11100168: SR4_BoxCollider9001
+    11100170: Cube1122112_MeshCollider9001
+    11100172: Cube501
+    11100174: Cube911102_MeshCollider
+    11100176: Cube900390069001
+    11100178: Cube900390069002
+    11100180: Cylinder90129001
+    11100182: Cube177892_MeshCollider90019001
+    11100184: Empty9001900190019001
+    11100186: ThirdArea_BoxCollider_area_trigger90019001
+    11100188: ThirdCam
+    11100190: TR1_BoxCollider90019001
+    11100192: TR2_BoxCollider90019001
+    11100194: TR3_BoxCollider90019001
+    11100196: TR4_BoxCollider90019001
+    11100198: Restart_MeshCollider_trigger
+    11100200: Cylinder9000_MeshCollider
+    11100202: Cylinder9001_MeshCollider
+    11100204: Cylinder901290019001
+    11100206: Cylinder90289001
+    11100208: Empty90019001_001
+    11100210: Final1_MeshCollider
+    11100212: Final2_MeshCollider
+    11100214: Final3_MeshCollider
+    11100216: FinalArea_BoxCollider_area_trigger900190019001
+    11100218: FinalCam
+    11100220: Empty900190019001_001
+    11100222: Empty123
+    11100224: Empty5546
+    11100226: Empty82875
+    11100228: Empty9965
+    11100230: Cube90019001
+    11100232: Cube90029001
+    11100234: Cube90029001_001
+    11100236: Cubeaa11
+    11100238: Empty9002
+    11100240: SecondHover_BoxCollider
+    11100242: ThirdHover_BoxCollider9001
+    11100244: Cube3365
+    11100246: Cube665984
+    11100248: Cube903302
+    11100250: Cylinder9001_MeshCollider9001
+    11100252: FinalHover_MeshCollider
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 2
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

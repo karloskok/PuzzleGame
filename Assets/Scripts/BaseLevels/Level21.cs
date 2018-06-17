@@ -176,12 +176,12 @@ public class Level21 : Level21Base {
         if (next)
         { 
             yield return null;
-            SceneManager.LoadScene("Level2");
+            SceneManager.LoadScene("Level22");
         }
         else
         {
             yield return null;
-            SceneManager.LoadScene("Level1");
+            SceneManager.LoadScene("Level21");
         }
     }
 }

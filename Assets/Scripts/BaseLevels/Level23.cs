@@ -325,19 +325,19 @@ public class Level23 : Level23Base {
                 foreach (Element l in rotFirst)
                 {
                     if (l.isInteract)
-                        Level.MoveTowards(l, l.angleFromStart > 0 ? l.animValue + l.angleFromStart : 0f, .8f);
+                        Level.MoveTowards(l, l.angleFromStart > 0 ? l.animValue + l.angleFromStart : l.animValue, .8f);
 
                 }
 
                 foreach (Element l in rotSecond)
                 {
                     if (l.isInteract)
-                        Level.MoveTowards(l, l.angleFromStart > 0 ? l.animValue + l.angleFromStart : 0f, .8f);
+                        Level.MoveTowards(l, l.angleFromStart > 0 ? l.animValue + l.angleFromStart : l.animValue, .8f);
                 }
                 foreach (Element l in rotThird)
                 {
                     if (l.isInteract)
-                        Level.MoveTowards(l, l.angleFromStart > 0 ? l.animValue + l.angleFromStart : 0f, .8f);
+                        Level.MoveTowards(l, l.angleFromStart > 0 ? l.animValue + l.angleFromStart : l.animValue, .8f);
                 }
 
             }
@@ -354,12 +354,12 @@ public class Level23 : Level23Base {
         if (next)
         { 
             yield return null;
-            SceneManager.LoadScene("Level2");
+            SceneManager.LoadScene("Level24");
         }
         else
         {
             yield return null;
-            SceneManager.LoadScene("Level1");
+            SceneManager.LoadScene("Level23");
         }
     }
 }

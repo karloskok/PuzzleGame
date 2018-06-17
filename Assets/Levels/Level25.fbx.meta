@@ -1,0 +1,1565 @@
+fileFormatVersion: 2
+guid: a070d57b2de457c4b9309005cb1b6312
+timeCreated: 1529189197
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: B10_BoxCollider
+    100002: B11_BoxCollider
+    100004: B12_BoxCollider
+    100006: B13_BoxCollider
+    100008: B14_BoxCollider
+    100010: B15_BoxCollider
+    100012: B16_BoxCollider
+    100014: B17_BoxCollider
+    100016: B18_BoxCollider
+    100018: B19_BoxCollider
+    100020: B1_BoxCollider
+    100022: B20_BoxCollider
+    100024: B21_BoxCollider
+    100026: B22_BoxCollider
+    100028: B23_BoxCollider
+    100030: B24_BoxCollider
+    100032: B25_BoxCollider
+    100034: B2_BoxCollider
+    100036: B3_BoxCollider
+    100038: B4_BoxCollider
+    100040: B5_BoxCollider
+    100042: B6_BoxCollider
+    100044: B7_BoxCollider
+    100046: B8_BoxCollider
+    100048: B9_BoxCollider
+    100050: bez
+    100052: ButtonsArea_BoxCollider_area_trigger9001
+    100054: ButtonsCam
+    100056: Cube
+    100058: Cube9001
+    100060: Cube9002
+    100062: Cube9003
+    100064: Cube9004
+    100066: Cube9005
+    100068: Cube9006
+    100070: Cube9007
+    100072: Cube9008
+    100074: Cube9009_BoxCollider
+    100076: Cube9010
+    100078: Cube9012
+    100080: Cube9016
+    100082: Cube9022
+    100084: Cube9047
+    100086: Cylinder9002
+    100088: Cylinder9003
+    100090: Cylinder9005
+    100092: Cylinder9007
+    100094: Cylinder9011
+    100096: Cylinder9013
+    100098: Cylinder9014
+    100100: Cylinder9017
+    100102: Cylinder9021
+    100104: Cylinder9028
+    100106: Cylinder9030
+    100108: Cylinder9036
+    100110: Cylinder9041
+    100112: Cylinder9043
+    100114: Cylinder9045
+    100116: Cylinder9049
+    100118: Cylinder9054
+    100120: Cylinder9057
+    100122: Cylinder9061
+    100124: Cylinder9067
+    100126: Cylinder9071
+    100128: empRotLeft
+    100130: empRotRight
+    100132: Empty
+    100134: Empty9001
+    100136: Empty9002
+    100138: L1_MeshCollider
+    100140: L2_MeshCollider
+    100142: L3_MeshCollider
+    100144: L4_MeshCollider
+    100146: L5_MeshCollider
+    100148: L6_MeshCollider
+    100150: L7_MeshCollider
+    100152: L8_MeshCollider
+    100154: LeftRotArea_BoxCollider_area_trigger90019001
+    100156: LeftRotCam
+    100158: //RootNode
+    100160: R10_MeshCollider
+    100162: R11_MeshCollider
+    100164: R12_MeshCollider
+    100166: R13_MeshCollider
+    100168: R14_MeshCollider
+    100170: R15_MeshCollider
+    100172: R16_MeshCollider
+    100174: R17_MeshCollider
+    100176: R18_MeshCollider
+    100178: R19_MeshCollider
+    100180: R1_MeshCollider
+    100182: R20_MeshCollider
+    100184: R21_MeshCollider
+    100186: R22_MeshCollider
+    100188: R23_MeshCollider
+    100190: R24_MeshCollider
+    100192: R2_MeshCollider
+    100194: R3_MeshCollider
+    100196: R4_MeshCollider
+    100198: R5_MeshCollider
+    100200: R6_MeshCollider
+    100202: R7_MeshCollider
+    100204: R8_MeshCollider
+    100206: R9_MeshCollider
+    100208: RotLeft
+    100210: RotRight
+    100212: RightRotArea_BoxCollider_area_trigger900190019001
+    100214: RightRotCam
+    100216: HintLArea_BoxCollider_area_trigger
+    100218: HintLCam
+    100220: HintRArea_BoxCollider_area_trigger9001
+    100222: HintRCam
+    100224: Cube_MeshCollider
+    100226: Cube22_MeshCollider
+    100228: Cube33645_MeshCollider9001
+    100230: Cube90019001
+    100232: Cube90019002
+    100234: Cube90029001
+    100236: Cube90029002
+    100238: Cube90079001
+    100240: Cube90079002
+    100242: Cube90089001
+    100244: Cube90089002
+    100246: Cube_MeshCollider9002
+    100248: Restart_BoxCollider
+    100250: RotLeft_BoxCollider
+    100252: RotRight_BoxCollider
+    100254: Cube1155
+    100256: Laser
+    100258: _MeshCollider
+    100260: Bridge2_MeshCollider
+    100262: Bridge_MeshCollider
+    100264: Cube22
+    100266: Cube558
+    100268: Cube900122
+    100270: Cube9001229001
+    100272: Cube9022_MeshCollider
+    100274: Cube9033_MeshCollider
+    100276: Cube9038_MeshCollider
+    100278: Cube9038_MeshCollider9001
+    100280: Cube9039_MeshCollider
+    100282: Cube9039_MeshCollider9001
+    100284: Cube9039_MeshCollider9002
+    100286: Cube9039_MeshCollider9003
+    100288: Cube9039_MeshCollider9004
+    100290: Cube9039_MeshCollider9005
+    100292: Cube9039_MeshCollider9006
+    100294: Cube9039_MeshCollider9007
+    100296: Cube9039_MeshCollider9008
+    100298: Cube9040_MeshCollider
+    100300: Cube9040_MeshCollider9001
+    100302: Cube9040_MeshCollider9002
+    100304: Cube9040_MeshCollider9003
+    100306: Cube9040_MeshCollider9004
+    100308: Cube9040_MeshCollider9005
+    100310: Cube9040_MeshCollider9006
+    100312: Cube9040_MeshCollider9007
+    100314: Cube9041
+    100316: Cube90419001
+    100318: Cube90419002
+    100320: Cube90419003
+    100322: Cube90419004
+    100324: Cube90419005
+    100326: Cube90419006
+    100328: Cube90419007
+    100330: Cube90419008
+    100332: Cube90419009
+    100334: Cube90419010
+    100336: Cube90419011
+    100338: Cube90419012
+    100340: Cube90419013
+    100342: Cube90419014
+    100344: Cube90419015
+    100346: Cube90419016
+    100348: Cube90419017
+    100350: Cube90419018
+    100352: Cylinder9011_MeshCollider
+    100354: Cylinder9011_MeshCollider9001
+    100356: Cylinder9012
+    100358: Cylinder90129001
+    100360: Cylinder90139001
+    100362: Cylinder90139002
+    100364: Cylinder9016
+    100366: Cylinder90169001
+    100368: empBridge
+    100370: empBridge9001
+    100372: empLeftHolder
+    100374: empLeftHolder9001
+    100376: empRightHolder
+    100378: empRightHolder9001
+    100380: Empty90019001
+    100382: Empty90029001
+    100384: FirstUp_MeshCollider
+    100386: LeftHolder
+    100388: LeftHolder2
+    100390: portal_MeshCollider_trigger
+    100392: RightHolder
+    100394: RightHolder2
+    100396: SecondUp_MeshCollider
+    100398: Cube1111_MeshCollider
+    100400: Cube1234
+    100402: Cube2222_MeshCollider
+    100404: Cube5264
+    100406: Cube6351
+    100408: Cube7777
+    100410: Cube77779001
+    100412: Cube22999
+    100414: Cube62654
+    100416: Cube999933
+    100418: tsts_MeshCollider
+    100420: Cylinder905545_MeshCollider9001
+    100422: Cube9002_MeshCollider
+    100424: B11_BoxCollider_area
+    100426: B19_BoxCollider_area
+    100428: Cube90666
+    100430: Cylinder9041414
+    100432: Restart_BoxCollider_trigger
+    400000: B10_BoxCollider
+    400002: B11_BoxCollider
+    400004: B12_BoxCollider
+    400006: B13_BoxCollider
+    400008: B14_BoxCollider
+    400010: B15_BoxCollider
+    400012: B16_BoxCollider
+    400014: B17_BoxCollider
+    400016: B18_BoxCollider
+    400018: B19_BoxCollider
+    400020: B1_BoxCollider
+    400022: B20_BoxCollider
+    400024: B21_BoxCollider
+    400026: B22_BoxCollider
+    400028: B23_BoxCollider
+    400030: B24_BoxCollider
+    400032: B25_BoxCollider
+    400034: B2_BoxCollider
+    400036: B3_BoxCollider
+    400038: B4_BoxCollider
+    400040: B5_BoxCollider
+    400042: B6_BoxCollider
+    400044: B7_BoxCollider
+    400046: B8_BoxCollider
+    400048: B9_BoxCollider
+    400050: bez
+    400052: ButtonsArea_BoxCollider_area_trigger9001
+    400054: ButtonsCam
+    400056: Cube
+    400058: Cube9001
+    400060: Cube9002
+    400062: Cube9003
+    400064: Cube9004
+    400066: Cube9005
+    400068: Cube9006
+    400070: Cube9007
+    400072: Cube9008
+    400074: Cube9009_BoxCollider
+    400076: Cube9010
+    400078: Cube9012
+    400080: Cube9016
+    400082: Cube9022
+    400084: Cube9047
+    400086: Cylinder9002
+    400088: Cylinder9003
+    400090: Cylinder9005
+    400092: Cylinder9007
+    400094: Cylinder9011
+    400096: Cylinder9013
+    400098: Cylinder9014
+    400100: Cylinder9017
+    400102: Cylinder9021
+    400104: Cylinder9028
+    400106: Cylinder9030
+    400108: Cylinder9036
+    400110: Cylinder9041
+    400112: Cylinder9043
+    400114: Cylinder9045
+    400116: Cylinder9049
+    400118: Cylinder9054
+    400120: Cylinder9057
+    400122: Cylinder9061
+    400124: Cylinder9067
+    400126: Cylinder9071
+    400128: empRotLeft
+    400130: empRotRight
+    400132: Empty
+    400134: Empty9001
+    400136: Empty9002
+    400138: L1_MeshCollider
+    400140: L2_MeshCollider
+    400142: L3_MeshCollider
+    400144: L4_MeshCollider
+    400146: L5_MeshCollider
+    400148: L6_MeshCollider
+    400150: L7_MeshCollider
+    400152: L8_MeshCollider
+    400154: LeftRotArea_BoxCollider_area_trigger90019001
+    400156: LeftRotCam
+    400158: //RootNode
+    400160: R10_MeshCollider
+    400162: R11_MeshCollider
+    400164: R12_MeshCollider
+    400166: R13_MeshCollider
+    400168: R14_MeshCollider
+    400170: R15_MeshCollider
+    400172: R16_MeshCollider
+    400174: R17_MeshCollider
+    400176: R18_MeshCollider
+    400178: R19_MeshCollider
+    400180: R1_MeshCollider
+    400182: R20_MeshCollider
+    400184: R21_MeshCollider
+    400186: R22_MeshCollider
+    400188: R23_MeshCollider
+    400190: R24_MeshCollider
+    400192: R2_MeshCollider
+    400194: R3_MeshCollider
+    400196: R4_MeshCollider
+    400198: R5_MeshCollider
+    400200: R6_MeshCollider
+    400202: R7_MeshCollider
+    400204: R8_MeshCollider
+    400206: R9_MeshCollider
+    400208: RotLeft
+    400210: RotRight
+    400212: RightRotArea_BoxCollider_area_trigger900190019001
+    400214: RightRotCam
+    400216: HintLArea_BoxCollider_area_trigger
+    400218: HintLCam
+    400220: HintRArea_BoxCollider_area_trigger9001
+    400222: HintRCam
+    400224: Cube_MeshCollider
+    400226: Cube22_MeshCollider
+    400228: Cube33645_MeshCollider9001
+    400230: Cube90019001
+    400232: Cube90019002
+    400234: Cube90029001
+    400236: Cube90029002
+    400238: Cube90079001
+    400240: Cube90079002
+    400242: Cube90089001
+    400244: Cube90089002
+    400246: Cube_MeshCollider9002
+    400248: Restart_BoxCollider
+    400250: RotLeft_BoxCollider
+    400252: RotRight_BoxCollider
+    400254: Cube1155
+    400256: Laser
+    400258: _MeshCollider
+    400260: Bridge2_MeshCollider
+    400262: Bridge_MeshCollider
+    400264: Cube22
+    400266: Cube558
+    400268: Cube900122
+    400270: Cube9001229001
+    400272: Cube9022_MeshCollider
+    400274: Cube9033_MeshCollider
+    400276: Cube9038_MeshCollider
+    400278: Cube9038_MeshCollider9001
+    400280: Cube9039_MeshCollider
+    400282: Cube9039_MeshCollider9001
+    400284: Cube9039_MeshCollider9002
+    400286: Cube9039_MeshCollider9003
+    400288: Cube9039_MeshCollider9004
+    400290: Cube9039_MeshCollider9005
+    400292: Cube9039_MeshCollider9006
+    400294: Cube9039_MeshCollider9007
+    400296: Cube9039_MeshCollider9008
+    400298: Cube9040_MeshCollider
+    400300: Cube9040_MeshCollider9001
+    400302: Cube9040_MeshCollider9002
+    400304: Cube9040_MeshCollider9003
+    400306: Cube9040_MeshCollider9004
+    400308: Cube9040_MeshCollider9005
+    400310: Cube9040_MeshCollider9006
+    400312: Cube9040_MeshCollider9007
+    400314: Cube9041
+    400316: Cube90419001
+    400318: Cube90419002
+    400320: Cube90419003
+    400322: Cube90419004
+    400324: Cube90419005
+    400326: Cube90419006
+    400328: Cube90419007
+    400330: Cube90419008
+    400332: Cube90419009
+    400334: Cube90419010
+    400336: Cube90419011
+    400338: Cube90419012
+    400340: Cube90419013
+    400342: Cube90419014
+    400344: Cube90419015
+    400346: Cube90419016
+    400348: Cube90419017
+    400350: Cube90419018
+    400352: Cylinder9011_MeshCollider
+    400354: Cylinder9011_MeshCollider9001
+    400356: Cylinder9012
+    400358: Cylinder90129001
+    400360: Cylinder90139001
+    400362: Cylinder90139002
+    400364: Cylinder9016
+    400366: Cylinder90169001
+    400368: empBridge
+    400370: empBridge9001
+    400372: empLeftHolder
+    400374: empLeftHolder9001
+    400376: empRightHolder
+    400378: empRightHolder9001
+    400380: Empty90019001
+    400382: Empty90029001
+    400384: FirstUp_MeshCollider
+    400386: LeftHolder
+    400388: LeftHolder2
+    400390: portal_MeshCollider_trigger
+    400392: RightHolder
+    400394: RightHolder2
+    400396: SecondUp_MeshCollider
+    400398: Cube1111_MeshCollider
+    400400: Cube1234
+    400402: Cube2222_MeshCollider
+    400404: Cube5264
+    400406: Cube6351
+    400408: Cube7777
+    400410: Cube77779001
+    400412: Cube22999
+    400414: Cube62654
+    400416: Cube999933
+    400418: tsts_MeshCollider
+    400420: Cylinder905545_MeshCollider9001
+    400422: Cube9002_MeshCollider
+    400424: B11_BoxCollider_area
+    400426: B19_BoxCollider_area
+    400428: Cube90666
+    400430: Cylinder9041414
+    400432: Restart_BoxCollider_trigger
+    2000000: ButtonsCam
+    2000002: LeftRotCam
+    2000004: RightRotCam
+    2000006: HintLCam
+    2000008: HintRCam
+    2100000: unnamed
+    2100002: None__Color-Palette_png
+    2100004: Material__Color-Palette_png
+    2100006: None__Color-Palette_png_001
+    2100008: None__Color-Palette_png_004
+    2100010: Material_001__Color-Palette_png_003
+    2100012: None__Color-Palette_png_002
+    2100014: None__Color-Palette_png_005
+    2100016: None__Color-Palette_png_006
+    2100018: Material__Color-Palette_png_006
+    2300000: B10_BoxCollider
+    2300002: B11_BoxCollider
+    2300004: B12_BoxCollider
+    2300006: B13_BoxCollider
+    2300008: B14_BoxCollider
+    2300010: B15_BoxCollider
+    2300012: B16_BoxCollider
+    2300014: B17_BoxCollider
+    2300016: B18_BoxCollider
+    2300018: B19_BoxCollider
+    2300020: B1_BoxCollider
+    2300022: B20_BoxCollider
+    2300024: B21_BoxCollider
+    2300026: B22_BoxCollider
+    2300028: B23_BoxCollider
+    2300030: B24_BoxCollider
+    2300032: B25_BoxCollider
+    2300034: B2_BoxCollider
+    2300036: B3_BoxCollider
+    2300038: B4_BoxCollider
+    2300040: B5_BoxCollider
+    2300042: B6_BoxCollider
+    2300044: B7_BoxCollider
+    2300046: B8_BoxCollider
+    2300048: B9_BoxCollider
+    2300050: bez
+    2300052: ButtonsArea_BoxCollider_area_trigger9001
+    2300054: Cube
+    2300056: Cube9001
+    2300058: Cube9002
+    2300060: Cube9003
+    2300062: Cube9004
+    2300064: Cube9005
+    2300066: Cube9006
+    2300068: Cube9007
+    2300070: Cube9008
+    2300072: Cube9009_BoxCollider
+    2300074: Cube9010
+    2300076: Cube9012
+    2300078: Cube9016
+    2300080: Cube9022
+    2300082: Cube9047
+    2300084: Cylinder9002
+    2300086: Cylinder9003
+    2300088: Cylinder9005
+    2300090: Cylinder9007
+    2300092: Cylinder9011
+    2300094: Cylinder9013
+    2300096: Cylinder9014
+    2300098: Cylinder9017
+    2300100: Cylinder9021
+    2300102: Cylinder9028
+    2300104: Cylinder9030
+    2300106: Cylinder9036
+    2300108: Cylinder9041
+    2300110: Cylinder9043
+    2300112: Cylinder9045
+    2300114: Cylinder9049
+    2300116: Cylinder9054
+    2300118: Cylinder9057
+    2300120: Cylinder9061
+    2300122: Cylinder9067
+    2300124: Cylinder9071
+    2300126: L1_MeshCollider
+    2300128: L2_MeshCollider
+    2300130: L3_MeshCollider
+    2300132: L4_MeshCollider
+    2300134: L5_MeshCollider
+    2300136: L6_MeshCollider
+    2300138: L7_MeshCollider
+    2300140: L8_MeshCollider
+    2300142: LeftRotArea_BoxCollider_area_trigger90019001
+    2300144: R10_MeshCollider
+    2300146: R11_MeshCollider
+    2300148: R12_MeshCollider
+    2300150: R13_MeshCollider
+    2300152: R14_MeshCollider
+    2300154: R15_MeshCollider
+    2300156: R16_MeshCollider
+    2300158: R17_MeshCollider
+    2300160: R18_MeshCollider
+    2300162: R19_MeshCollider
+    2300164: R1_MeshCollider
+    2300166: R20_MeshCollider
+    2300168: R21_MeshCollider
+    2300170: R22_MeshCollider
+    2300172: R23_MeshCollider
+    2300174: R24_MeshCollider
+    2300176: R2_MeshCollider
+    2300178: R3_MeshCollider
+    2300180: R4_MeshCollider
+    2300182: R5_MeshCollider
+    2300184: R6_MeshCollider
+    2300186: R7_MeshCollider
+    2300188: R8_MeshCollider
+    2300190: R9_MeshCollider
+    2300192: RotLeft
+    2300194: RotRight
+    2300196: RightRotArea_BoxCollider_area_trigger900190019001
+    2300198: HintLArea_BoxCollider_area_trigger
+    2300200: HintRArea_BoxCollider_area_trigger9001
+    2300202: Cube_MeshCollider
+    2300204: Cube22_MeshCollider
+    2300206: Cube33645_MeshCollider9001
+    2300208: Cube90019001
+    2300210: Cube90019002
+    2300212: Cube90029001
+    2300214: Cube90029002
+    2300216: Cube90079001
+    2300218: Cube90079002
+    2300220: Cube90089001
+    2300222: Cube90089002
+    2300224: Cube_MeshCollider9002
+    2300226: Restart_BoxCollider
+    2300228: RotLeft_BoxCollider
+    2300230: RotRight_BoxCollider
+    2300232: Cube1155
+    2300234: Laser
+    2300236: _MeshCollider
+    2300238: Bridge2_MeshCollider
+    2300240: Bridge_MeshCollider
+    2300242: Cube22
+    2300244: Cube558
+    2300246: Cube900122
+    2300248: Cube9001229001
+    2300250: Cube9022_MeshCollider
+    2300252: Cube9033_MeshCollider
+    2300254: Cube9038_MeshCollider
+    2300256: Cube9038_MeshCollider9001
+    2300258: Cube9039_MeshCollider
+    2300260: Cube9039_MeshCollider9001
+    2300262: Cube9039_MeshCollider9002
+    2300264: Cube9039_MeshCollider9003
+    2300266: Cube9039_MeshCollider9004
+    2300268: Cube9039_MeshCollider9005
+    2300270: Cube9039_MeshCollider9006
+    2300272: Cube9039_MeshCollider9007
+    2300274: Cube9039_MeshCollider9008
+    2300276: Cube9040_MeshCollider
+    2300278: Cube9040_MeshCollider9001
+    2300280: Cube9040_MeshCollider9002
+    2300282: Cube9040_MeshCollider9003
+    2300284: Cube9040_MeshCollider9004
+    2300286: Cube9040_MeshCollider9005
+    2300288: Cube9040_MeshCollider9006
+    2300290: Cube9040_MeshCollider9007
+    2300292: Cube9041
+    2300294: Cube90419001
+    2300296: Cube90419002
+    2300298: Cube90419003
+    2300300: Cube90419004
+    2300302: Cube90419005
+    2300304: Cube90419006
+    2300306: Cube90419007
+    2300308: Cube90419008
+    2300310: Cube90419009
+    2300312: Cube90419010
+    2300314: Cube90419011
+    2300316: Cube90419012
+    2300318: Cube90419013
+    2300320: Cube90419014
+    2300322: Cube90419015
+    2300324: Cube90419016
+    2300326: Cube90419017
+    2300328: Cube90419018
+    2300330: Cylinder9011_MeshCollider
+    2300332: Cylinder9011_MeshCollider9001
+    2300334: Cylinder9012
+    2300336: Cylinder90129001
+    2300338: Cylinder90139001
+    2300340: Cylinder90139002
+    2300342: Cylinder9016
+    2300344: Cylinder90169001
+    2300346: FirstUp_MeshCollider
+    2300348: LeftHolder
+    2300350: LeftHolder2
+    2300352: portal_MeshCollider_trigger
+    2300354: RightHolder
+    2300356: RightHolder2
+    2300358: SecondUp_MeshCollider
+    2300360: Cube1111_MeshCollider
+    2300362: Cube1234
+    2300364: Cube2222_MeshCollider
+    2300366: Cube5264
+    2300368: Cube6351
+    2300370: Cube7777
+    2300372: Cube77779001
+    2300374: Cube22999
+    2300376: Cube62654
+    2300378: Cube999933
+    2300380: tsts_MeshCollider
+    2300382: Cylinder905545_MeshCollider9001
+    2300384: Cube9002_MeshCollider
+    2300386: B11_BoxCollider_area
+    2300388: B19_BoxCollider_area
+    2300390: Cube90666
+    2300392: Cylinder9041414
+    2300394: Restart_BoxCollider_trigger
+    3300000: B10_BoxCollider
+    3300002: B11_BoxCollider
+    3300004: B12_BoxCollider
+    3300006: B13_BoxCollider
+    3300008: B14_BoxCollider
+    3300010: B15_BoxCollider
+    3300012: B16_BoxCollider
+    3300014: B17_BoxCollider
+    3300016: B18_BoxCollider
+    3300018: B19_BoxCollider
+    3300020: B1_BoxCollider
+    3300022: B20_BoxCollider
+    3300024: B21_BoxCollider
+    3300026: B22_BoxCollider
+    3300028: B23_BoxCollider
+    3300030: B24_BoxCollider
+    3300032: B25_BoxCollider
+    3300034: B2_BoxCollider
+    3300036: B3_BoxCollider
+    3300038: B4_BoxCollider
+    3300040: B5_BoxCollider
+    3300042: B6_BoxCollider
+    3300044: B7_BoxCollider
+    3300046: B8_BoxCollider
+    3300048: B9_BoxCollider
+    3300050: bez
+    3300052: ButtonsArea_BoxCollider_area_trigger9001
+    3300054: Cube
+    3300056: Cube9001
+    3300058: Cube9002
+    3300060: Cube9003
+    3300062: Cube9004
+    3300064: Cube9005
+    3300066: Cube9006
+    3300068: Cube9007
+    3300070: Cube9008
+    3300072: Cube9009_BoxCollider
+    3300074: Cube9010
+    3300076: Cube9012
+    3300078: Cube9016
+    3300080: Cube9022
+    3300082: Cube9047
+    3300084: Cylinder9002
+    3300086: Cylinder9003
+    3300088: Cylinder9005
+    3300090: Cylinder9007
+    3300092: Cylinder9011
+    3300094: Cylinder9013
+    3300096: Cylinder9014
+    3300098: Cylinder9017
+    3300100: Cylinder9021
+    3300102: Cylinder9028
+    3300104: Cylinder9030
+    3300106: Cylinder9036
+    3300108: Cylinder9041
+    3300110: Cylinder9043
+    3300112: Cylinder9045
+    3300114: Cylinder9049
+    3300116: Cylinder9054
+    3300118: Cylinder9057
+    3300120: Cylinder9061
+    3300122: Cylinder9067
+    3300124: Cylinder9071
+    3300126: L1_MeshCollider
+    3300128: L2_MeshCollider
+    3300130: L3_MeshCollider
+    3300132: L4_MeshCollider
+    3300134: L5_MeshCollider
+    3300136: L6_MeshCollider
+    3300138: L7_MeshCollider
+    3300140: L8_MeshCollider
+    3300142: LeftRotArea_BoxCollider_area_trigger90019001
+    3300144: R10_MeshCollider
+    3300146: R11_MeshCollider
+    3300148: R12_MeshCollider
+    3300150: R13_MeshCollider
+    3300152: R14_MeshCollider
+    3300154: R15_MeshCollider
+    3300156: R16_MeshCollider
+    3300158: R17_MeshCollider
+    3300160: R18_MeshCollider
+    3300162: R19_MeshCollider
+    3300164: R1_MeshCollider
+    3300166: R20_MeshCollider
+    3300168: R21_MeshCollider
+    3300170: R22_MeshCollider
+    3300172: R23_MeshCollider
+    3300174: R24_MeshCollider
+    3300176: R2_MeshCollider
+    3300178: R3_MeshCollider
+    3300180: R4_MeshCollider
+    3300182: R5_MeshCollider
+    3300184: R6_MeshCollider
+    3300186: R7_MeshCollider
+    3300188: R8_MeshCollider
+    3300190: R9_MeshCollider
+    3300192: RotLeft
+    3300194: RotRight
+    3300196: RightRotArea_BoxCollider_area_trigger900190019001
+    3300198: HintLArea_BoxCollider_area_trigger
+    3300200: HintRArea_BoxCollider_area_trigger9001
+    3300202: Cube_MeshCollider
+    3300204: Cube22_MeshCollider
+    3300206: Cube33645_MeshCollider9001
+    3300208: Cube90019001
+    3300210: Cube90019002
+    3300212: Cube90029001
+    3300214: Cube90029002
+    3300216: Cube90079001
+    3300218: Cube90079002
+    3300220: Cube90089001
+    3300222: Cube90089002
+    3300224: Cube_MeshCollider9002
+    3300226: Restart_BoxCollider
+    3300228: RotLeft_BoxCollider
+    3300230: RotRight_BoxCollider
+    3300232: Cube1155
+    3300234: Laser
+    3300236: _MeshCollider
+    3300238: Bridge2_MeshCollider
+    3300240: Bridge_MeshCollider
+    3300242: Cube22
+    3300244: Cube558
+    3300246: Cube900122
+    3300248: Cube9001229001
+    3300250: Cube9022_MeshCollider
+    3300252: Cube9033_MeshCollider
+    3300254: Cube9038_MeshCollider
+    3300256: Cube9038_MeshCollider9001
+    3300258: Cube9039_MeshCollider
+    3300260: Cube9039_MeshCollider9001
+    3300262: Cube9039_MeshCollider9002
+    3300264: Cube9039_MeshCollider9003
+    3300266: Cube9039_MeshCollider9004
+    3300268: Cube9039_MeshCollider9005
+    3300270: Cube9039_MeshCollider9006
+    3300272: Cube9039_MeshCollider9007
+    3300274: Cube9039_MeshCollider9008
+    3300276: Cube9040_MeshCollider
+    3300278: Cube9040_MeshCollider9001
+    3300280: Cube9040_MeshCollider9002
+    3300282: Cube9040_MeshCollider9003
+    3300284: Cube9040_MeshCollider9004
+    3300286: Cube9040_MeshCollider9005
+    3300288: Cube9040_MeshCollider9006
+    3300290: Cube9040_MeshCollider9007
+    3300292: Cube9041
+    3300294: Cube90419001
+    3300296: Cube90419002
+    3300298: Cube90419003
+    3300300: Cube90419004
+    3300302: Cube90419005
+    3300304: Cube90419006
+    3300306: Cube90419007
+    3300308: Cube90419008
+    3300310: Cube90419009
+    3300312: Cube90419010
+    3300314: Cube90419011
+    3300316: Cube90419012
+    3300318: Cube90419013
+    3300320: Cube90419014
+    3300322: Cube90419015
+    3300324: Cube90419016
+    3300326: Cube90419017
+    3300328: Cube90419018
+    3300330: Cylinder9011_MeshCollider
+    3300332: Cylinder9011_MeshCollider9001
+    3300334: Cylinder9012
+    3300336: Cylinder90129001
+    3300338: Cylinder90139001
+    3300340: Cylinder90139002
+    3300342: Cylinder9016
+    3300344: Cylinder90169001
+    3300346: FirstUp_MeshCollider
+    3300348: LeftHolder
+    3300350: LeftHolder2
+    3300352: portal_MeshCollider_trigger
+    3300354: RightHolder
+    3300356: RightHolder2
+    3300358: SecondUp_MeshCollider
+    3300360: Cube1111_MeshCollider
+    3300362: Cube1234
+    3300364: Cube2222_MeshCollider
+    3300366: Cube5264
+    3300368: Cube6351
+    3300370: Cube7777
+    3300372: Cube77779001
+    3300374: Cube22999
+    3300376: Cube62654
+    3300378: Cube999933
+    3300380: tsts_MeshCollider
+    3300382: Cylinder905545_MeshCollider9001
+    3300384: Cube9002_MeshCollider
+    3300386: B11_BoxCollider_area
+    3300388: B19_BoxCollider_area
+    3300390: Cube90666
+    3300392: Cylinder9041414
+    3300394: Restart_BoxCollider_trigger
+    4300000: Cube9009_BoxCollider
+    4300002: LeftRotArea_BoxCollider_area_trigger90019001
+    4300004: Cube9010
+    4300006: Cube9008
+    4300008: Cube9007
+    4300010: Cube9002
+    4300012: Cube9001
+    4300014: Cube
+    4300016: ButtonsArea_BoxCollider_area_trigger9001
+    4300018: Cube9006
+    4300020: Cube9005
+    4300022: Cylinder9071
+    4300024: R2_MeshCollider
+    4300026: R1_MeshCollider
+    4300028: Cylinder9067
+    4300030: R3_MeshCollider
+    4300032: R4_MeshCollider
+    4300034: R22_MeshCollider
+    4300036: Cylinder9061
+    4300038: R21_MeshCollider
+    4300040: R23_MeshCollider
+    4300042: Cylinder9057
+    4300044: R24_MeshCollider
+    4300046: Cylinder9054
+    4300048: R9_MeshCollider
+    4300050: R8_MeshCollider
+    4300052: Cylinder9049
+    4300054: R11_MeshCollider
+    4300056: R10_MeshCollider
+    4300058: Cylinder9045
+    4300060: Cylinder9043
+    4300062: R12_MeshCollider
+    4300064: Cylinder9041
+    4300066: R13_MeshCollider
+    4300068: R16_MeshCollider
+    4300070: Cylinder9036
+    4300072: R14_MeshCollider
+    4300074: R15_MeshCollider
+    4300076: Cylinder9030
+    4300078: R17_MeshCollider
+    4300080: R18_MeshCollider
+    4300082: R19_MeshCollider
+    4300084: R20_MeshCollider
+    4300086: Cylinder9017
+    4300088: R7_MeshCollider
+    4300090: Cylinder9014
+    4300092: Cube9003
+    4300094: R5_MeshCollider
+    4300096: Cylinder9005
+    4300098: R6_MeshCollider
+    4300100: Cube9012
+    4300102: Cube9016
+    4300104: Cube9004
+    4300106: L8_MeshCollider
+    4300108: Cylinder9028
+    4300110: bez
+    4300112: L6_MeshCollider
+    4300114: Cylinder9021
+    4300116: L7_MeshCollider
+    4300118: L5_MeshCollider
+    4300120: Cylinder9013
+    4300122: Cylinder9011
+    4300124: L3_MeshCollider
+    4300126: L4_MeshCollider
+    4300128: Cylinder9007
+    4300130: L2_MeshCollider
+    4300132: Cylinder9003
+    4300134: Cylinder9002
+    4300136: L1_MeshCollider
+    4300138: Cube9022
+    4300140: RotRight
+    4300142: RotLeft
+    4300144: B1_BoxCollider
+    4300146: B10_BoxCollider
+    4300148: B11_BoxCollider
+    4300150: B12_BoxCollider
+    4300152: B13_BoxCollider
+    4300154: B14_BoxCollider
+    4300156: B15_BoxCollider
+    4300158: B16_BoxCollider
+    4300160: B17_BoxCollider
+    4300162: B18_BoxCollider
+    4300164: B19_BoxCollider
+    4300166: B2_BoxCollider
+    4300168: B20_BoxCollider
+    4300170: B21_BoxCollider
+    4300172: B22_BoxCollider
+    4300174: B23_BoxCollider
+    4300176: B24_BoxCollider
+    4300178: B25_BoxCollider
+    4300180: B3_BoxCollider
+    4300182: B4_BoxCollider
+    4300184: B5_BoxCollider
+    4300186: B6_BoxCollider
+    4300188: B7_BoxCollider
+    4300190: B8_BoxCollider
+    4300192: B9_BoxCollider
+    4300194: Cube9047
+    4300196: RightRotArea_BoxCollider_area_trigger900190019001
+    4300198: HintRArea_BoxCollider_area_trigger9001
+    4300200: HintLArea_BoxCollider_area_trigger
+    4300202: Cube_MeshCollider
+    4300204: Cube90089002
+    4300206: Cube90079002
+    4300208: Cube90029002
+    4300210: Cube90019002
+    4300212: Cube_MeshCollider9002
+    4300214: Cube33645_MeshCollider9001
+    4300216: Cube90019001
+    4300218: Cube90029001
+    4300220: Cube90079001
+    4300222: Cube90089001
+    4300224: Restart_BoxCollider
+    4300226: Cube22_MeshCollider
+    4300228: RotRight_BoxCollider
+    4300230: RotLeft_BoxCollider
+    4300232: Laser
+    4300234: Cube1155
+    4300236: Cube9039_MeshCollider9008
+    4300238: Cube9039_MeshCollider9007
+    4300240: Cube9040_MeshCollider9007
+    4300242: Cube9040_MeshCollider9006
+    4300244: Cube9040_MeshCollider9005
+    4300246: Cube9039_MeshCollider9006
+    4300248: Cube9040_MeshCollider9004
+    4300250: Cube9039_MeshCollider9005
+    4300252: Cube9039_MeshCollider9004
+    4300254: Cube9039_MeshCollider9003
+    4300256: Cube9040_MeshCollider9003
+    4300258: Cube9039_MeshCollider9002
+    4300260: Cube9040_MeshCollider9002
+    4300262: Cube9040_MeshCollider9001
+    4300264: Cube9039_MeshCollider9001
+    4300266: Cube9038_MeshCollider9001
+    4300268: Cube90419018
+    4300270: Cube90419017
+    4300272: Cube90419016
+    4300274: Cube90419015
+    4300276: Cube90419014
+    4300278: Cube90419013
+    4300280: Cube90419012
+    4300282: Cube90419011
+    4300284: Cube90419010
+    4300286: Cube90419009
+    4300288: Cube90419008
+    4300290: Cube90419007
+    4300292: Cube90419006
+    4300294: Cube90419005
+    4300296: Cube90419004
+    4300298: Cube90419003
+    4300300: Cube90419002
+    4300302: Cube90419001
+    4300304: _MeshCollider
+    4300306: Cube558
+    4300308: Cylinder90169001
+    4300310: Cylinder90139002
+    4300312: Cylinder90129001
+    4300314: Cylinder9011_MeshCollider9001
+    4300316: Cube9001229001
+    4300318: Cube22
+    4300320: Cube900122
+    4300322: Cylinder9011_MeshCollider
+    4300324: Cylinder9012
+    4300326: Cylinder90139001
+    4300328: Cylinder9016
+    4300330: Cube9041
+    4300332: Cube9038_MeshCollider
+    4300334: Cube9039_MeshCollider
+    4300336: Cube9040_MeshCollider
+    4300338: Cube9022_MeshCollider
+    4300340: Cube9033_MeshCollider
+    4300342: portal_MeshCollider_trigger
+    4300344: SecondUp_MeshCollider
+    4300346: FirstUp_MeshCollider
+    4300348: RightHolder2
+    4300350: LeftHolder2
+    4300352: Bridge2_MeshCollider
+    4300354: Bridge_MeshCollider
+    4300356: LeftHolder
+    4300358: RightHolder
+    4300360: Cube2222_MeshCollider
+    4300362: Cube1111_MeshCollider
+    4300364: Cube5264
+    4300366: Cube6351
+    4300368: Cube1234
+    4300370: Cube7777
+    4300372: Cube77779001
+    4300374: tsts_MeshCollider
+    4300376: Cube62654
+    4300378: Cube22999
+    4300380: Cube999933
+    4300382: Cylinder905545_MeshCollider9001
+    4300384: Cube9002_MeshCollider
+    4300386: B11_BoxCollider_area
+    4300388: B19_BoxCollider_area
+    4300390: Cube90666
+    4300392: Cylinder9041414
+    4300394: Restart_BoxCollider_trigger
+    7400000: Default Take
+    7400002: Default Take //// Cube9009_BoxCollider
+    7400004: Default Take //// LeftRotArea_BoxCollider_area_trigger90019001
+    7400006: Default Take //// Cube9010
+    7400008: Default Take //// Cube9008
+    7400010: Default Take //// Cube9007
+    7400012: Default Take //// Cube9002
+    7400014: Default Take //// Cube9001
+    7400016: Default Take //// Cube
+    7400018: Default Take //// ButtonsArea_BoxCollider_area_trigger9001
+    7400020: Default Take //// LeftRotCam
+    7400022: Default Take //// ButtonsCam
+    7400024: Default Take //// Empty9002
+    7400026: Default Take //// Cube9006
+    7400028: Default Take //// Cube9005
+    7400030: Default Take //// Cylinder9071
+    7400032: Default Take //// R2_MeshCollider
+    7400034: Default Take //// R1_MeshCollider
+    7400036: Default Take //// Cylinder9067
+    7400038: Default Take //// R3_MeshCollider
+    7400040: Default Take //// R4_MeshCollider
+    7400042: Default Take //// R22_MeshCollider
+    7400044: Default Take //// Cylinder9061
+    7400046: Default Take //// R21_MeshCollider
+    7400048: Default Take //// R23_MeshCollider
+    7400050: Default Take //// Cylinder9057
+    7400052: Default Take //// R24_MeshCollider
+    7400054: Default Take //// Cylinder9054
+    7400056: Default Take //// R9_MeshCollider
+    7400058: Default Take //// R8_MeshCollider
+    7400060: Default Take //// Cylinder9049
+    7400062: Default Take //// R11_MeshCollider
+    7400064: Default Take //// R10_MeshCollider
+    7400066: Default Take //// Cylinder9045
+    7400068: Default Take //// Cylinder9043
+    7400070: Default Take //// R12_MeshCollider
+    7400072: Default Take //// Cylinder9041
+    7400074: Default Take //// R13_MeshCollider
+    7400076: Default Take //// R16_MeshCollider
+    7400078: Default Take //// Cylinder9036
+    7400080: Default Take //// R14_MeshCollider
+    7400082: Default Take //// R15_MeshCollider
+    7400084: Default Take //// Cylinder9030
+    7400086: Default Take //// R17_MeshCollider
+    7400088: Default Take //// R18_MeshCollider
+    7400090: Default Take //// R19_MeshCollider
+    7400092: Default Take //// R20_MeshCollider
+    7400094: Default Take //// Cylinder9017
+    7400096: Default Take //// R7_MeshCollider
+    7400098: Default Take //// Cylinder9014
+    7400100: Default Take //// Cube9003
+    7400102: Default Take //// R5_MeshCollider
+    7400104: Default Take //// Cylinder9005
+    7400106: Default Take //// R6_MeshCollider
+    7400108: Default Take //// Empty9001
+    7400110: Default Take //// Cube9012
+    7400112: Default Take //// Cube9016
+    7400114: Default Take //// Cube9004
+    7400116: Default Take //// L8_MeshCollider
+    7400118: Default Take //// Cylinder9028
+    7400120: Default Take //// bez
+    7400122: Default Take //// L6_MeshCollider
+    7400124: Default Take //// Cylinder9021
+    7400126: Default Take //// L7_MeshCollider
+    7400128: Default Take //// L5_MeshCollider
+    7400130: Default Take //// Cylinder9013
+    7400132: Default Take //// Cylinder9011
+    7400134: Default Take //// L3_MeshCollider
+    7400136: Default Take //// L4_MeshCollider
+    7400138: Default Take //// Cylinder9007
+    7400140: Default Take //// L2_MeshCollider
+    7400142: Default Take //// Cylinder9003
+    7400144: Default Take //// Cylinder9002
+    7400146: Default Take //// L1_MeshCollider
+    7400148: Default Take //// Cube9022
+    7400150: Default Take //// empRotRight
+    7400152: Default Take //// RotRight
+    7400154: Default Take //// empRotLeft
+    7400156: Default Take //// RotLeft
+    7400158: Default Take //// Empty
+    7400160: Default Take //// B1_BoxCollider
+    7400162: Default Take //// B10_BoxCollider
+    7400164: Default Take //// B11_BoxCollider
+    7400166: Default Take //// B12_BoxCollider
+    7400168: Default Take //// B13_BoxCollider
+    7400170: Default Take //// B14_BoxCollider
+    7400172: Default Take //// B15_BoxCollider
+    7400174: Default Take //// B16_BoxCollider
+    7400176: Default Take //// B17_BoxCollider
+    7400178: Default Take //// B18_BoxCollider
+    7400180: Default Take //// B19_BoxCollider
+    7400182: Default Take //// B2_BoxCollider
+    7400184: Default Take //// B20_BoxCollider
+    7400186: Default Take //// B21_BoxCollider
+    7400188: Default Take //// B22_BoxCollider
+    7400190: Default Take //// B23_BoxCollider
+    7400192: Default Take //// B24_BoxCollider
+    7400194: Default Take //// B25_BoxCollider
+    7400196: Default Take //// B3_BoxCollider
+    7400198: Default Take //// B4_BoxCollider
+    7400200: Default Take //// B5_BoxCollider
+    7400202: Default Take //// B6_BoxCollider
+    7400204: Default Take //// B7_BoxCollider
+    7400206: Default Take //// B8_BoxCollider
+    7400208: Default Take //// B9_BoxCollider
+    7400210: Default Take //// Cube9047
+    7400212: Default Take //// RightRotArea_BoxCollider_area_trigger900190019001
+    7400214: Default Take //// RightRotCam
+    7400216: Default Take //// HintRArea_BoxCollider_area_trigger9001
+    7400218: Default Take //// HintRCam
+    7400220: Default Take //// HintLArea_BoxCollider_area_trigger
+    7400222: Default Take //// HintLCam
+    7400224: Default Take //// Cube_MeshCollider
+    7400226: Default Take //// Cube90089002
+    7400228: Default Take //// Cube90079002
+    7400230: Default Take //// Cube90029002
+    7400232: Default Take //// Cube90019002
+    7400234: Default Take //// Cube_MeshCollider9002
+    7400236: Default Take //// Cube33645_MeshCollider9001
+    7400238: Default Take //// Cube90019001
+    7400240: Default Take //// Cube90029001
+    7400242: Default Take //// Cube90079001
+    7400244: Default Take //// Cube90089001
+    7400246: Default Take //// Restart_BoxCollider
+    7400248: Default Take //// Cube22_MeshCollider
+    7400250: Default Take //// RotRight_BoxCollider
+    7400252: Default Take //// RotLeft_BoxCollider
+    7400254: Default Take //// Laser
+    7400256: Default Take //// Cube1155
+    7400258: Default Take //// Cube9039_MeshCollider9008
+    7400260: Default Take //// Cube9039_MeshCollider9007
+    7400262: Default Take //// Cube9040_MeshCollider9007
+    7400264: Default Take //// Cube9040_MeshCollider9006
+    7400266: Default Take //// Cube9040_MeshCollider9005
+    7400268: Default Take //// Cube9039_MeshCollider9006
+    7400270: Default Take //// Cube9040_MeshCollider9004
+    7400272: Default Take //// Cube9039_MeshCollider9005
+    7400274: Default Take //// Cube9039_MeshCollider9004
+    7400276: Default Take //// Cube9039_MeshCollider9003
+    7400278: Default Take //// Cube9040_MeshCollider9003
+    7400280: Default Take //// Cube9039_MeshCollider9002
+    7400282: Default Take //// Cube9040_MeshCollider9002
+    7400284: Default Take //// Cube9040_MeshCollider9001
+    7400286: Default Take //// Cube9039_MeshCollider9001
+    7400288: Default Take //// Cube9038_MeshCollider9001
+    7400290: Default Take //// Cube90419018
+    7400292: Default Take //// Cube90419017
+    7400294: Default Take //// Cube90419016
+    7400296: Default Take //// Cube90419015
+    7400298: Default Take //// Cube90419014
+    7400300: Default Take //// Cube90419013
+    7400302: Default Take //// Cube90419012
+    7400304: Default Take //// Cube90419011
+    7400306: Default Take //// Cube90419010
+    7400308: Default Take //// Cube90419009
+    7400310: Default Take //// Cube90419008
+    7400312: Default Take //// Cube90419007
+    7400314: Default Take //// Cube90419006
+    7400316: Default Take //// Cube90419005
+    7400318: Default Take //// Cube90419004
+    7400320: Default Take //// Cube90419003
+    7400322: Default Take //// Cube90419002
+    7400324: Default Take //// Cube90419001
+    7400326: Default Take //// _MeshCollider
+    7400328: Default Take //// Cube558
+    7400330: Default Take //// Cylinder90169001
+    7400332: Default Take //// Cylinder90139002
+    7400334: Default Take //// Cylinder90129001
+    7400336: Default Take //// Cylinder9011_MeshCollider9001
+    7400338: Default Take //// Cube9001229001
+    7400340: Default Take //// Cube22
+    7400342: Default Take //// Cube900122
+    7400344: Default Take //// Cylinder9011_MeshCollider
+    7400346: Default Take //// Cylinder9012
+    7400348: Default Take //// Cylinder90139001
+    7400350: Default Take //// Cylinder9016
+    7400352: Default Take //// Cube9041
+    7400354: Default Take //// Cube9038_MeshCollider
+    7400356: Default Take //// Cube9039_MeshCollider
+    7400358: Default Take //// Cube9040_MeshCollider
+    7400360: Default Take //// Cube9022_MeshCollider
+    7400362: Default Take //// Cube9033_MeshCollider
+    7400364: Default Take //// portal_MeshCollider_trigger
+    7400366: Default Take //// Empty90029001
+    7400368: Default Take //// SecondUp_MeshCollider
+    7400370: Default Take //// Empty90019001
+    7400372: Default Take //// FirstUp_MeshCollider
+    7400374: Default Take //// empRightHolder9001
+    7400376: Default Take //// RightHolder2
+    7400378: Default Take //// empLeftHolder9001
+    7400380: Default Take //// LeftHolder2
+    7400382: Default Take //// empBridge9001
+    7400384: Default Take //// Bridge2_MeshCollider
+    7400386: Default Take //// empBridge
+    7400388: Default Take //// Bridge_MeshCollider
+    7400390: Default Take //// empLeftHolder
+    7400392: Default Take //// LeftHolder
+    7400394: Default Take //// empRightHolder
+    7400396: Default Take //// RightHolder
+    7400398: Default Take //// Cube2222_MeshCollider
+    7400400: Default Take //// Cube1111_MeshCollider
+    7400402: Default Take //// Cube5264
+    7400404: Default Take //// Cube6351
+    7400406: Default Take //// Cube1234
+    7400408: Default Take //// Cube7777
+    7400410: Default Take //// Cube77779001
+    7400412: Default Take //// tsts_MeshCollider
+    7400414: Default Take //// Cube62654
+    7400416: Default Take //// Cube22999
+    7400418: Default Take //// Cube999933
+    7400420: Default Take //// Cylinder905545_MeshCollider9001
+    7400422: Default Take //// Cube9002_MeshCollider
+    7400424: Default Take //// B11_BoxCollider_area
+    7400426: Default Take //// B19_BoxCollider_area
+    7400428: Default Take //// Cube90666
+    7400430: Default Take //// Cylinder9041414
+    7400432: Default Take //// Restart_BoxCollider_trigger
+    9500000: //RootNode
+    11100000: B10_BoxCollider
+    11100002: B11_BoxCollider
+    11100004: B12_BoxCollider
+    11100006: B13_BoxCollider
+    11100008: B14_BoxCollider
+    11100010: B15_BoxCollider
+    11100012: B16_BoxCollider
+    11100014: B17_BoxCollider
+    11100016: B18_BoxCollider
+    11100018: B19_BoxCollider
+    11100020: B1_BoxCollider
+    11100022: B20_BoxCollider
+    11100024: B21_BoxCollider
+    11100026: B22_BoxCollider
+    11100028: B23_BoxCollider
+    11100030: B24_BoxCollider
+    11100032: B25_BoxCollider
+    11100034: B2_BoxCollider
+    11100036: B3_BoxCollider
+    11100038: B4_BoxCollider
+    11100040: B5_BoxCollider
+    11100042: B6_BoxCollider
+    11100044: B7_BoxCollider
+    11100046: B8_BoxCollider
+    11100048: B9_BoxCollider
+    11100050: bez
+    11100052: ButtonsArea_BoxCollider_area_trigger9001
+    11100054: ButtonsCam
+    11100056: Cube
+    11100058: Cube9001
+    11100060: Cube9002
+    11100062: Cube9003
+    11100064: Cube9004
+    11100066: Cube9005
+    11100068: Cube9006
+    11100070: Cube9007
+    11100072: Cube9008
+    11100074: Cube9009_BoxCollider
+    11100076: Cube9010
+    11100078: Cube9012
+    11100080: Cube9016
+    11100082: Cube9022
+    11100084: Cube9047
+    11100086: Cylinder9002
+    11100088: Cylinder9003
+    11100090: Cylinder9005
+    11100092: Cylinder9007
+    11100094: Cylinder9011
+    11100096: Cylinder9013
+    11100098: Cylinder9014
+    11100100: Cylinder9017
+    11100102: Cylinder9021
+    11100104: Cylinder9028
+    11100106: Cylinder9030
+    11100108: Cylinder9036
+    11100110: Cylinder9041
+    11100112: Cylinder9043
+    11100114: Cylinder9045
+    11100116: Cylinder9049
+    11100118: Cylinder9054
+    11100120: Cylinder9057
+    11100122: Cylinder9061
+    11100124: Cylinder9067
+    11100126: Cylinder9071
+    11100128: empRotLeft
+    11100130: empRotRight
+    11100132: Empty
+    11100134: Empty9001
+    11100136: Empty9002
+    11100138: L1_MeshCollider
+    11100140: L2_MeshCollider
+    11100142: L3_MeshCollider
+    11100144: L4_MeshCollider
+    11100146: L5_MeshCollider
+    11100148: L6_MeshCollider
+    11100150: L7_MeshCollider
+    11100152: L8_MeshCollider
+    11100154: LeftRotArea_BoxCollider_area_trigger90019001
+    11100156: LeftRotCam
+    11100158: //RootNode
+    11100160: R10_MeshCollider
+    11100162: R11_MeshCollider
+    11100164: R12_MeshCollider
+    11100166: R13_MeshCollider
+    11100168: R14_MeshCollider
+    11100170: R15_MeshCollider
+    11100172: R16_MeshCollider
+    11100174: R17_MeshCollider
+    11100176: R18_MeshCollider
+    11100178: R19_MeshCollider
+    11100180: R1_MeshCollider
+    11100182: R20_MeshCollider
+    11100184: R21_MeshCollider
+    11100186: R22_MeshCollider
+    11100188: R23_MeshCollider
+    11100190: R24_MeshCollider
+    11100192: R2_MeshCollider
+    11100194: R3_MeshCollider
+    11100196: R4_MeshCollider
+    11100198: R5_MeshCollider
+    11100200: R6_MeshCollider
+    11100202: R7_MeshCollider
+    11100204: R8_MeshCollider
+    11100206: R9_MeshCollider
+    11100208: RotLeft
+    11100210: RotRight
+    11100212: RightRotArea_BoxCollider_area_trigger900190019001
+    11100214: RightRotCam
+    11100216: HintLArea_BoxCollider_area_trigger
+    11100218: HintLCam
+    11100220: HintRArea_BoxCollider_area_trigger9001
+    11100222: HintRCam
+    11100224: Cube_MeshCollider
+    11100226: Cube22_MeshCollider
+    11100228: Cube33645_MeshCollider9001
+    11100230: Cube90019001
+    11100232: Cube90019002
+    11100234: Cube90029001
+    11100236: Cube90029002
+    11100238: Cube90079001
+    11100240: Cube90079002
+    11100242: Cube90089001
+    11100244: Cube90089002
+    11100246: Cube_MeshCollider9002
+    11100248: Restart_BoxCollider
+    11100250: RotLeft_BoxCollider
+    11100252: RotRight_BoxCollider
+    11100254: Cube1155
+    11100256: Laser
+    11100258: _MeshCollider
+    11100260: Bridge2_MeshCollider
+    11100262: Bridge_MeshCollider
+    11100264: Cube22
+    11100266: Cube558
+    11100268: Cube900122
+    11100270: Cube9001229001
+    11100272: Cube9022_MeshCollider
+    11100274: Cube9033_MeshCollider
+    11100276: Cube9038_MeshCollider
+    11100278: Cube9038_MeshCollider9001
+    11100280: Cube9039_MeshCollider
+    11100282: Cube9039_MeshCollider9001
+    11100284: Cube9039_MeshCollider9002
+    11100286: Cube9039_MeshCollider9003
+    11100288: Cube9039_MeshCollider9004
+    11100290: Cube9039_MeshCollider9005
+    11100292: Cube9039_MeshCollider9006
+    11100294: Cube9039_MeshCollider9007
+    11100296: Cube9039_MeshCollider9008
+    11100298: Cube9040_MeshCollider
+    11100300: Cube9040_MeshCollider9001
+    11100302: Cube9040_MeshCollider9002
+    11100304: Cube9040_MeshCollider9003
+    11100306: Cube9040_MeshCollider9004
+    11100308: Cube9040_MeshCollider9005
+    11100310: Cube9040_MeshCollider9006
+    11100312: Cube9040_MeshCollider9007
+    11100314: Cube9041
+    11100316: Cube90419001
+    11100318: Cube90419002
+    11100320: Cube90419003
+    11100322: Cube90419004
+    11100324: Cube90419005
+    11100326: Cube90419006
+    11100328: Cube90419007
+    11100330: Cube90419008
+    11100332: Cube90419009
+    11100334: Cube90419010
+    11100336: Cube90419011
+    11100338: Cube90419012
+    11100340: Cube90419013
+    11100342: Cube90419014
+    11100344: Cube90419015
+    11100346: Cube90419016
+    11100348: Cube90419017
+    11100350: Cube90419018
+    11100352: Cylinder9011_MeshCollider
+    11100354: Cylinder9011_MeshCollider9001
+    11100356: Cylinder9012
+    11100358: Cylinder90129001
+    11100360: Cylinder90139001
+    11100362: Cylinder90139002
+    11100364: Cylinder9016
+    11100366: Cylinder90169001
+    11100368: empBridge
+    11100370: empBridge9001
+    11100372: empLeftHolder
+    11100374: empLeftHolder9001
+    11100376: empRightHolder
+    11100378: empRightHolder9001
+    11100380: Empty90019001
+    11100382: Empty90029001
+    11100384: FirstUp_MeshCollider
+    11100386: LeftHolder
+    11100388: LeftHolder2
+    11100390: portal_MeshCollider_trigger
+    11100392: RightHolder
+    11100394: RightHolder2
+    11100396: SecondUp_MeshCollider
+    11100398: Cube1111_MeshCollider
+    11100400: Cube1234
+    11100402: Cube2222_MeshCollider
+    11100404: Cube5264
+    11100406: Cube6351
+    11100408: Cube7777
+    11100410: Cube77779001
+    11100412: Cube22999
+    11100414: Cube62654
+    11100416: Cube999933
+    11100418: tsts_MeshCollider
+    11100420: Cylinder905545_MeshCollider9001
+    11100422: Cube9002_MeshCollider
+    11100424: B11_BoxCollider_area
+    11100426: B19_BoxCollider_area
+    11100428: Cube90666
+    11100430: Cylinder9041414
+    11100432: Restart_BoxCollider_trigger
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 2
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
