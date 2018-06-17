@@ -29,6 +29,7 @@ B * player animations(push, walk, idle) -> KT
 * postprocessing 
 * optimization
 
+Restart level
 
 *add more levels + puzzles
 

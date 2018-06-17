@@ -79,6 +79,8 @@ public class GenerateComponents : MonoBehaviour {
         {
             if(name.Contains("Laser"))
                 gameObject.GetComponent<MeshRenderer>().material = Resources.Load("Color-PaletteLaser") as Material;
+            else if (name.Contains("portal"))
+                gameObject.GetComponent<MeshRenderer>().material = Resources.Load("Color-PalettePortal") as Material;
             else
                 gameObject.GetComponent<MeshRenderer>().material = Resources.Load("Color-Palette") as Material;
         }

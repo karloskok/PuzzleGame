@@ -25,6 +25,8 @@ public class Level25 : Level25Base {
     void Start () {
         if (!EditorApplication.isPlaying) return;
 
+        if (PlayerPrefs.GetInt("LastLevel", 0) < 4) PlayerPrefs.SetInt("LastLevel", 4);
+        if (PlayerPrefs.GetInt("Shadow") == 1) // InGameMenuController.sunce.shadowStrength = 1;
 
         player = PlayerInteract.instance;
 
