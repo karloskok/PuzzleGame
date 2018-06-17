@@ -22,6 +22,9 @@ public class Level21 : Level21Base {
     void Start () {
         if (!EditorApplication.isPlaying) return;
 
+        if (PlayerPrefs.GetInt("LastLevel", 0) < 1) PlayerPrefs.SetInt("LastLevel", 0);
+        // if (PlayerPrefs.GetInt("Shadow") == 1) InGameMenuController.sunce.shadowStrength = 1;
+
 
         player = PlayerInteract.instance;
 
