@@ -10,20 +10,21 @@ Game:
 
 
 All levels:
-B * Save/Load (SavePoint) -> KT
-B + restart level when fall from world ->KS
-B * player animations(push, walk, idle) -> KT
-*? player input 
+
 B * intro -> AV/KT
-B * add lasers nad receivers ->KS
-B * show text "Press E " for interact ->AV
-B* change main menu and settings menu + in-game menu ->KT
+B * player animations(push, walk, idle) -> KT
 * OUTRO -> KT/AV
-B * inventory and pick up items, place items -> AV
-B * Shader animacija vode -> AV
-B * portal particles -> KT
-B * add sound effects and background music -> AV
-* fill up levels with more models, better graphics -> KS
+
+//B * Save/Load (SavePoint) -> KT
+//B + restart level when fall from world ->KS
+//*? player input 
+????B * add lasers nad receivers ->KS
+//B * show text "Press E " for interact ->AV
+//B* change main menu and settings menu + in-game menu ->KT
+//B * Shader animacija vode -> AV
+//B * portal particles -> KT
+//B * add sound effects and background music -> AV
+//* fill up levels with more models, better graphics -> KS
 
 * postprocessing 
 * optimization
