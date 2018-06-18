@@ -262,7 +262,7 @@ public class Element : MonoBehaviour {
             //transform.position = initialPosition;
             angleFromStart = endPos.y - startPos.y;
             angleFromStart /= 100;
-            Debug.Log("Move Y:  " + angleFromStart);
+            //Debug.Log("Move Y:  " + angleFromStart);
 
             //Level.MoveTowards(gameObject.GetComponent<Element>(), angleFromStart);
             //animValue = angleFromStart + animValue;
@@ -274,7 +274,7 @@ public class Element : MonoBehaviour {
             angleFromStart = endPos.x - startPos.x;
             angleFromStart /= 100;
             //
-            Debug.Log("Move X:  " + angleFromStart);
+            //Debug.Log("Move X:  " + angleFromStart);
         }
     }
 

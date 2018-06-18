@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 
 public class Level1 : Level1Base {
 
@@ -28,7 +30,7 @@ public class Level1 : Level1Base {
 
     // Use this for initialization
     void Start () {
-        if (!EditorApplication.isPlaying) return;
+       // if (!EditorApplication.isPlaying) return;
 
 
         player = PlayerInteract.instance;
@@ -67,7 +69,7 @@ public class Level1 : Level1Base {
     // Update is called once per frame
     void Update()
     {
-        if (!EditorApplication.isPlaying) return;
+       // if (!EditorApplication.isPlaying) return;
 
 
 

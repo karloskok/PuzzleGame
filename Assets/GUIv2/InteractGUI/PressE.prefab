@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224442141292455464}
   - component: {fileID: 222568062938504132}
   - component: {fileID: 114736340447293398}
+  - component: {fileID: 114033170062284472}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -110,6 +111,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114033170062284472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1490888152088142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c5f9be367480734688e88023f64951d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reverseFace: 1
+  axis: 0
 --- !u!114 &114120040128541322
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -171,7 +185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 1, a: 0.15686275}
+  m_Color: {r: 0.8014706, g: 0.64670384, b: 0, a: 0.566}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

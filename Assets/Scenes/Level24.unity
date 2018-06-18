@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.6392157, g: 0.6392157, b: 0.6392157, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -968,6 +968,30 @@ Prefab:
     - target: {fileID: 1242694951000264, guid: a76c8a2d76543fd4583df07c210b49c1, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114378750399375604, guid: a76c8a2d76543fd4583df07c210b49c1,
+        type: 2}
+      propertyPath: m_Text
+      value: Gigantic Mushrooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083117578289944, guid: a76c8a2d76543fd4583df07c210b49c1, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114378750399375604, guid: a76c8a2d76543fd4583df07c210b49c1,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.7205882
+      objectReference: {fileID: 0}
+    - target: {fileID: 114378750399375604, guid: a76c8a2d76543fd4583df07c210b49c1,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.015895342
+      objectReference: {fileID: 0}
+    - target: {fileID: 114378750399375604, guid: a76c8a2d76543fd4583df07c210b49c1,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.015895342
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a76c8a2d76543fd4583df07c210b49c1, type: 2}
@@ -9389,6 +9413,16 @@ Prefab:
     - target: {fileID: 4588201878382578, guid: e1343defa1680364ba01eaab9fa70fb3, type: 2}
       propertyPath: m_RootOrder
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 114736340447293398, guid: e1343defa1680364ba01eaab9fa70fb3,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114736340447293398, guid: e1343defa1680364ba01eaab9fa70fb3,
+        type: 2}
+      propertyPath: m_Color.a
+      value: 0.66
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e1343defa1680364ba01eaab9fa70fb3, type: 2}

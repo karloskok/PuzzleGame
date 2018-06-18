@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.6392157, g: 0.6392157, b: 0.6392157, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -151,9 +151,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.25
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -211,9 +211,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.5
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -336,7 +336,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B16
   _index: 71
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -524,7 +524,7 @@ Prefab:
     - target: {fileID: 198459351333806106, guid: 8c2da8e55f5bbb04bbd3bcde64957938,
         type: 2}
       propertyPath: randomSeed
-      value: 1868507258
+      value: -756840465
       objectReference: {fileID: 0}
     - target: {fileID: 198459351333806106, guid: 8c2da8e55f5bbb04bbd3bcde64957938,
         type: 2}
@@ -568,6 +568,11 @@ Prefab:
         type: 2}
       propertyPath: InitialModule.maxNumParticles
       value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 198459351333806106, guid: 8c2da8e55f5bbb04bbd3bcde64957938,
+        type: 2}
+      propertyPath: scalingMode
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8c2da8e55f5bbb04bbd3bcde64957938, type: 2}
@@ -859,6 +864,26 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114378750399375604, guid: a76c8a2d76543fd4583df07c210b49c1,
+        type: 2}
+      propertyPath: m_Text
+      value: Temple of the Eternal Rest
+      objectReference: {fileID: 0}
+    - target: {fileID: 114378750399375604, guid: a76c8a2d76543fd4583df07c210b49c1,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.77205884
+      objectReference: {fileID: 0}
+    - target: {fileID: 114378750399375604, guid: a76c8a2d76543fd4583df07c210b49c1,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.77205884
+      objectReference: {fileID: 0}
+    - target: {fileID: 114378750399375604, guid: a76c8a2d76543fd4583df07c210b49c1,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.77205884
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a76c8a2d76543fd4583df07c210b49c1, type: 2}
   m_IsPrefabParent: 0
@@ -917,7 +942,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B12
   _index: 67
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -1020,9 +1045,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.25
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -1159,7 +1184,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B6
   _index: 61
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -1202,9 +1227,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.75
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -1341,7 +1366,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B3
   _index: 58
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -1463,7 +1488,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B7
   _index: 62
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -1571,7 +1596,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B1
   _index: 56
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -1696,7 +1721,7 @@ MonoBehaviour:
   stampMaterial: 0
   isInteract: 0
   angleFromStart: 0
-  elementMove: 0
+  elementMove: 1
   interact: {fileID: 0}
 --- !u!1 &649021241
 GameObject:
@@ -5298,6 +5323,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 675a15c66b6726b419547820663c8dd8, type: 2}
   m_IsPrefabParent: 0
+--- !u!20 &685694944 stripped
+Camera:
+  m_PrefabParentObject: {fileID: 20353744307248846, guid: 675a15c66b6726b419547820663c8dd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 685694943}
 --- !u!1 &718520411 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100028, guid: feac57767380e2c4ab8ba20498eeedb0, type: 3}
@@ -5353,7 +5383,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B8
   _index: 63
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -5481,7 +5511,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B14
   _index: 69
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -6153,9 +6183,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.75
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -6357,9 +6387,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.25
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -6513,9 +6543,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.25
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -13681,7 +13711,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B11
   _index: 66
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -17255,7 +17285,7 @@ MonoBehaviour:
   stampMaterial: 0
   isInteract: 0
   angleFromStart: 0
-  elementMove: 0
+  elementMove: 1
   interact: {fileID: 0}
 --- !u!1 &1168661571 stripped
 GameObject:
@@ -17295,9 +17325,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.75
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -17423,7 +17453,7 @@ MonoBehaviour:
   stampMaterial: 0
   isInteract: 0
   angleFromStart: 0
-  elementMove: 0
+  elementMove: 1
   interact: {fileID: 0}
 --- !u!1 &1248038503 stripped
 GameObject:
@@ -17531,7 +17561,7 @@ Prefab:
     - target: {fileID: 198459351333806106, guid: 8c2da8e55f5bbb04bbd3bcde64957938,
         type: 2}
       propertyPath: randomSeed
-      value: -802678816
+      value: 1319628730
       objectReference: {fileID: 0}
     - target: {fileID: 198459351333806106, guid: 8c2da8e55f5bbb04bbd3bcde64957938,
         type: 2}
@@ -17576,6 +17606,11 @@ Prefab:
       propertyPath: InitialModule.maxNumParticles
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 198459351333806106, guid: 8c2da8e55f5bbb04bbd3bcde64957938,
+        type: 2}
+      propertyPath: scalingMode
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8c2da8e55f5bbb04bbd3bcde64957938, type: 2}
   m_IsPrefabParent: 0
@@ -17617,9 +17652,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.75
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -17690,7 +17725,7 @@ Prefab:
     - target: {fileID: 198459351333806106, guid: 8c2da8e55f5bbb04bbd3bcde64957938,
         type: 2}
       propertyPath: randomSeed
-      value: 1294230751
+      value: -1215316915
       objectReference: {fileID: 0}
     - target: {fileID: 198459351333806106, guid: 8c2da8e55f5bbb04bbd3bcde64957938,
         type: 2}
@@ -17725,6 +17760,23 @@ Prefab:
         type: 2}
       propertyPath: InitialModule.startSize.scalar
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198459351333806106, guid: 8c2da8e55f5bbb04bbd3bcde64957938,
+        type: 2}
+      propertyPath: scalingMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4926010190335148, guid: 8c2da8e55f5bbb04bbd3bcde64957938, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.3273011
+      objectReference: {fileID: 0}
+    - target: {fileID: 4926010190335148, guid: 8c2da8e55f5bbb04bbd3bcde64957938, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.3273014
+      objectReference: {fileID: 0}
+    - target: {fileID: 4926010190335148, guid: 8c2da8e55f5bbb04bbd3bcde64957938, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.3273014
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8c2da8e55f5bbb04bbd3bcde64957938, type: 2}
@@ -17774,7 +17826,7 @@ MonoBehaviour:
   stamp: 0
   timer: 1
   isVisible: 1
-  isActive: 1
+  isActive: 0
   canInteract: 1
   anim: {fileID: 0}
   meshRenderer: {fileID: 0}
@@ -18293,9 +18345,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.25
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -18366,7 +18418,7 @@ Prefab:
     - target: {fileID: 198459351333806106, guid: 8c2da8e55f5bbb04bbd3bcde64957938,
         type: 2}
       propertyPath: randomSeed
-      value: 1294230751
+      value: 387021112
       objectReference: {fileID: 0}
     - target: {fileID: 198459351333806106, guid: 8c2da8e55f5bbb04bbd3bcde64957938,
         type: 2}
@@ -18397,6 +18449,11 @@ Prefab:
         type: 2}
       propertyPath: InitialModule.startSize.scalar
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198459351333806106, guid: 8c2da8e55f5bbb04bbd3bcde64957938,
+        type: 2}
+      propertyPath: scalingMode
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8c2da8e55f5bbb04bbd3bcde64957938, type: 2}
@@ -18583,7 +18640,7 @@ Prefab:
     - target: {fileID: 198459351333806106, guid: 8c2da8e55f5bbb04bbd3bcde64957938,
         type: 2}
       propertyPath: randomSeed
-      value: -802678816
+      value: 1591982486
       objectReference: {fileID: 0}
     - target: {fileID: 198459351333806106, guid: 8c2da8e55f5bbb04bbd3bcde64957938,
         type: 2}
@@ -18627,6 +18684,11 @@ Prefab:
         type: 2}
       propertyPath: InitialModule.maxNumParticles
       value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 198459351333806106, guid: 8c2da8e55f5bbb04bbd3bcde64957938,
+        type: 2}
+      propertyPath: scalingMode
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8c2da8e55f5bbb04bbd3bcde64957938, type: 2}
@@ -18686,7 +18748,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B5
   _index: 60
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -18736,7 +18798,7 @@ MonoBehaviour:
   stamp: 0
   timer: 1
   isVisible: 1
-  isActive: 1
+  isActive: 0
   canInteract: 1
   anim: {fileID: 0}
   meshRenderer: {fileID: 0}
@@ -18790,6 +18852,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 82332874697161358, guid: 082262904ffb74401b64e052b6b4f559,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d4f1150b7d21a9f4a902fd137dfab6d4, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 082262904ffb74401b64e052b6b4f559, type: 2}
   m_IsPrefabParent: 0
@@ -18900,7 +18967,7 @@ MonoBehaviour:
   stamp: 0
   timer: 1
   isVisible: 1
-  isActive: 1
+  isActive: 0
   canInteract: 1
   anim: {fileID: 0}
   meshRenderer: {fileID: 0}
@@ -19272,7 +19339,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B4
   _index: 59
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -19380,7 +19447,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B15
   _index: 70
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -19440,7 +19507,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B2
   _index: 57
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -19562,7 +19629,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B10
   _index: 65
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -19622,7 +19689,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B9
   _index: 64
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -20683,6 +20750,11 @@ Prefab:
       propertyPath: InitialModule.maxNumParticles
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 198459351333806106, guid: 8c2da8e55f5bbb04bbd3bcde64957938,
+        type: 2}
+      propertyPath: scalingMode
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8c2da8e55f5bbb04bbd3bcde64957938, type: 2}
   m_IsPrefabParent: 0
@@ -20701,7 +20773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 673d42b8737d3b34890c0d286f325527, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camMain: {fileID: 0}
+  camMain: {fileID: 685694944}
 --- !u!114 &1951899864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20864,7 +20936,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B13
   _index: 68
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -20927,5 +20999,5 @@ MonoBehaviour:
   stampMaterial: 0
   isInteract: 0
   angleFromStart: 0
-  elementMove: 0
+  elementMove: 1
   interact: {fileID: 0}

@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using UnityEngine.SceneManagement;
 
 public class Level23 : Level23Base {
@@ -23,10 +25,10 @@ public class Level23 : Level23Base {
 
     // Use this for initialization
     void Start () {
-        if (!EditorApplication.isPlaying) return;
+        //if (!EditorApplication.isPlaying) return;
 
         if (PlayerPrefs.GetInt("LastLevel", 0) < 2) PlayerPrefs.SetInt("LastLevel", 2);
-        if (PlayerPrefs.GetInt("Shadow") == 1) // InGameMenuController.sunce.shadowStrength = 1;
+        //if (PlayerPrefs.GetInt("Shadow") == 1) // InGameMenuController.sunce.shadowStrength = 1;
 
         player = PlayerInteract.instance;
 
@@ -95,12 +97,11 @@ public class Level23 : Level23Base {
 
     void Update()
     {
-        if (Time.frameCount % 3 == 0)
-        {
+        
 
 
 
-            if (!EditorApplication.isPlaying) return;
+//            if (!EditorApplication.isPlaying) return;
 
             if (!camMain.enabled)
             {
@@ -111,61 +112,63 @@ public class Level23 : Level23Base {
 
 
             //puzzle01
-            if (player.interact == StartArea && Input.GetKey(KeyCode.E))
+            if (player.interact == StartArea && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(camMain.transform, StartCam.transform);
             }
 
-            if (StartCam.GetComponent<Camera>().enabled && Input.GetKey(KeyCode.Escape))
+            if (StartCam.GetComponent<Camera>().enabled && !player.GetComponent<Movement>().enabled && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(StartCam.transform, camMain.transform);
             }
 
 
             //puzzleRotFirst
-            if (player.interact == FirstArea && Input.GetKey(KeyCode.E))
+            if (player.interact == FirstArea && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(camMain.transform, FirstCam.transform);
             }
 
-            if (FirstCam.GetComponent<Camera>().enabled && Input.GetKey(KeyCode.Escape))
+            if (FirstCam.GetComponent<Camera>().enabled && !player.GetComponent<Movement>().enabled && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(FirstCam.transform, camMain.transform);
             }
 
             //puzzleRotsecond
-            if (player.interact == SecondArea && Input.GetKey(KeyCode.E))
+            if (player.interact == SecondArea && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(camMain.transform, SecondtCam.transform);
             }
 
-            if (SecondtCam.GetComponent<Camera>().enabled && Input.GetKey(KeyCode.Escape))
+            if (SecondtCam.GetComponent<Camera>().enabled && !player.GetComponent<Movement>().enabled && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(SecondtCam.transform, camMain.transform);
             }
 
             //puzzleRotthird
-            if (player.interact == ThirdArea && Input.GetKey(KeyCode.E))
+            if (player.interact == ThirdArea && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(camMain.transform, ThirdCam.transform);
             }
 
-            if (ThirdCam.GetComponent<Camera>().enabled && Input.GetKey(KeyCode.Escape))
+            if (ThirdCam.GetComponent<Camera>().enabled && !player.GetComponent<Movement>().enabled && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(ThirdCam.transform, camMain.transform);
             }
 
             //puzzleButtons
-            if (player.interact == ButtonArea && Input.GetKey(KeyCode.E))
+            if (player.interact == ButtonArea && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(camMain.transform, ButtonCam.transform);
             }
 
-            if (ButtonCam.GetComponent<Camera>().enabled && Input.GetKey(KeyCode.Escape))
+            if (ButtonCam.GetComponent<Camera>().enabled && !player.GetComponent<Movement>().enabled && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(ButtonCam.transform, camMain.transform);
             }
 
+        if (Time.frameCount % 3 == 0)
+        {
 
             foreach (Element l in sliders)
             {

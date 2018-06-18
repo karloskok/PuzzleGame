@@ -229,6 +229,10 @@ public class InGameMenuController : MonoBehaviour {
             case 4:
                 SceneManager.LoadScene("Level25");
                 break;
+
+            case -1:
+                SceneManager.LoadScene("ComicIntro");
+                break;
         }
     }
 }

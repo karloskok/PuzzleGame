@@ -9,10 +9,26 @@ public class ImageFade : MonoBehaviour
     public Image img;
     public float fadeSpeed = 1f;
 
+    public bool startfade = false;
+
+
+    public bool fadeaway = true;
+    
+    
+
     void Start()
     {
         // fades the image out when you click
         StartCoroutine(FadeImage(true));
+    }
+
+    private void Update()
+    {
+        if (startfade)
+        {
+            StartCoroutine(FadeImage(fadeaway));
+            startfade = false;
+        }
     }
 
     public IEnumerator FadeImage(bool fadeAway)
@@ -27,7 +43,7 @@ public class ImageFade : MonoBehaviour
                 // set color with i as alpha
                 img.color = new Color(0, 0, 0, i);
                 i -= Time.deltaTime/5;
-                yield return null;
+                yield return new WaitForEndOfFrame();
             }
         }
         // fade from transparent to opaque

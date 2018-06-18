@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using UnityEngine.SceneManagement;
 
 public class Level12 : Level12Base {
@@ -21,7 +23,7 @@ public class Level12 : Level12Base {
 
     // Use this for initialization
     void Start () {
-        if (!EditorApplication.isPlaying) return;
+        //if (!EditorApplication.isPlaying) return;
 
 
         player = PlayerInteract.instance;
@@ -43,7 +45,7 @@ public class Level12 : Level12Base {
     // Update is called once per frame
     void Update()
     {
-        if (!EditorApplication.isPlaying) return;
+        //if (!EditorApplication.isPlaying) return;
 
         if (!camMain.enabled)
         {

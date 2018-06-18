@@ -12,8 +12,6 @@ public class Level21Base : MonoBehaviour
 	 protected Element Cube90024;
 	 protected Element HandleArea;
 	 protected Element Cube9003;
-	 protected Element Hover;
-	 protected Element HoverHandle;
 	 protected Element Cube4;
 	 protected Element LeftArea;
 	 protected Element RightArea;
@@ -59,6 +57,8 @@ public class Level21Base : MonoBehaviour
 	 protected Element BridgeStart;
 	 protected Element Empty;
 	 protected Element HandleInside;
+	 protected Element Hover;
+	 protected Element HoverHandle;
 	 protected Element empBridge;
 	 protected Element Bridge;
 	 protected Element Cube9010;
@@ -95,8 +95,6 @@ public class Level21Base : MonoBehaviour
 		Cube90024 = GameObject.Find("/Level21/Cube90024").GetComponent<Element>();
 		HandleArea = GameObject.Find("/Level21/HandleArea").GetComponent<Element>();
 		Cube9003 = GameObject.Find("/Level21/Cube9003").GetComponent<Element>();
-		Hover = GameObject.Find("/Level21/Hover").GetComponent<Element>();
-		HoverHandle = GameObject.Find("/Level21/Hover").GetComponent<Element>();
 		Cube4 = GameObject.Find("/Level21/Cube4").GetComponent<Element>();
 		LeftArea = GameObject.Find("/Level21/LeftArea").GetComponent<Element>();
 		RightArea = GameObject.Find("/Level21/RightArea").GetComponent<Element>();
@@ -142,6 +140,8 @@ public class Level21Base : MonoBehaviour
 		BridgeStart = GameObject.Find("/Level21/Empty9001/BridgeStart").GetComponent<Element>();
 		Empty = GameObject.Find("/Level21/Empty").GetComponent<Element>();
 		HandleInside = GameObject.Find("/Level21/Empty/HandleInside").GetComponent<Element>();
+		Hover = GameObject.Find("/Level21/Empty/Hover").GetComponent<Element>();
+		HoverHandle = GameObject.Find("/Level21/Empty/Hover").GetComponent<Element>();
 		empBridge = GameObject.Find("/Level21/empBridge").GetComponent<Element>();
 		Bridge = GameObject.Find("/Level21/empBridge/Bridge").GetComponent<Element>();
 		Cube9010 = GameObject.Find("/Level21/empBridge/Bridge").GetComponent<Element>();

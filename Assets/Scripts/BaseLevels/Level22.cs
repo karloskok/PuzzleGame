@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using UnityEngine.SceneManagement;
 
 public class Level22 : Level22Base {
@@ -22,7 +24,7 @@ public class Level22 : Level22Base {
 
     // Use this for initialization
     void Start () {
-        if (!EditorApplication.isPlaying) return;
+        //if (!EditorApplication.isPlaying) return;
 
         if (PlayerPrefs.GetInt("LastLevel", 0) < 1) PlayerPrefs.SetInt("LastLevel", 1);
        // if (PlayerPrefs.GetInt("Shadow") == 1) InGameMenuController.sunce.shadowStrength = 1;
@@ -62,10 +64,9 @@ public class Level22 : Level22Base {
     // Update is called once per frame
     void Update()
     {
-        if (!EditorApplication.isPlaying) return;
+       // if (!EditorApplication.isPlaying) return;
 
-        if (Time.frameCount % 3 == 0)
-        {
+       
 
             if (!camMain.enabled)
             {
@@ -81,7 +82,7 @@ public class Level22 : Level22Base {
                 Level.PushCamera(camMain.transform, PuzzleCam.transform);
             }
 
-            if (PuzzleCam.GetComponent<Camera>().enabled && Input.GetKeyDown(KeyCode.Escape))
+            if (PuzzleCam.GetComponent<Camera>().enabled && !player.GetComponent<Movement>().enabled && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(PuzzleCam.transform, camMain.transform);
             }
@@ -92,7 +93,7 @@ public class Level22 : Level22Base {
                 Level.PushCamera(camMain.transform, HintCam.transform);
             }
 
-            if (HintCam.GetComponent<Camera>().enabled && Input.GetKeyDown(KeyCode.Escape))
+            if (HintCam.GetComponent<Camera>().enabled && !player.GetComponent<Movement>().enabled &&  Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(HintCam.transform, camMain.transform);
             }
@@ -103,7 +104,7 @@ public class Level22 : Level22Base {
                 Level.PushCamera(camMain.transform, Hint2Cam.transform);
             }
 
-            if (Hint2Cam.GetComponent<Camera>().enabled && Input.GetKeyDown(KeyCode.Escape))
+            if (Hint2Cam.GetComponent<Camera>().enabled && !player.GetComponent<Movement>().enabled &&  Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(Hint2Cam.transform, camMain.transform);
             }
@@ -114,13 +115,14 @@ public class Level22 : Level22Base {
                 Level.PushCamera(camMain.transform, Puzzle2Cam.transform);
             }
 
-            if (Puzzle2Cam.GetComponent<Camera>().enabled && Input.GetKeyDown(KeyCode.Escape))
+            if (Puzzle2Cam.GetComponent<Camera>().enabled && !player.GetComponent<Movement>().enabled &&  Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(Puzzle2Cam.transform, camMain.transform);
             }
 
 
-
+        if (Time.frameCount % 3 == 0)
+        {
 
             bool firstPuzzle = true;
             for (int i = 0; i < correctButtons1.Length; i++)
@@ -179,6 +181,8 @@ public class Level22 : Level22Base {
                 if (b.isInteract)
                 {
                     Level.Stamp(b, b.animValue < .5f ? 1 : -1);
+                    if (MusicPlayer.instance.efxSource.isPlaying)
+                        MusicPlayer.instance.PlaySingle("button");
                 }
             }
 
@@ -187,6 +191,8 @@ public class Level22 : Level22Base {
                 if (b.isInteract)
                 {
                     Level.Stamp(b, b.animValue < .5f ? 1 : -1);
+                    if (MusicPlayer.instance.efxSource.isPlaying)
+                        MusicPlayer.instance.PlaySingle("button");
                 }
             }
 

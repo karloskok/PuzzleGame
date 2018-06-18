@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using UnityEngine.SceneManagement;
 
 public class Level25 : Level25Base {
@@ -23,10 +25,10 @@ public class Level25 : Level25Base {
 
     // Use this for initialization
     void Start () {
-        if (!EditorApplication.isPlaying) return;
+        //if (!EditorApplication.isPlaying) return;
 
         if (PlayerPrefs.GetInt("LastLevel", 0) < 4) PlayerPrefs.SetInt("LastLevel", 4);
-        if (PlayerPrefs.GetInt("Shadow") == 1) // InGameMenuController.sunce.shadowStrength = 1;
+       // if (PlayerPrefs.GetInt("Shadow") == 1) // InGameMenuController.sunce.shadowStrength = 1;
 
         player = PlayerInteract.instance;
 
@@ -118,15 +120,14 @@ public class Level25 : Level25Base {
 
     void Update()
     {
-        if (!EditorApplication.isPlaying) return;
+       // if (!EditorApplication.isPlaying) return;
 
         RotLeft.transform.Rotate(Vector3.up);
         RotRight.transform.Rotate(Vector3.up);
 
-        if (Time.frameCount % 3 == 0)
-        {
+       
          
-            if (!EditorApplication.isPlaying) return;
+          //  if (!EditorApplication.isPlaying) return;
 
             if (!camMain.enabled)
             {
@@ -136,61 +137,66 @@ public class Level25 : Level25Base {
                 player.GetComponent<Movement>().enabled = true;
 
 
+
             //HintL
-            if (player.interact == HintLArea && Input.GetKey(KeyCode.E))
+            if (player.interact == HintLArea && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(camMain.transform, HintLCam.transform);
             }
 
-            if (HintLCam.GetComponent<Camera>().enabled && Input.GetKey(KeyCode.Escape))
+            if (HintLCam.GetComponent<Camera>().enabled && !player.GetComponent<Movement>().enabled && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(HintLCam.transform, camMain.transform);
             }
 
             //HintR
-            if (player.interact == HintRArea && Input.GetKey(KeyCode.E))
+            if (player.interact == HintRArea && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(camMain.transform, HintRCam.transform);
             }
 
-            if (HintRCam.GetComponent<Camera>().enabled && Input.GetKey(KeyCode.Escape))
+            if (HintRCam.GetComponent<Camera>().enabled && !player.GetComponent<Movement>().enabled && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(HintRCam.transform, camMain.transform);
             }
 
             //Buttons
-            if (player.interact == ButtonsArea && Input.GetKey(KeyCode.E))
+            if (player.interact == ButtonsArea && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(camMain.transform, ButtonsCam.transform);
             }
 
-            if (ButtonsCam.GetComponent<Camera>().enabled && Input.GetKey(KeyCode.Escape))
+            if (ButtonsCam.GetComponent<Camera>().enabled && !player.GetComponent<Movement>().enabled && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(ButtonsCam.transform, camMain.transform);
             }
 
             //puzzleLeftRot
-            if (player.interact == LeftRotArea && Input.GetKey(KeyCode.E))
+            if (player.interact == LeftRotArea && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(camMain.transform, LeftRotCam.transform);
             }
 
-            if (LeftRotCam.GetComponent<Camera>().enabled && Input.GetKey(KeyCode.Escape))
+            if (LeftRotCam.GetComponent<Camera>().enabled && !player.GetComponent<Movement>().enabled && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(LeftRotCam.transform, camMain.transform);
             }
 
             //puzzleLeftRot
-            if (player.interact == RightRotArea && Input.GetKey(KeyCode.E))
+            if (player.interact == RightRotArea && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(camMain.transform, RightRotCam.transform);
             }
 
-            if (RightRotCam.GetComponent<Camera>().enabled && Input.GetKey(KeyCode.Escape))
+            if (RightRotCam.GetComponent<Camera>().enabled && !player.GetComponent<Movement>().enabled && Input.GetKeyDown(KeyCode.E))
             {
                 Level.PushCamera(RightRotCam.transform, camMain.transform);
             }
 
+
+
+        if (Time.frameCount % 3 == 0)
+        {
 
             foreach (Element r in firstRotators)
             {
@@ -366,7 +372,7 @@ public class Level25 : Level25Base {
         if (next)
         { 
             yield return null;
-            SceneManager.LoadScene("Level26");
+            SceneManager.LoadScene("Credits");
         }
         else
         {

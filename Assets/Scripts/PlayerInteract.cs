@@ -18,7 +18,7 @@ public class PlayerInteract : MonoBehaviour {
     public GameObject PressECanvas;
 
     void Awake()
-    { 
+    {
         if (instance == null)
             instance = this;
         else if (instance != this)
