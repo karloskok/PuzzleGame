@@ -250,7 +250,8 @@ public class Level24 : Level24Base {
                 portal.isActive = true;
                 portal.gameObject.SetActive(true);
 
-                psPortal.SetActive(true);
+                if(psPortal)
+                    psPortal.SetActive(true);
                 Level.PushCamera(FinalCam.transform, camMain.transform);
             }
             

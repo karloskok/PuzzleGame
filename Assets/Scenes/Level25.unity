@@ -710,6 +710,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 675a15c66b6726b419547820663c8dd8, type: 2}
   m_IsPrefabParent: 0
+--- !u!20 &685694944 stripped
+Camera:
+  m_PrefabParentObject: {fileID: 20353744307248846, guid: 675a15c66b6726b419547820663c8dd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 685694943}
 --- !u!1001 &797903595
 Prefab:
   m_ObjectHideFlags: 0
@@ -5631,6 +5636,42 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 45
       objectReference: {fileID: 0}
+    - target: {fileID: 11100252, guid: a070d57b2de457c4b9309005cb1b6312, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400250, guid: a070d57b2de457c4b9309005cb1b6312, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0348995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400250, guid: a070d57b2de457c4b9309005cb1b6312, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400250, guid: a070d57b2de457c4b9309005cb1b6312, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99939084
+      objectReference: {fileID: 0}
+    - target: {fileID: 400252, guid: a070d57b2de457c4b9309005cb1b6312, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -5.2004306e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400252, guid: a070d57b2de457c4b9309005cb1b6312, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0348995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400252, guid: a070d57b2de457c4b9309005cb1b6312, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000014892084
+      objectReference: {fileID: 0}
+    - target: {fileID: 400252, guid: a070d57b2de457c4b9309005cb1b6312, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99939084
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100250, guid: a070d57b2de457c4b9309005cb1b6312, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11100158, guid: a070d57b2de457c4b9309005cb1b6312, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: a070d57b2de457c4b9309005cb1b6312, type: 3}
@@ -6302,7 +6343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47dc987beef0946418ac8d013f7a84fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camMain: {fileID: 0}
+  camMain: {fileID: 685694944}
   isPressed: 0
 --- !u!114 &1346620266
 MonoBehaviour:
@@ -6915,9 +6956,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.6666667
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -6973,9 +7014,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.16666667
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -7031,9 +7072,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.8333334
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -7089,9 +7130,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.8333334
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -7147,9 +7188,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.8333334
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -7205,9 +7246,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.16666667
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -7263,9 +7304,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.5
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -7321,9 +7362,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.16666667
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -7379,9 +7420,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.33333334
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -7437,9 +7478,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.33333334
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -7495,9 +7536,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.33333334
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -7553,9 +7594,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.6666667
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -7611,9 +7652,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.8333334
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -7669,9 +7710,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.16666667
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -7727,9 +7768,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.6666667
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -7785,9 +7826,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.6666667
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -7843,9 +7884,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.33333334
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -7901,9 +7942,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.5
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -7959,9 +8000,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.8333334
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -8017,9 +8058,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.6666667
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -8075,9 +8116,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.6666667
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -8133,9 +8174,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.16666667
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -8191,9 +8232,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.33333334
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -8249,9 +8290,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.16666667
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -9199,9 +9240,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.5
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -9257,9 +9298,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.6666667
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -9315,9 +9356,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.8333334
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -9373,9 +9414,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.33333334
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -9431,9 +9472,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.16666667
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -9489,9 +9530,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.33333334
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -9547,9 +9588,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.6666667
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -9605,9 +9646,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.16666667
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -10394,7 +10435,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B25
   _index: 84
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -10450,7 +10491,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B24
   _index: 83
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -10506,7 +10547,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B23
   _index: 82
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -10562,7 +10603,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B22
   _index: 81
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -10618,7 +10659,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B21
   _index: 80
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -10674,7 +10715,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B20
   _index: 79
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -10730,7 +10771,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B19
   _index: 78
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -10786,7 +10827,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B18
   _index: 77
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -10842,7 +10883,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B17
   _index: 76
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -10898,7 +10939,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B16
   _index: 75
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -10954,7 +10995,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B15
   _index: 74
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -11010,7 +11051,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B14
   _index: 73
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -11122,7 +11163,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B12
   _index: 71
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -11178,7 +11219,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B11
   _index: 70
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -11234,7 +11275,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B10
   _index: 69
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -11290,7 +11331,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B9
   _index: 68
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -11346,7 +11387,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B8
   _index: 67
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -11402,7 +11443,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B7
   _index: 66
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -11458,7 +11499,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B6
   _index: 65
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -11514,7 +11555,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B5
   _index: 64
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -11570,7 +11611,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B4
   _index: 63
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -11626,7 +11667,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B3
   _index: 62
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -11682,7 +11723,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B2
   _index: 61
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -11738,7 +11779,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B1
   _index: 60
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -21747,7 +21788,7 @@ Prefab:
     - target: {fileID: 114527231922917616, guid: 02b29588095322f47a2940abfee9ec11,
         type: 2}
       propertyPath: moveSpeed
-      value: 3.7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114527231922917616, guid: 02b29588095322f47a2940abfee9ec11,
         type: 2}

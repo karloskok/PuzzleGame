@@ -151,9 +151,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.25
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -467,9 +467,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.25
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -750,9 +750,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 1
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -976,7 +976,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1083117578289944, guid: a76c8a2d76543fd4583df07c210b49c1, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114378750399375604, guid: a76c8a2d76543fd4583df07c210b49c1,
         type: 2}
@@ -1034,9 +1034,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.5
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -8088,9 +8088,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 1
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -8741,9 +8741,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.25
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -8763,6 +8763,11 @@ MonoBehaviour:
   angleFromStart: 0
   elementMove: 0
   interact: {fileID: 0}
+--- !u!20 &571827470 stripped
+Camera:
+  m_PrefabParentObject: {fileID: 20353744307248846, guid: 675a15c66b6726b419547820663c8dd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 685694943}
 --- !u!1 &602351420 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100096, guid: 42162b916d2f6a64cb1a98f27db09d68, type: 3}
@@ -8849,9 +8854,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.5
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -9048,9 +9053,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.5
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -9133,7 +9138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aa0848044ad38348bfdb8f3b820619b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camMain: {fileID: 0}
+  camMain: {fileID: 571827470}
 --- !u!114 &791728149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9183,9 +9188,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.75
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -9924,7 +9929,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1050225085
 Transform:
   m_ObjectHideFlags: 0
@@ -13575,9 +13580,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.75
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -13683,9 +13688,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.25
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -13848,7 +13853,7 @@ MonoBehaviour:
   stamp: 0
   timer: 1
   isVisible: 1
-  isActive: 1
+  isActive: 0
   canInteract: 1
   anim: {fileID: 0}
   meshRenderer: {fileID: 0}
@@ -14005,9 +14010,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.75
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -14168,7 +14173,7 @@ MonoBehaviour:
   stamp: 0
   timer: 1
   isVisible: 1
-  isActive: 1
+  isActive: 0
   canInteract: 1
   anim: {fileID: 0}
   meshRenderer: {fileID: 0}
@@ -14434,7 +14439,7 @@ MonoBehaviour:
   stamp: 0
   timer: 1
   isVisible: 1
-  isActive: 1
+  isActive: 0
   canInteract: 1
   anim: {fileID: 0}
   meshRenderer: {fileID: 0}
@@ -14659,9 +14664,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.5
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -14816,7 +14821,7 @@ MonoBehaviour:
   stamp: 0
   timer: 1
   isVisible: 1
-  isActive: 1
+  isActive: 0
   canInteract: 1
   anim: {fileID: 0}
   meshRenderer: {fileID: 0}
@@ -18400,7 +18405,7 @@ Prefab:
     - target: {fileID: 114527231922917616, guid: 02b29588095322f47a2940abfee9ec11,
         type: 2}
       propertyPath: moveSpeed
-      value: 3.7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114527231922917616, guid: 02b29588095322f47a2940abfee9ec11,
         type: 2}
@@ -18657,9 +18662,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 1.25
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1
@@ -18875,9 +18880,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f415cda15f2024faa2e8302a0cb8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animValue: 0
+  animValue: 0.75
   targetValue: 0
-  wrapMode: 0
+  wrapMode: 2
   wasStamped: 0
   stamp: 0
   timer: 1

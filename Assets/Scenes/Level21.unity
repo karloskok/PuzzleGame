@@ -269,7 +269,7 @@ MonoBehaviour:
   stampMaterial: 0
   isInteract: 0
   angleFromStart: 0
-  elementMove: 0
+  elementMove: 1
   interact: {fileID: 0}
 --- !u!1 &35183519 stripped
 GameObject:
@@ -1185,7 +1185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaa5c98c1928d7e45ba451000e97b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camMain: {fileID: 0}
+  camMain: {fileID: 685694944}
 --- !u!114 &524028688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1730,6 +1730,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 675a15c66b6726b419547820663c8dd8, type: 2}
   m_IsPrefabParent: 0
+--- !u!20 &685694944 stripped
+Camera:
+  m_PrefabParentObject: {fileID: 20353744307248846, guid: 675a15c66b6726b419547820663c8dd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 685694943}
 --- !u!1 &784030380 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100258, guid: 1f4888b90d55bd245813ca3974e49431, type: 3}
@@ -3387,7 +3392,7 @@ MonoBehaviour:
   stampMaterial: 0
   isInteract: 0
   angleFromStart: 0
-  elementMove: 0
+  elementMove: 1
   interact: {fileID: 0}
 --- !u!1 &1435095300 stripped
 GameObject:
@@ -3974,6 +3979,11 @@ Prefab:
       propertyPath: PressECanvas
       value: 
       objectReference: {fileID: 1084532806}
+    - target: {fileID: 114527231922917616, guid: 02b29588095322f47a2940abfee9ec11,
+        type: 2}
+      propertyPath: moveSpeed
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 02b29588095322f47a2940abfee9ec11, type: 2}
   m_IsPrefabParent: 0
@@ -4752,7 +4762,7 @@ MonoBehaviour:
   stampMaterial: 0
   isInteract: 0
   angleFromStart: 0
-  elementMove: 0
+  elementMove: 1
   interact: {fileID: 0}
 --- !u!1 &1997259186 stripped
 GameObject:

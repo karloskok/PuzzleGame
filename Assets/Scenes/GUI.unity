@@ -4496,8 +4496,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Yes
+      - m_Target: {fileID: 804073576}
+        m_MethodName: ClickYes
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6191,7 +6191,6 @@ GameObject:
   m_Component:
   - component: {fileID: 804073577}
   - component: {fileID: 804073576}
-  - component: {fileID: 804073575}
   m_Layer: 0
   m_Name: GameMenuManager
   m_TagString: Untagged
@@ -6199,17 +6198,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &804073575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 804073573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaeddee0eb433d44fb96c04c33ddaf60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &804073576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14079,7 +14067,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: v0.0.2
+  m_Text: v1.3
 --- !u!222 &1949128560
 CanvasRenderer:
   m_ObjectHideFlags: 0

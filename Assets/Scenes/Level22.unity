@@ -168,7 +168,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C13
   _index: 93
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -228,7 +228,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B4
   _index: 53
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -336,7 +336,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C24
   _index: 104
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -396,7 +396,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B1
   _index: 50
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -518,7 +518,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B8
   _index: 57
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -640,7 +640,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B11
   _index: 60
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -944,7 +944,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C2
   _index: 82
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -1052,7 +1052,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C14
   _index: 94
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -1292,7 +1292,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B2
   _index: 51
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -1474,7 +1474,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C19
   _index: 99
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -1594,7 +1594,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B18
   _index: 67
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -1750,7 +1750,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C7
   _index: 87
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -1885,7 +1885,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C5
   _index: 85
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -2007,7 +2007,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B5
   _index: 54
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -2177,7 +2177,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B22
   _index: 71
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -2237,7 +2237,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B14
   _index: 63
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -2297,7 +2297,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B15
   _index: 64
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -5806,7 +5806,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C23
   _index: 103
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -6051,7 +6051,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B23
   _index: 72
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -6280,6 +6280,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 675a15c66b6726b419547820663c8dd8, type: 2}
   m_IsPrefabParent: 0
+--- !u!20 &685694944 stripped
+Camera:
+  m_PrefabParentObject: {fileID: 20353744307248846, guid: 675a15c66b6726b419547820663c8dd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 685694943}
 --- !u!1 &689612009 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100606, guid: 61650afa6cc6cda47a42abf42eaf205d, type: 3}
@@ -6335,7 +6340,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B12
   _index: 61
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -6443,7 +6448,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C4
   _index: 84
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -6503,7 +6508,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C8
   _index: 88
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -6687,7 +6692,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B21
   _index: 70
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -6980,7 +6985,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B16
   _index: 65
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -7098,7 +7103,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C11
   _index: 91
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -7206,7 +7211,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B10
   _index: 59
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -7266,7 +7271,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C21
   _index: 101
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -7326,7 +7331,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C22
   _index: 102
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -7816,7 +7821,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C3
   _index: 83
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -7876,7 +7881,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C10
   _index: 90
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -7936,7 +7941,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C1
   _index: 81
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -8297,7 +8302,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C25
   _index: 105
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -8419,7 +8424,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C16
   _index: 96
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -8541,7 +8546,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C15
   _index: 95
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -8773,7 +8778,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C6
   _index: 86
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -8793,7 +8798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc3cce11d4d1f2b499fc1cee853c5f39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camMain: {fileID: 0}
+  camMain: {fileID: 685694944}
 --- !u!114 &1451787598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8860,7 +8865,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B19
   _index: 68
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -8920,7 +8925,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B24
   _index: 73
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -8980,7 +8985,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B7
   _index: 56
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -9040,7 +9045,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B3
   _index: 52
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -9162,7 +9167,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C20
   _index: 100
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -9222,7 +9227,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B13
   _index: 62
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -9527,7 +9532,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B17
   _index: 66
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -9571,37 +9576,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 4881975860908420, guid: 02b29588095322f47a2940abfee9ec11, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881975860908420, guid: 02b29588095322f47a2940abfee9ec11, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4881975860908420, guid: 02b29588095322f47a2940abfee9ec11, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1301982000890066, guid: 02b29588095322f47a2940abfee9ec11, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114527231922917616, guid: 02b29588095322f47a2940abfee9ec11,
-        type: 2}
-      propertyPath: moveSpeed
-      value: 3.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 114527231922917616, guid: 02b29588095322f47a2940abfee9ec11,
-        type: 2}
-      propertyPath: turnSpeed
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 54186869166458042, guid: 02b29588095322f47a2940abfee9ec11,
-        type: 2}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 114295756689321984, guid: 02b29588095322f47a2940abfee9ec11,
         type: 2}
       propertyPath: canvas
@@ -9617,6 +9591,11 @@ Prefab:
       propertyPath: PressECanvas
       value: 
       objectReference: {fileID: 1299380366}
+    - target: {fileID: 114527231922917616, guid: 02b29588095322f47a2940abfee9ec11,
+        type: 2}
+      propertyPath: moveSpeed
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 02b29588095322f47a2940abfee9ec11, type: 2}
   m_IsPrefabParent: 0
@@ -9737,7 +9716,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B25
   _index: 74
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -18136,7 +18115,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C17
   _index: 97
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -18196,7 +18175,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B20
   _index: 69
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -18503,7 +18482,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B6
   _index: 55
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -18625,7 +18604,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C9
   _index: 89
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -18977,7 +18956,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C18
   _index: 98
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -19037,7 +19016,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: B9
   _index: 58
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
@@ -19193,7 +19172,7 @@ MonoBehaviour:
   sphereCollider: {fileID: 0}
   _name: C12
   _index: 92
-  stampMaterial: 0
+  stampMaterial: -1
   isInteract: 0
   angleFromStart: 0
   elementMove: 0
