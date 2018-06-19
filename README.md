@@ -2,7 +2,7 @@
 3D izometrična igra avanture i riješavanja zagonetki.
 
 
-![DreamWorld](https://github.com/unipu-ict/sistem-dinamicka-igra-2/blob/master/preview/mainMenu.png?raw=true)
+![DreamWorld](https://raw.githubusercontent.com/karlozap/PuzzleGame/master/Images/GamePlay.png)
 
 ### Autori (2017./2018.)
 - **Skok Karlo** (kskok@unipu.hr)
