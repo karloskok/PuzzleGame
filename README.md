@@ -1,5 +1,5 @@
 # Dream World
-3D izometrična igra avanture i riješavanja zagonetki.
+3D izometrična igra avanture i rješavanja zagonetki.
 
 
 ![DreamWorld](https://raw.githubusercontent.com/karlozap/PuzzleGame/master/Images/GamePlay.png)
