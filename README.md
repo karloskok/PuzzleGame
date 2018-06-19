@@ -13,6 +13,6 @@
 [Sveučilište Jurja Dobrile u Puli](http://www.unipu.hr/)   
 [Fakultet informatike u Puli](https://fipu.unipu.hr/)  
 Dizajn i programiranje računalnih igara, Ak.g. 2017./2018.  
-Nositelj: **Tihomir Orehovački** (tihomir.orehovacki@unipu.hr) 
+Nositelj: **Tihomir Orehovački** (tihomir.orehovacki@unipu.hr)
 Asistent: **Nikola Tanković** (nikola.tankovic@unipu.hr)
 
